@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
-public class BubbleSort {
+public class BubbleSort implements ISortTechnique {
 
+    @Override
     public int[] sort(int[] sourceArray){
         int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
         for (int i = 1; i < arr.length; i++) {
