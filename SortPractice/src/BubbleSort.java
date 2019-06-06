@@ -23,4 +23,8 @@ public class BubbleSort implements ISortTechnique {
         return arr;
     }
 
+    @Override
+    public String getName() {
+        return BubbleSort.class.toString();
+    }
 }

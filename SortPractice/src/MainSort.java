@@ -5,7 +5,6 @@ public class MainSort {
         System.out.println("Sort Example:.....\n");
         int[] input = new int[]{1, 3, 4, 2, 10, 8};
         BubbleSort bs = new BubbleSort();
-        int[] sortedArray = bs.sort(input);
-        System.out.println(Arrays.toString(sortedArray));
+        System.out.println(bs.getName() + ": " + Arrays.toString(bs.sort(input)));
     }
 }
