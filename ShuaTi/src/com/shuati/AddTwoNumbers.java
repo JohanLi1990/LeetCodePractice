@@ -1,7 +1,5 @@
 package com.shuati;
 
-import org.w3c.dom.ls.LSException;
-
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         //idea:
@@ -17,32 +15,14 @@ public class AddTwoNumbers {
         ListNode result = new ListNode(-1);
         ListNode head = result;
         int carry = 0;
-        while(l1 != null) {
+        while(l1 != null || l2 != null || carry != 0) {
             // normal case
-            if (l2 != null) {
-                int temp  = l1.val + l2.val + carry;
-                head.next = new ListNode(temp % 10); // only keep the modulo
-                carry = temp / 10;
-                l1 = l1.next;
-                l2 = l2.next;
-                head = head.next;
-            } else {
-                head.next = new ListNode((l1.val + carry) % 10);
-                carry = (l1.val + carry) / 10;
-                head = head.next;
-                l1 = l1.next; // l2 is already empty
-            }
-        }
-        //in the event that l2 is longer
-        while (l2 != null){
-            head.next = new ListNode((l2.val + carry) % 10);
-            carry = (l2.val + carry) / 10;
+            int temp  = (l1!=null?l1.val:0) + (l2!=null?l2.val:0) + carry;
+            head.next = new ListNode(temp % 10);
+            carry = temp / 10;
+            l1 = (l1 != null)?l1.next : null;
+            l2 = (l2 != null)?l2.next : null;
             head = head.next;
-            l2 = l2.next;
-        }
-
-        if (carry != 0){
-            head.next = new ListNode(carry);
         }
         //result is always ther
         return result.next;

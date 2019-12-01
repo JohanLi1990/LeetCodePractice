@@ -26,5 +26,9 @@ public class Main {
             result2 = result2.next;
         }
 
+        //Longest Substring
+        System.out.println("LC3: Length of Longest Substring without repeat:\n");
+        LongestSubstring lsub = new LongestSubstring();
+        System.out.println(lsub.lengthOfLongestSubstring("pppp"));
     }
 }
