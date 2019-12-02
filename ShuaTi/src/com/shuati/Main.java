@@ -10,7 +10,6 @@ public class Main {
         TwoSum twoSum = new TwoSum();
         int[] result = twoSum.twoSum(new int[]{3, 3}, 6);
         System.out.println(Arrays.toString(result));
-
         //AddTwoNumbers
         System.out.println("LC2: AddTwoNumbers\n");
         ListNode l1 = new ListNode(2);
@@ -25,7 +24,6 @@ public class Main {
             System.out.println(result2.val);
             result2 = result2.next;
         }
-
         //Longest Substring
         System.out.println("LC3: Length of Longest Substring without repeat:\n");
         LongestSubstring lsub = new LongestSubstring();

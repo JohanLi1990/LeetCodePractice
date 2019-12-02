@@ -24,15 +24,13 @@ public class LongestSubstring {
         for (int i = 0; i < s.length() ; i++) {
             char cur = s.charAt(i);
             if (map.containsKey(cur)){
-                //calculate length
-                result = Math.max(result, i - pointer);
                 //calculate new pointer
-                if (pointer <= map.get(cur)){
-                    pointer = map.get(cur) + 1;
-                }
+                pointer = Math.max(pointer, map.get(cur) + 1);
             }
+            //calculate length
+            result = Math.max(result, i - pointer + 1);
             map.put(cur, i);
         }
-        return Math.max(result, s.length() - pointer);
+        return result;
     }
 }
