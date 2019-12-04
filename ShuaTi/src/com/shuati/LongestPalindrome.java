@@ -8,37 +8,32 @@ package com.shuati;
 //        Output: "bb"
 //maximum length of s is 1000.
 public class LongestPalindrome {
-    /**
-     * idea:
-     *
-     *
-     * @param s
-     * @return
-     */
+    //idea:
+    //
+    private int lo, maxlen;
     public String longestPalindrome(String s) {
-        String result = "";
-        if (isPalindrome(s)){
+        if (s.length() <= 1){
             return s;
         }
-
+        
         for (int i = 0; i < s.length() ; i++) {
-            for (int j = i; j < s.length() ; j++) {
-                String temp = s.substring(i, j+1);
-                if (isPalindrome(temp) && (temp.length() > result.length())){
-                    result = temp;
-                }
-            }
+            extendPalindrome(s, i, i);
+            extendPalindrome(s, i, i+1);
         }
 
-        return  result;
+        return s.substring(lo, lo + maxlen);
     }
 
-    public boolean isPalindrome(String s){
-        for (int i = 0; i < s.length() ; i++) {
-            if (s.charAt(i) != s.charAt(s.length() - i - 1)){
-                return false;
-            }
+    private void extendPalindrome(String s, int j, int k) {
+        while (j >=0 && k < s.length() && s.charAt(j) == s.charAt(k) ){
+            j--;
+            k++;
         }
-        return true;
+        if (k - j - 1> maxlen){
+            lo = j + 1;
+            maxlen = k - j - 1;
+        }
     }
+
+
 }

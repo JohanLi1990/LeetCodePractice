@@ -14,6 +14,6 @@ class LongestPalindromeTest {
 
     @Test
     void testlongestPalindrome1() {
-        assertEquals("bb", lp.longestPalindrome("abb"));
+        assertEquals("bab", lp.longestPalindrome("babad"));
     }
 }
