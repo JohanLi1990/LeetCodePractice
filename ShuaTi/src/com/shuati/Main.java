@@ -38,7 +38,7 @@ public class Main {
         ListNode l2 = new ListNode(8);
         l2.next = new ListNode(1);
         l2.next.next = new ListNode(6);//8 ->1 ->6
-        AddTwoNumbers addTwo = new AddTwoNumbers();
+        LC_2_AddTwoNumbers addTwo = new LC_2_AddTwoNumbers();
         ListNode result2 = addTwo.addTwoNumbers(l1, l2);
         while (result2 != null){
             System.out.println(result2.val);

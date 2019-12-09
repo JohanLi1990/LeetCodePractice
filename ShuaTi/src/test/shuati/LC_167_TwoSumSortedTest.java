@@ -1,8 +1,9 @@
-package com.shuati;
+package test.shuati;
 
+import com.shuati.LC_167_TwoSumSorted;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class LC_167_TwoSumSortedTest {
 
