@@ -3,7 +3,7 @@ package com.shuati;
 //Example:
 //
 //        Given 1->2->3->4, you should return the list as 2->1->4->3.
-public class LC_49_SwapPairNodes {
+public class LC_24_SwapPairNodes {
     public ListNode swapPairs(ListNode head) {
         //cannot modify val inside ListNode
         if (head == null || head.next == null){
