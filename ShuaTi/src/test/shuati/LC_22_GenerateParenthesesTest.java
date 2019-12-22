@@ -1,5 +1,6 @@
-package com.shuati;
+package test.shuati;
 
+import com.shuati.LC_22_GenerateParentheses;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
