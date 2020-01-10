@@ -11,32 +11,10 @@ package com.shuati;
 
 public class LC_55_JumpGame {
     public boolean canJump(int[] nums) {
-        if (nums.length == 1){
-            return true;
-        }
-
-        if (nums[0] == 0){
-            return false;
-        }
-
-        if (nums[0] >= nums.length - 1){
-            return true;
-        }
-
-        int[] dp = new int[nums.length];
-        dp[0] = 1;
-        for (int i = 0; i < nums.length - 1 && dp[i] == 1 ; i++) {
-            int steps = nums[i];
-            if (steps == 0){
-                continue;
-            }
-
-            steps = Math.min(steps, nums.length - 1 - i);
-            while (steps > 0){
-                dp[i + (steps--)] = 1;
-            }
-
-            if (dp[nums.length - 1] == 1){
+        int dist = 0;
+        for (int i = 0; i <= dist ; i++) {
+            dist = Math.max(dist, i + nums[i]);
+            if (dist >= nums.length - 1){
                 return true;
             }
         }
