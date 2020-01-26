@@ -1,5 +1,6 @@
-package com.shuati;
+package test.shuati;
 
+import com.shuati.LC_33_Search_Rotated_Array;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
