@@ -1,21 +1,19 @@
 package com.shuati;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-//Input: [1,2,3]
+//Input: [1,1,2]
 //Output:
 //        [
-//        [1,2,3],
-//        [1,3,2],
-//        [2,1,3],
-//        [2,3,1],
-//        [3,1,2],
-//        [3,2,1]
+//        [1,1,2],
+//        [1,2,1],
+//        [2,1,1]
 //        ]
-public class LC_46_Permutations {
-    //distinct integers
-    public List<List<Integer>> permute(int[] nums) {
+public class LC_47_Permutations_II {
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
         boolean[] visited = new boolean[nums.length];
         helper(result, nums, new ArrayList<>(), visited);
@@ -27,14 +25,20 @@ public class LC_46_Permutations {
             result.add(new ArrayList<>(curList));
         }
 
-        for (int j = 0; j < nums.length ; j++) {
-            if (visited[j]){
+        for (int i = 0; i < nums.length ; i++) {
+            if (visited[i]){
                 continue;
             }
-            curList.add(nums[j]);
-            visited[j] = true;
+
+            if (i != 0 && nums[i] == nums[i - 1] && !visited[i - 1]){
+                continue; // only use the number if previous is used..
+                //else we risk repetition
+            }
+
+            curList.add(nums[i]);
+            visited[i] = true;
             helper(result, nums, curList, visited);
-            visited[j] = false;
+            visited[i] = false;
             curList.remove(curList.size() - 1);
         }
     }
