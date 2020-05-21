@@ -1,4 +1,18 @@
-# Dynamic Programming
+# Data Structure (only the special ones)
+========================================
+## Trie
+
+
+
+
+# Algorithms
+==========================
+## Recursion
+==========================
+Recursion as an algorithm lays the foundation for DP / DFS algorithms
+Really need to practice recursion hard. 
+
+## Dynamic Programming
 ===========================
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
 
@@ -6,7 +20,7 @@ _Doing Topological Sort for a group of subproblems dependency DAG_
 
 Top-Down approach and bottom up approach. 
 
-## **Memoization Pattern**
+### **Memoization Pattern**
 -----------------------------
 It always works if you cache your result. 
 
@@ -15,7 +29,7 @@ It always works if you cache your result.
 > O(T) = number of subtimes * time per subproblem
 > Don't count recursion, because only need to count once
 
-## **Shortest Path**
+### **Shortest Path**
 -----------------------------
 _for memoization to work, you need **ACYCLIC GRAPH**_
 _Else you will run into infinite loop_
@@ -27,10 +41,10 @@ To make a Cyclic Graph Acyclic:
 > search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
-# Breadth First Search & Depth First Search
+## Breadth First Search & Depth First Search
 ===========================================
 
-## Common BFS templates
+### Common BFS templates
 ```java
 //java template
 
@@ -97,7 +111,7 @@ To make a Cyclic Graph Acyclic:
 _idea is that b^(d/2) + b^(d/2) is much less than b^d. b is branch factor, d is depth._
 
 
-## Depth First Search
+### Depth First Search
 
 ``` java
 // Spiral DFS backtracking
@@ -114,7 +128,7 @@ for (int i = 0; i < 4; i++){
 
 ```
 
-#TopLogical Sort
+##TopLogical Sort
 ================
 
 **For DAG Only**
