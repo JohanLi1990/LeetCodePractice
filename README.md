@@ -1,19 +1,27 @@
 # Data Structure (only the special ones)
-========================================
+
 ## Trie
 
-
+``` java
+class Node{
+    Map<Character, Node> children;
+    boolean isCompleteWord;
+}
+```
+**useful for validation of word**
+> Don't look up each prefix from the root
+> Build on the past calls 
+>   + by returning node reference
+>   + keeping state witin a tree
 
 
 # Algorithms
-==========================
+
 ## Recursion
-==========================
 Recursion as an algorithm lays the foundation for DP / DFS algorithms
 Really need to practice recursion hard. 
 
 ## Dynamic Programming
-===========================
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
 
 _Doing Topological Sort for a group of subproblems dependency DAG_
@@ -21,7 +29,6 @@ _Doing Topological Sort for a group of subproblems dependency DAG_
 Top-Down approach and bottom up approach. 
 
 ### **Memoization Pattern**
------------------------------
 It always works if you cache your result. 
 
 > if you solve the subproblem, note down the answer
@@ -30,7 +37,6 @@ It always works if you cache your result.
 > Don't count recursion, because only need to count once
 
 ### **Shortest Path**
------------------------------
 _for memoization to work, you need **ACYCLIC GRAPH**_
 _Else you will run into infinite loop_
 
@@ -42,7 +48,6 @@ To make a Cyclic Graph Acyclic:
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
 ## Breadth First Search & Depth First Search
-===========================================
 
 ### Common BFS templates
 ```java
@@ -129,7 +134,6 @@ for (int i = 0; i < 4; i++){
 ```
 
 ##TopLogical Sort
-================
 
 **For DAG Only**
 **No vertex shall come after the one it is pointing to**
