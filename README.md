@@ -1,6 +1,6 @@
-# Data Structure (only the special ones)
+# Data Structure & Alogorithms
 
-## Trie
+## 1.Trie
 
 ``` java
 class Node{
@@ -8,63 +8,63 @@ class Node{
     boolean isCompleteWord;
 }
 ```
-**useful for validation of word**
+
+### 1.1. Validation
+
 > Don't look up each prefix from the root
-> Build on the past calls 
->   + by returning node reference
->   + keeping state witin a tree
+> Build on the past calls by returning node reference
+> keeping state witin a tree
 
+## 2. Recursion
 
-# Algorithms
+Recursion as an algorithm lays the foundation for DP / DFS algorithms.
 
-## Recursion
-Recursion as an algorithm lays the foundation for DP / DFS algorithms
-Really need to practice recursion hard. 
+## 3. Dynamic Programming
 
-## Dynamic Programming
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
-
 _Doing Topological Sort for a group of subproblems dependency DAG_
 
-Top-Down approach and bottom up approach. 
+Top-Down approach and bottom up approach.
 
-### **Memoization Pattern**
-It always works if you cache your result. 
+### 3.1. Memoization Pattern
+
+It always works if you cache your result.
 
 > if you solve the subproblem, note down the answer
 > DP ~=~ recursion + memoization.
 > O(T) = number of subtimes * time per subproblem
 > Don't count recursion, because only need to count once
 
-### **Shortest Path**
+### 3.2. Shortest Path
+
 _for memoization to work, you need **ACYCLIC GRAPH**_
 _Else you will run into infinite loop_
 
 To make a Cyclic Graph Acyclic:
-> given search space, v
-> make k copies of (based on k in degrees);
-> for v edges
-> search space v * k
+
+> + given search space, v
+> + make k copies of (based on k in degrees);
+> + for v edges
+> + search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
-## Breadth First Search & Depth First Search
+## 4. Breadth First Search & Depth First Search
 
-### Common BFS templates
+### 4.1. Common BFS templates
+
 ```java
 //java template
-
 ```
 
 > Take note there are something called the Bi-directional search.
 
-**e.g LeetCoe OpenLock**
+#### 4.1.1. LeetCoe OpenLock Example
 
 ```java
     public int openLock(String[] deadends, String target){
         Set<String> end = new HashSet();
         Set<String> begin = new HashSet();
         Set<String> deads = new HashSet();
-        
         for (String s : deadends){
             deads.add(s);
         }
@@ -78,7 +78,6 @@ To make a Cyclic Graph Acyclic:
                 begin = end;
                 end = temp;
             }
-            
             Set<String> curLevel = new HashSet<>();
             for (String s : begin){
 
@@ -96,11 +95,9 @@ To make a Cyclic Graph Acyclic:
                     if (end.contains(s2)){
                         return level + 1;
                     }
-                    
                     if (!deads.contains(s1)){
                         curLevel.add(s1);
                     }
-                    
                     if (!deads.contains(s2)){
                         curLevel.add(s2);
                     }
@@ -115,8 +112,7 @@ To make a Cyclic Graph Acyclic:
 
 _idea is that b^(d/2) + b^(d/2) is much less than b^d. b is branch factor, d is depth._
 
-
-### Depth First Search
+### 4.2. Depth First Search
 
 ``` java
 // Spiral DFS backtracking
@@ -126,15 +122,39 @@ for (int i = 0; i < 4; i++){
     if (!visited.contains(new Pair(nx, ny)) && robot.move()){
         clean(robot, dir, nx, ny);
     }
-    
     dir = (dir + 1) % 4;
     robot.turnRight();
 }
 
 ```
 
-##TopLogical Sort
+## 5. TopLogical Sort
 
 **For DAG Only**
 **No vertex shall come after the one it is pointing to**
 **implemented by Stack and Set**
+
+## 6. Minimax (Gaming and Artificial Intelligence)
+
+> Good Place to Start
+> <https://www.hackerearth.com/blog/developers/minimax-algorithm-alpha-beta-pruning/>
+
+```python
+function minimax(node, depth, maximizingPlayer)
+            if depth = 0 or node is a terminal node
+                   return the utility of the node
+
+            if maximizingPlayer
+                   bestValue := ??
+            for each child of node
+                   v := minimax(child, depth ? 1, FALSE)
+                   bestValue := max(bestValue, v)
+            return bestValue  
+
+            else (* minimizing player *)
+                   bestValue := +?
+                   for each child of node
+                          v := minimax(child, depth ? 1, TRUE)
+                          bestValue := min(bestValue, v)
+                   return bestValue
+```
