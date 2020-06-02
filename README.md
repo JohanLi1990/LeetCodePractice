@@ -1,5 +1,10 @@
 # Data Structure & Alogorithms
 
+## TODOs (2-Jun-2020)
+
++ Complete All Tries Explore Questions
++ Folow the link from Dynamic Programing Questions Below, Complete all pattern exercies
+
 ## 1.Trie
 
 ``` java
