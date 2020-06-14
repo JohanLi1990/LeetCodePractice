@@ -1,9 +1,10 @@
 # Data Structure & Alogorithms
 
-## TODOs (2-Jun-2020)
+## TODOs (14-Jun-2020)
 
-+ Complete All Tries Explore Questions
-+ Folow the link from Dynamic Programing Questions Below, Complete all pattern exercies
++ ~~Complete All Tries Explore Questions~~
++ Folow the link from Dynamic Programing Questions Below, Complete all pattern exerciese
++ Greedy
 
 ## 1.Trie
 
