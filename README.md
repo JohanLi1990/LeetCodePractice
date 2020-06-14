@@ -53,6 +53,9 @@ To make a Cyclic Graph Acyclic:
 > + search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
+## Maximum amount
+
+
 ## 4. Breadth First Search & Depth First Search
 
 ### 4.1. Common BFS templates
