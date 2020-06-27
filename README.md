@@ -1,10 +1,12 @@
 # Data Structure & Alogorithms
 
-## TODOs (14-Jun-2020)
+## TODOs (22-Jun-2020 --- 28-JUN-2020)
 
-+ ~~Complete All Tries Explore Questions~~
++ June Explore Questions
++ complete recursion / memoization explore questions
 + Folow the link from Dynamic Programing Questions Below, Complete all pattern exerciese
 + Greedy
++ Bit Manipulations
 
 ## 1.Trie
 
@@ -15,7 +17,7 @@ class Node{
 }
 ```
 
-### 1.1. Validation
+### Validation
 
 > Don't look up each prefix from the root
 > Build on the past calls by returning node reference
@@ -32,7 +34,7 @@ _Doing Topological Sort for a group of subproblems dependency DAG_
 
 Top-Down approach and bottom up approach.
 
-### 3.1. Memoization Pattern
+### Memoization Pattern
 
 It always works if you cache your result.
 
@@ -41,7 +43,7 @@ It always works if you cache your result.
 > O(T) = number of subtimes * time per subproblem
 > Don't count recursion, because only need to count once
 
-### 3.2. Shortest Path
+### Shortest Path
 
 _for memoization to work, you need **ACYCLIC GRAPH**_
 _Else you will run into infinite loop_
@@ -54,12 +56,9 @@ To make a Cyclic Graph Acyclic:
 > + search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
-## Maximum amount
-
-
 ## 4. Breadth First Search & Depth First Search
 
-### 4.1. Common BFS templates
+### Common BFS templates
 
 ```java
 //java template
@@ -67,7 +66,7 @@ To make a Cyclic Graph Acyclic:
 
 > Take note there are something called the Bi-directional search.
 
-#### 4.1.1. LeetCoe OpenLock Example
+#### LeetCoe OpenLock Example
 
 ```java
     public int openLock(String[] deadends, String target){
@@ -121,7 +120,7 @@ To make a Cyclic Graph Acyclic:
 
 _idea is that b^(d/2) + b^(d/2) is much less than b^d. b is branch factor, d is depth._
 
-### 4.2. Depth First Search
+### Depth First Search
 
 ``` java
 // Spiral DFS backtracking
@@ -166,4 +165,23 @@ function minimax(node, depth, maximizingPlayer)
                           v := minimax(child, depth ? 1, TRUE)
                           bestValue := min(bestValue, v)
                    return bestValue
+```
+
+## 7. Bitwise Manipulation
+
+> use ^ for XOR 10 ^ 0 = 10, 10 ^ 10 = 1
+> & bitwise and, ~ bitwise not
+
+## 8. Tortoise and Hare problems
+
+slow and fast pointer problem
+> beware of the difference between array and linkedlist
+
+```java
+    // arrays
+    slow = nums[slow];
+    fast = nums[nums[fast]];
+    // linkedlist
+    slow = slow.next;
+    fast = fast.next.next;
 ```
