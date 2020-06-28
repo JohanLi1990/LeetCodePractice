@@ -2,9 +2,16 @@
 
 ## TODOs (22-Jun-2020 --- 28-JUN-2020)
 
-+ June Explore Questions
-+ complete recursion / memoization explore questions
-+ Folow the link from Dynamic Programing Questions Below, Complete all pattern exerciese
+1. June Explore Questions
+2. complete recursion / memoization explore questions
+3. Follow the link from Dynamic Programing Questions Below, Complete all pattern exerciese.
+
++ Merging Intervals
++ Minimum (Maximum) Path to Reach a Target
++ Distinct Ways
++ DP on Strings
++ Decision Making
+
 + Greedy
 + Bit Manipulations
 
@@ -55,6 +62,23 @@ To make a Cyclic Graph Acyclic:
 > + for v edges
 > + search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
+
+### Merge Interval Patterns
+
+```java
+for (int win = 1; win < length; win++){
+    for (int i = 0; i < length - win; i++){
+        j = i + win;
+        for (int k = i; k < j ; k++){
+            dp[i][j] = Math.max(dp[i][j], dp[i][k] + dp[k][j] + func(nums[i], nums[k], nums[j]));
+        }
+    }
+}
+```
+
+Questions:
+
+> Burst Ballons: [LC312](https://leetcode.com/problems/burst-balloons)
 
 ## 4. Breadth First Search & Depth First Search
 
