@@ -78,7 +78,14 @@ for (int win = 1; win < length; win++){
 
 Questions:
 
-> Burst Ballons: [LC312](https://leetcode.com/problems/burst-balloons)
+> + [LC312 Burst Ballons](https://leetcode.com/problems/burst-balloons)
+> + [LC1039 Minimum Score Triangulation](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)
+> + [LC1000 Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
+> + [LC546 Remove Boxes](https://leetcode.com/problems/remove-boxes/)
+> + [LC1130  Minimum Cost Tree](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
+
+### Decision Making Patterns
+
 
 ## 4. Breadth First Search & Depth First Search
 
