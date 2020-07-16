@@ -1,12 +1,14 @@
 # Data Structure & Alogorithms
 
-## TODOs (22-Jun-2020 --- 28-JUN-2020)
+## TODOs (July-2020)
 
-1. June Explore Questions
+1. July Explore Questions
 2. complete recursion / memoization explore questions
 3. Follow the link from Dynamic Programing Questions Below, Complete all pattern exerciese.
+4. (Optional) Greedy / Bit Manipulation
+5. Dijkstra
 
-+ Merging Intervals
++ Merging Intervals [DONE]
 + Minimum (Maximum) Path to Reach a Target
 + Distinct Ways
 + DP on Strings
@@ -78,14 +80,18 @@ for (int win = 1; win < length; win++){
 
 Questions:
 
-> + [LC312 Burst Ballons](https://leetcode.com/problems/burst-balloons)
-> + [LC1039 Minimum Score Triangulation](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)
-> + [LC1000 Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
-> + [LC546 Remove Boxes](https://leetcode.com/problems/remove-boxes/)
-> + [LC1130  Minimum Cost Tree](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
++ [LC312 Burst Ballons](https://leetcode.com/problems/burst-balloons)
++ [LC1039 Minimum Score Triangulation](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)
++ [LC1000 Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
++ [LC546 Remove Boxes](https://leetcode.com/problems/remove-boxes/)
++ [LC1130  Minimum Cost Tree](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
 ### Decision Making Patterns
 
++ [LC198 House Robber](https://leetcode.com/problems/house-robber/)
++ [LC188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
++ [LC309 Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
++ [LC213 House Robber II](https://leetcode.com/problems/house-robber-ii/)
 
 ## 4. Breadth First Search & Depth First Search
 
