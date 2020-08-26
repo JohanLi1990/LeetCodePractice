@@ -1,8 +1,8 @@
 # Data Structure & Alogorithms
 
-## TODOs (July-2020)
+## TODOs (AUG2020 - SEP2020)
 
-1. July Explore Questions
+1. AUG + SEP Explore Questions
 2. complete recursion / memoization explore questions
 3. Follow the link from Dynamic Programing Questions Below, Complete all pattern exerciese.
 4. (Optional) Greedy / Bit Manipulation
@@ -78,8 +78,6 @@ for (int win = 1; win < length; win++){
 }
 ```
 
-Questions:
-
 + [LC312 Burst Ballons](https://leetcode.com/problems/burst-balloons)
 + [LC1039 Minimum Score Triangulation](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)
 + [LC1000 Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
@@ -92,6 +90,16 @@ Questions:
 + [LC188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 + [LC309 Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 + [LC213 House Robber II](https://leetcode.com/problems/house-robber-ii/)
++ [LC337 House Robber III](https://leetcode.com/problems/house-robber-iii/)
++ [LC714 Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+
+### String Manipulations patterns
+
++ [LC1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
++ [LC115 Distinct Subsequence](https://leetcode.com/problems/distinct-subsequences/)
++ [LC5 Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/)
++ [LC72 Edit Distance](https://leetcode.com/problems/edit-distance/)
++ [LC712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
 ## 4. Breadth First Search & Depth First Search
 
@@ -178,6 +186,8 @@ for (int i = 0; i < 4; i++){
 **For DAG Only**
 **No vertex shall come after the one it is pointing to**
 **implemented by Stack and Set**
+
++ [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 
 ## 6. Minimax (Gaming and Artificial Intelligence)
 
