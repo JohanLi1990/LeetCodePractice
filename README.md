@@ -2,20 +2,16 @@
 
 ## TODOs (AUG2020 - SEP2020)
 
-1. AUG + SEP Explore Questions
-2. complete recursion / memoization explore questions
-3. Follow the link from Dynamic Programing Questions Below, Complete all pattern exerciese.
-4. (Optional) Greedy / Bit Manipulation
-5. Dijkstra
+1. SEP Explore Questions [x]
+2. Follow the link from Dynamic Programing Questions Below, Complete all pattern exerciese.
+3. Bit Manipulation
+4. Greedy
 
 + Merging Intervals [DONE]
 + Minimum (Maximum) Path to Reach a Target
 + Distinct Ways
-+ DP on Strings
-+ Decision Making
-
-+ Greedy
-+ Bit Manipulations
++ DP on Strings [DONE]
++ Decision Making [DONE]
 
 ## 1.Trie
 
@@ -232,3 +228,5 @@ slow and fast pointer problem
     slow = slow.next;
     fast = fast.next.next;
 ```
+
+## 9. Union Find - Disjointed Union Set
