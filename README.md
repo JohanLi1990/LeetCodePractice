@@ -1,17 +1,22 @@
 # Data Structure & Alogorithms
 
-## TODOs (AUG2020 - SEP2020)
+## TODOs
 
-1. SEP Explore Questions [x]
-2. Follow the link from Dynamic Programing Questions Below, Complete all pattern exerciese.
+Things that I am not very good at
+
+1. Divide and Conquer
+2. Greedy
 3. Bit Manipulation
-4. Greedy
-
-+ Merging Intervals [DONE]
-+ Minimum (Maximum) Path to Reach a Target
-+ Distinct Ways
-+ DP on Strings [DONE]
-+ Decision Making [DONE]
+4. Union Find [In Progress]
+5. Graph [Graph LeetCode](https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
+6. Design
+7. Topological Sort
+8. Binary Indexed Tree
+9. Segment Tree
+10. Minimax
+11. Line Sweep
+12. Rolling Hash
+13. OOP
 
 ## 1.Trie
 
@@ -36,6 +41,12 @@ Recursion as an algorithm lays the foundation for DP / DFS algorithms.
 
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
 _Doing Topological Sort for a group of subproblems dependency DAG_
+
++ Merging Intervals [DONE]
++ Minimum (Maximum) Path to Reach a Target
++ Distinct Ways
++ DP on Strings [DONE]
++ Decision Making [DONE]
 
 Top-Down approach and bottom up approach.
 
@@ -98,12 +109,6 @@ for (int win = 1; win < length; win++){
 + [LC712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
 ## 4. Breadth First Search & Depth First Search
-
-### Common BFS templates
-
-```java
-//java template
-```
 
 > Take note there are something called the Bi-directional search.
 
@@ -230,3 +235,136 @@ slow and fast pointer problem
 ```
 
 ## 9. Union Find - Disjointed Union Set
+
+### Find and Union
+
+Find will return to root.
+Path compression and Union by rank.
+
+Find: O(a(n)) ~= O(1)
+Union: O(a(n)) ~= O(1)
+Space: O(n)
+
+### Template
+
+[implementation1](https://people.eecs.berkeley.edu/~jrs/61bs02/hw/pj3/set/DisjointSets.java)
+```java
+public class DisjointSets {
+    private int[] array;
+
+    public DisjointSets(int numElements){
+        array = new int[numElements];
+        for (int i = 0; i < array.length; i++){
+            array[i] = -1;
+        }
+    }
+
+    public int find(int x){
+        if (array[x] < 0){
+            return x;
+        } else {
+            array[x] = find(array[x]);
+            return array[x];
+        }
+    }
+
+    public void union(int root1, int root2){
+        if (array[root1] < array[root2]){
+            array[root1] = array[root2];
+        } else {
+            if (array[root1] == array[root2]){
+                array[root1]--;
+            }
+            array[root2] = root1;
+        }
+    }
+}
+
+```
+
+or another [implmentation2](https://www.geeksforgeeks.org/disjoint-set-data-structures/)
+
+```java
+class DisjointUnionSets { 
+    int[] rank, parent; 
+    int n; 
+  
+    // Constructor 
+    public DisjointUnionSets(int n) 
+    { 
+        rank = new int[n]; 
+        parent = new int[n]; 
+        this.n = n; 
+        makeSet(); 
+    } 
+  
+    // Creates n sets with single item in each 
+    void makeSet() 
+    { 
+        for (int i = 0; i < n; i++) { 
+            // Initially, all elements are in 
+            // their own set. 
+            parent[i] = i; 
+        } 
+    } 
+  
+    // Returns representative of x's set 
+    int find(int x) 
+    { 
+        // Finds the representative of the set 
+        // that x is an element of 
+        if (parent[x] != x) { 
+            // if x is not the parent of itself 
+            // Then x is not the representative of 
+            // his set, 
+            parent[x] = find(parent[x]); 
+  
+            // so we recursively call Find on its parent 
+            // and move i's node directly under the 
+            // representative of this set 
+        } 
+  
+        return parent[x]; 
+    } 
+  
+    // Unites the set that includes x and the set 
+    // that includes x 
+    void union(int x, int y) 
+    { 
+        // Find representatives of two sets 
+        int xRoot = find(x), yRoot = find(y); 
+  
+        // Elements are in the same set, no need 
+        // to unite anything. 
+        if (xRoot == yRoot) 
+            return; 
+  
+        // If x's rank is less than y's rank 
+        if (rank[xRoot] < rank[yRoot]) 
+  
+            // Then move x under y  so that depth 
+            // of tree remains less 
+            parent[xRoot] = yRoot; 
+  
+        // Else if y's rank is less than x's rank 
+        else if (rank[yRoot] < rank[xRoot]) 
+  
+            // Then move y under x so that depth of 
+            // tree remains less 
+            parent[yRoot] = xRoot; 
+  
+        else // if ranks are the same 
+        { 
+            // Then move y under x (doesn't matter 
+            // which one goes where) 
+            parent[yRoot] = xRoot; 
+  
+            // And increment the result tree's 
+            // rank by 1 
+            rank[xRoot] = rank[xRoot] + 1; 
+        } 
+    } 
+} 
+```
+
+
