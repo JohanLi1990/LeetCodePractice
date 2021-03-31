@@ -5,10 +5,12 @@
 Things that I am not very good at
 
 1. Divide and Conquer
-2. Greedy
+2. Greedy (in progress)
 3. Bit Manipulation
 4. Union Find [In Progress]
-5. Graph [Graph LeetCode](https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
+5. Graph:
+[Graph LeetCode](https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
+[Dijkstra](https://leetcode.com/discuss/general-discussion/1059477/A-noob's-guide-to-Djikstra's-Algorithm)
 6. Design
 7. Topological Sort
 8. Binary Indexed Tree
@@ -33,9 +35,14 @@ class Node{
 > Build on the past calls by returning node reference
 > keeping state witin a tree
 
-## 2. Recursion
+## 2. Greedy Algorithms
 
-Recursion as an algorithm lays the foundation for DP / DFS algorithms.
+[Greedy for Beginners](https://leetcode.com/discuss/general-discussion/669996/Greedy-for-Beginners-Problems-or-Sample-solutions)
+Greedy Algorithms only apply to problems whose global optimal solution relies on its local optimal solutions.
+
++ [Jump Game](https://leetcode.com/problems/jump-game/)
++ [Jump Game II](https://leetcode.com/problems/jump-game-II/)
++ [Stamping Sequence](https://leetcode.com/problems/stamping-the-sequence/)
 
 ## 3. Dynamic Programming
 
@@ -112,7 +119,7 @@ for (int win = 1; win < length; win++){
 
 > Take note there are something called the Bi-directional search.
 
-#### LeetCoe OpenLock Example
+### LeetCoe OpenLock Example
 
 ```java
     public int openLock(String[] deadends, String target){
@@ -188,7 +195,8 @@ for (int i = 0; i < 4; i++){
 **No vertex shall come after the one it is pointing to**
 **implemented by Stack and Set**
 
-+ [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+> [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+> [Parallel Courses](https://leetcode.com/problems/parallel-courses/) very interesting, look at solution, have all the approaches.
 
 ## 6. Minimax (Gaming and Artificial Intelligence)
 
@@ -248,6 +256,7 @@ Space: O(n)
 ### Template
 
 [implementation1](https://people.eecs.berkeley.edu/~jrs/61bs02/hw/pj3/set/DisjointSets.java)
+
 ```java
 public class DisjointSets {
     private int[] array;
