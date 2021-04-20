@@ -39,10 +39,17 @@ class Node{
 
 [Greedy for Beginners](https://leetcode.com/discuss/general-discussion/669996/Greedy-for-Beginners-Problems-or-Sample-solutions)
 Greedy Algorithms only apply to problems whose global optimal solution relies on its local optimal solutions.
+The way to Think is, is my current step able to bring me closer to the answer for sure?
 
 + [Jump Game](https://leetcode.com/problems/jump-game/)
 + [Jump Game II](https://leetcode.com/problems/jump-game-II/)
 + [Stamping Sequence](https://leetcode.com/problems/stamping-the-sequence/)
++ [Spliting String](https://leetcode.com/problems/split-a-string-in-balanced-strings/submissions/)
++ [Maximum NUmber of Events that can attend](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
+
+Each day I try to grab / take more like a fat bitch, but I do have my own code: the grabing / taking should sustain me as long as possible. Therefore I only grab the one that ends first, and save the ones that ends later.
+
++ [Remove K digits](https://leetcode.com/problems/remove-k-digits/)
 
 ## 3. Dynamic Programming
 
@@ -375,5 +382,3 @@ class DisjointUnionSets {
     } 
 } 
 ```
-
-
