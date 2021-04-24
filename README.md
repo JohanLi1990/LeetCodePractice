@@ -51,6 +51,10 @@ Each day I try to grab / take more like a fat bitch, but I do have my own code: 
 
 + [Remove K digits](https://leetcode.com/problems/remove-k-digits/)
 
+Somtimes you need to consider the interval, Heap data structure comes in real handy
+
++ [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
+
 ## 3. Dynamic Programming
 
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
