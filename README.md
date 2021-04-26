@@ -54,6 +54,7 @@ Each day I try to grab / take more like a fat bitch, but I do have my own code: 
 Somtimes you need to consider the interval, Heap data structure comes in real handy
 
 + [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
++ [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 
 ## 3. Dynamic Programming
 
@@ -385,4 +386,29 @@ class DisjointUnionSets {
         } 
     } 
 } 
+```
+
+
+## 10. Graph
+
+_tarjan algorithm_
+
++ [Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/solution/)
+you can use rank to detect cycles in a graph
+``` java
+      public void dfs(int node,int parent,int[] rank,int[] discovery,int[] lowDiscovery,
+                   List<Integer>[] graph,List<List<Integer>> bridges){
+        if(discovery[node]!=-1) return;
+        discovery[node]= lowDiscovery[node]= rank[0]++;
+        for(int neighbor: graph[node]){
+            if(neighbor==parent) continue;
+            dfs(neighbor,node,rank,discovery,lowDiscovery,graph,bridges);
+            if(discovery[node]<lowDiscovery[neighbor]){
+                bridges.add(Arrays.asList(node,neighbor));
+            }else{
+                lowDiscovery[node]= Math.min(lowDiscovery[node],lowDiscovery[neighbor]);
+            }
+        }
+    }  
+
 ```
