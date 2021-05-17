@@ -1,6 +1,35 @@
-# Data Structure & Alogorithms
+## Table of Content
+- [Table of Content](#table-of-content)
+- [System Design](#system-design)
+- [Data Structure & Alogorithms](#data-structure--alogorithms)
+  - [TODOs](#todos)
+  - [1.Trie](#1trie)
+    - [Validation](#validation)
+  - [2. Greedy Algorithms](#2-greedy-algorithms)
+  - [3. Dynamic Programming](#3-dynamic-programming)
+    - [Memoization Pattern](#memoization-pattern)
+    - [Shortest Path](#shortest-path)
+    - [Merge Interval Patterns](#merge-interval-patterns)
+    - [Decision Making Patterns](#decision-making-patterns)
+    - [String Manipulations patterns](#string-manipulations-patterns)
+  - [4. Breadth First Search & Depth First Search](#4-breadth-first-search--depth-first-search)
+    - [LeetCoe OpenLock Example](#leetcoe-openlock-example)
+    - [Depth First Search](#depth-first-search)
+  - [5. TopLogical Sort](#5-toplogical-sort)
+  - [6. Minimax (Gaming and Artificial Intelligence)](#6-minimax-gaming-and-artificial-intelligence)
+  - [7. Bitwise Manipulation](#7-bitwise-manipulation)
+  - [8. Tortoise and Hare problems](#8-tortoise-and-hare-problems)
+  - [9. Union Find - Disjointed Union Set](#9-union-find---disjointed-union-set)
+    - [Find and Union](#find-and-union)
+    - [Template](#template)
+  - [10. Graph](#10-graph)
+## System Design
 
-## TODOs
+- Key Goal: Resilient / Scalable / Consistent
+
+## Data Structure & Alogorithms
+
+### TODOs
 
 Things that I am not very good at
 
@@ -20,7 +49,7 @@ Things that I am not very good at
 12. Rolling Hash
 13. OOP
 
-## 1.Trie
+### 1.Trie
 
 ``` java
 class Node{
@@ -29,13 +58,13 @@ class Node{
 }
 ```
 
-### Validation
+#### Validation
 
 > Don't look up each prefix from the root
 > Build on the past calls by returning node reference
 > keeping state witin a tree
 
-## 2. Greedy Algorithms
+### 2. Greedy Algorithms
 
 [Greedy for Beginners](https://leetcode.com/discuss/general-discussion/669996/Greedy-for-Beginners-Problems-or-Sample-solutions)
 Greedy Algorithms only apply to problems whose global optimal solution relies on its local optimal solutions.
@@ -47,7 +76,7 @@ The way to Think is, is my current step able to bring me closer to the answer fo
 + [Spliting String](https://leetcode.com/problems/split-a-string-in-balanced-strings/submissions/)
 + [Maximum NUmber of Events that can attend](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 
-Each day I try to grab / take more like a fat bitch, but I do have my own code: the grabing / taking should sustain me as long as possible. Therefore I only grab the one that ends first, and save the ones that ends later.
+Each day I try to grab / take more, but I do have my own code: the grabing / taking should sustain me as long as possible. Therefore I only grab the one that ends first, and save the ones that ends later.
 
 + [Remove K digits](https://leetcode.com/problems/remove-k-digits/)
 
@@ -56,7 +85,13 @@ Somtimes you need to consider the interval, Heap data structure comes in real ha
 + [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 + [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 
-## 3. Dynamic Programming
+Sometimes you can do it backward, like consider the largest/ most unlikely choice, if that one works, all the other choice should work
+
++ [Construct Target Array with Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
++ [Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)
++ [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/)
+
+### 3. Dynamic Programming
 
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
 _Doing Topological Sort for a group of subproblems dependency DAG_
@@ -69,7 +104,7 @@ _Doing Topological Sort for a group of subproblems dependency DAG_
 
 Top-Down approach and bottom up approach.
 
-### Memoization Pattern
+#### Memoization Pattern
 
 It always works if you cache your result.
 
@@ -78,7 +113,7 @@ It always works if you cache your result.
 > O(T) = number of subtimes * time per subproblem
 > Don't count recursion, because only need to count once
 
-### Shortest Path
+#### Shortest Path
 
 _for memoization to work, you need **ACYCLIC GRAPH**_
 _Else you will run into infinite loop_
@@ -91,7 +126,7 @@ To make a Cyclic Graph Acyclic:
 > + search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
-### Merge Interval Patterns
+#### Merge Interval Patterns
 
 ```java
 for (int win = 1; win < length; win++){
@@ -110,16 +145,22 @@ for (int win = 1; win < length; win++){
 + [LC546 Remove Boxes](https://leetcode.com/problems/remove-boxes/)
 + [LC1130  Minimum Cost Tree](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
-### Decision Making Patterns
+#### Decision Making Patterns
 
 + [LC198 House Robber](https://leetcode.com/problems/house-robber/)
 + [LC188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 + [LC309 Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 + [LC213 House Robber II](https://leetcode.com/problems/house-robber-ii/)
-+ [LC337 House Robber III](https://leetcode.com/problems/house-robber-iii/)
 + [LC714 Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 
-### String Manipulations patterns
+When the dynamic programming travels down a binary tree, normally for each node there are some stages
+depending on the stages for the subnode, the answer will be obtained at root node
++ [LC986 Binary Tree Camera](https://leetcode.com/problems/binary-tree-cameras/)
++ [LC337 House Robber III](https://leetcode.com/problems/house-robber-iii/)
++ ~~[LC979 Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)~~
+
+
+#### String Manipulations patterns
 
 + [LC1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 + [LC115 Distinct Subsequence](https://leetcode.com/problems/distinct-subsequences/)
@@ -127,11 +168,11 @@ for (int win = 1; win < length; win++){
 + [LC72 Edit Distance](https://leetcode.com/problems/edit-distance/)
 + [LC712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
-## 4. Breadth First Search & Depth First Search
+### 4. Breadth First Search & Depth First Search
 
 > Take note there are something called the Bi-directional search.
 
-### LeetCoe OpenLock Example
+#### LeetCoe OpenLock Example
 
 ```java
     public int openLock(String[] deadends, String target){
@@ -185,7 +226,7 @@ for (int win = 1; win < length; win++){
 
 _idea is that b^(d/2) + b^(d/2) is much less than b^d. b is branch factor, d is depth._
 
-### Depth First Search
+#### Depth First Search
 
 ``` java
 // Spiral DFS backtracking
@@ -201,19 +242,19 @@ for (int i = 0; i < 4; i++){
 
 ```
 
-## 5. TopLogical Sort
+### 5. TopLogical Sort
 
 **For DAG Only**
 **No vertex shall come after the one it is pointing to**
 **implemented by Stack and Set**
 
-> [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
-> [Parallel Courses](https://leetcode.com/problems/parallel-courses/) very interesting, look at solution, have all the approaches.
++ [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
++ [Parallel Courses](https://leetcode.com/problems/parallel-courses/) very interesting, look at solution, have all the approaches.
 
-## 6. Minimax (Gaming and Artificial Intelligence)
+### 6. Minimax (Gaming and Artificial Intelligence)
 
-> Good Place to Start
-> <https://www.hackerearth.com/blog/developers/minimax-algorithm-alpha-beta-pruning/>
+Good Place to Start
++ <https://www.hackerearth.com/blog/developers/minimax-algorithm-alpha-beta-pruning/>
 
 ```python
 function minimax(node, depth, maximizingPlayer)
@@ -235,12 +276,12 @@ function minimax(node, depth, maximizingPlayer)
                    return bestValue
 ```
 
-## 7. Bitwise Manipulation
+### 7. Bitwise Manipulation
 
 > use ^ for XOR 10 ^ 0 = 10, 10 ^ 10 = 1
 > & bitwise and, ~ bitwise not
 
-## 8. Tortoise and Hare problems
+### 8. Tortoise and Hare problems
 
 slow and fast pointer problem
 > beware of the difference between array and linkedlist
@@ -254,9 +295,9 @@ slow and fast pointer problem
     fast = fast.next.next;
 ```
 
-## 9. Union Find - Disjointed Union Set
+### 9. Union Find - Disjointed Union Set
 
-### Find and Union
+#### Find and Union
 
 Find will return to root.
 Path compression and Union by rank.
@@ -265,7 +306,7 @@ Find: O(a(n)) ~= O(1)
 Union: O(a(n)) ~= O(1)
 Space: O(n)
 
-### Template
+#### Template
 
 [implementation1](https://people.eecs.berkeley.edu/~jrs/61bs02/hw/pj3/set/DisjointSets.java)
 
@@ -389,7 +430,7 @@ class DisjointUnionSets {
 ```
 
 
-## 10. Graph
+### 10. Graph
 
 _tarjan algorithm_
 
