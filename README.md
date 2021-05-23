@@ -453,3 +453,34 @@ you can use rank to detect cycles in a graph
     }  
 
 ```
+
+_Traverlling Salseman_
+
+one of the toughest question i ever did
++[Find the shortest superstring](https://leetcode.com/problems/find-the-shortest-superstring/)
+``` java
+        // the tsp dp approach
+        for (int i = 1; i < (1 << n); i++){
+            Arrays.fill(dp[i], Integer.MAX_VALUE);
+            for (int j = 0; j < n; j++){
+                if ((i & (1 << j)) > 0){
+                    int prev = i - (1 << j);
+                    if (prev == 0){
+                        dp[i][j] = A[j].length();
+                    } else {
+                        for (int k = 0; k < n; k++){
+                            if (dp[prev][k] < Integer.MAX_VALUE && dp[prev][k] + graph[k][j] < dp[i][j]){
+                                dp[i][j] = dp[prev][k] + graph[k][j];
+                                path[i][j] = k;
+                            }
+                        }
+                    }
+                }
+                
+                if (i == (1 << n) - 1 && dp[i][j] < min){
+                    min = dp[i][j];
+                    last = j;
+                }
+            }
+        }
+```
