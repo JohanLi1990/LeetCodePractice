@@ -275,6 +275,10 @@ function minimax(node, depth, maximizingPlayer)
                           bestValue := min(bestValue, v)
                    return bestValue
 ```
+*min max sometimes can be dp too*
+*here is an example:*
++ [LC1690 Stone Game VII](https://leetcode.com/problems/stone-game-vii/submissions/)
+
 
 ### 7. Bitwise Manipulation
 
@@ -457,6 +461,9 @@ you can use rank to detect cycles in a graph
 _Traverlling Salseman_
 
 one of the toughest question i ever did
+**Time Complexity**: 
+- O(n!) brute force
+- O(n^2 * 2^n) dynamic programming
 +[Find the shortest superstring](https://leetcode.com/problems/find-the-shortest-superstring/)
 ``` java
         // the tsp dp approach
