@@ -512,7 +512,8 @@ Leet article:
 **Questions**
 
 [LC 307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
-> pay attention to how size of a segment tree is calculated
+
+> pay attention to how size of a segment tree is calculated, and how close it resembles merge-sort
 
 ```java
 int height = (int)Math.ceil(Math.log(n) / Math.log(2));
