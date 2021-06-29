@@ -1,35 +1,37 @@
-## Table of Content
-- [Table of Content](#table-of-content)
-- [System Design](#system-design)
-- [Data Structure & Alogorithms](#data-structure--alogorithms)
-  - [TODOs](#todos)
-  - [1.Trie](#1trie)
-    - [Validation](#validation)
-  - [2. Greedy Algorithms](#2-greedy-algorithms)
-  - [3. Dynamic Programming](#3-dynamic-programming)
-    - [Memoization Pattern](#memoization-pattern)
-    - [Shortest Path](#shortest-path)
-    - [Merge Interval Patterns](#merge-interval-patterns)
-    - [Decision Making Patterns](#decision-making-patterns)
-    - [String Manipulations patterns](#string-manipulations-patterns)
-  - [4. Breadth First Search & Depth First Search](#4-breadth-first-search--depth-first-search)
-    - [LeetCoe OpenLock Example](#leetcoe-openlock-example)
-    - [Depth First Search](#depth-first-search)
-  - [5. TopLogical Sort](#5-toplogical-sort)
-  - [6. Minimax (Gaming and Artificial Intelligence)](#6-minimax-gaming-and-artificial-intelligence)
-  - [7. Bitwise Manipulation](#7-bitwise-manipulation)
-  - [8. Tortoise and Hare problems](#8-tortoise-and-hare-problems)
-  - [9. Union Find - Disjointed Union Set](#9-union-find---disjointed-union-set)
-    - [Find and Union](#find-and-union)
-    - [Template](#template)
-  - [10. Graph](#10-graph)
-## System Design
+## 1. Table of Content
+- [1. Table of Content](#1-table-of-content)
+- [2. System Design](#2-system-design)
+- [3. Data Structure & Alogorithms](#3-data-structure--alogorithms)
+  - [3.1. TODOs](#31-todos)
+  - [3.2. 1.Trie](#32-1trie)
+    - [3.2.1. Validation](#321-validation)
+  - [3.3. Greedy Algorithms](#33-greedy-algorithms)
+  - [3.4. Dynamic Programming](#34-dynamic-programming)
+    - [3.4.1. Memoization Pattern](#341-memoization-pattern)
+    - [3.4.2. Shortest Path](#342-shortest-path)
+    - [3.4.3. Merge Interval Patterns](#343-merge-interval-patterns)
+    - [3.4.4. Decision Making Patterns](#344-decision-making-patterns)
+    - [3.4.5. String Manipulations patterns](#345-string-manipulations-patterns)
+    - [3.4.6. Distinct Ways](#346-distinct-ways)
+  - [3.5. Breadth First Search & Depth First Search](#35-breadth-first-search--depth-first-search)
+    - [3.5.1. LeetCoe OpenLock Example](#351-leetcoe-openlock-example)
+    - [3.5.2. Depth First Search](#352-depth-first-search)
+  - [3.6. TopLogical Sort](#36-toplogical-sort)
+  - [3.7. Minimax (Gaming and Artificial Intelligence)](#37-minimax-gaming-and-artificial-intelligence)
+  - [3.8. Bitwise Manipulation](#38-bitwise-manipulation)
+  - [3.9. Tortoise and Hare problems](#39-tortoise-and-hare-problems)
+  - [3.10. Union Find - Disjointed Union Set](#310-union-find---disjointed-union-set)
+    - [3.10.1. Find and Union](#3101-find-and-union)
+    - [3.10.2. Template](#3102-template)
+  - [3.11. Graph](#311-graph)
+  - [3.12. Segement Tree, Binary index Trees](#312-segement-tree-binary-index-trees)
+## 2. System Design
 
 - Key Goal: Resilient / Scalable / Consistent
 
-## Data Structure & Alogorithms
+## 3. Data Structure & Alogorithms
 
-### TODOs
+### 3.1. TODOs
 
 Things that I am not very good at
 
@@ -38,18 +40,20 @@ Things that I am not very good at
 3. Bit Manipulation
 4. Union Find [In Progress]
 5. Graph:
-[Graph LeetCode](https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
-[Dijkstra](https://leetcode.com/discuss/general-discussion/1059477/A-noob's-guide-to-Djikstra's-Algorithm)
+    1) [Graph LeetCode](https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
+    2) [Dijkstra](https://leetcode.com/discuss/general-discussion/1059477/A-noob's-guide-to-Djikstra's-Algorithm)
 6. Design
 7. Topological Sort
 8. Binary Indexed Tree
-9. Segment Tree
+9. Segment Tree 
+   1)  [Range Query Sum](https://leetcode.com/problems/range-sum-query-mutable/)
+   2)  [G4G article](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
 10. Minimax
 11. Line Sweep
 12. Rolling Hash
 13. OOP
 
-### 1.Trie
+### 3.2. 1.Trie
 
 ``` java
 class Node{
@@ -58,13 +62,13 @@ class Node{
 }
 ```
 
-#### Validation
+#### 3.2.1. Validation
 
 > Don't look up each prefix from the root
 > Build on the past calls by returning node reference
 > keeping state witin a tree
 
-### 2. Greedy Algorithms
+### 3.3. Greedy Algorithms
 
 [Greedy for Beginners](https://leetcode.com/discuss/general-discussion/669996/Greedy-for-Beginners-Problems-or-Sample-solutions)
 Greedy Algorithms only apply to problems whose global optimal solution relies on its local optimal solutions.
@@ -91,7 +95,7 @@ Sometimes you can do it backward, like consider the largest/ most unlikely choic
 + [Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)
 + [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/)
 
-### 3. Dynamic Programming
+### 3.4. Dynamic Programming
 
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
 _Doing Topological Sort for a group of subproblems dependency DAG_
@@ -104,7 +108,7 @@ _Doing Topological Sort for a group of subproblems dependency DAG_
 
 Top-Down approach and bottom up approach.
 
-#### Memoization Pattern
+#### 3.4.1. Memoization Pattern
 
 It always works if you cache your result.
 
@@ -113,7 +117,7 @@ It always works if you cache your result.
 > O(T) = number of subtimes * time per subproblem
 > Don't count recursion, because only need to count once
 
-#### Shortest Path
+#### 3.4.2. Shortest Path
 
 _for memoization to work, you need **ACYCLIC GRAPH**_
 _Else you will run into infinite loop_
@@ -126,7 +130,7 @@ To make a Cyclic Graph Acyclic:
 > + search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
-#### Merge Interval Patterns
+#### 3.4.3. Merge Interval Patterns
 
 ```java
 for (int win = 1; win < length; win++){
@@ -145,7 +149,7 @@ for (int win = 1; win < length; win++){
 + [LC546 Remove Boxes](https://leetcode.com/problems/remove-boxes/)
 + [LC1130  Minimum Cost Tree](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
-#### Decision Making Patterns
+#### 3.4.4. Decision Making Patterns
 
 + [LC198 House Robber](https://leetcode.com/problems/house-robber/)
 + [LC188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
@@ -160,7 +164,7 @@ depending on the stages for the subnode, the answer will be obtained at root nod
 + ~~[LC979 Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)~~
 
 
-#### String Manipulations patterns
+#### 3.4.5. String Manipulations patterns
 
 + [LC1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 + [LC115 Distinct Subsequence](https://leetcode.com/problems/distinct-subsequences/)
@@ -168,11 +172,16 @@ depending on the stages for the subnode, the answer will be obtained at root nod
 + [LC72 Edit Distance](https://leetcode.com/problems/edit-distance/)
 + [LC712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
-### 4. Breadth First Search & Depth First Search
+#### 3.4.6. Distinct Ways
++ [LC576 Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/submissions/)
+
+
+
+### 3.5. Breadth First Search & Depth First Search
 
 > Take note there are something called the Bi-directional search.
 
-#### LeetCoe OpenLock Example
+#### 3.5.1. LeetCoe OpenLock Example
 
 ```java
     public int openLock(String[] deadends, String target){
@@ -226,7 +235,7 @@ depending on the stages for the subnode, the answer will be obtained at root nod
 
 _idea is that b^(d/2) + b^(d/2) is much less than b^d. b is branch factor, d is depth._
 
-#### Depth First Search
+#### 3.5.2. Depth First Search
 
 ``` java
 // Spiral DFS backtracking
@@ -242,7 +251,7 @@ for (int i = 0; i < 4; i++){
 
 ```
 
-### 5. TopLogical Sort
+### 3.6. TopLogical Sort
 
 **For DAG Only**
 **No vertex shall come after the one it is pointing to**
@@ -251,7 +260,7 @@ for (int i = 0; i < 4; i++){
 + [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 + [Parallel Courses](https://leetcode.com/problems/parallel-courses/) very interesting, look at solution, have all the approaches.
 
-### 6. Minimax (Gaming and Artificial Intelligence)
+### 3.7. Minimax (Gaming and Artificial Intelligence)
 
 Good Place to Start
 + <https://www.hackerearth.com/blog/developers/minimax-algorithm-alpha-beta-pruning/>
@@ -279,13 +288,16 @@ function minimax(node, depth, maximizingPlayer)
 *here is an example:*
 + [LC1690 Stone Game VII](https://leetcode.com/problems/stone-game-vii/submissions/)
 
+*sometimes DP reminds me of the method of deduction, work backwards, ask your self, what if there are only 2 items*
+*start from the simplest scenario and build from there, and try to come up with a transition function*
 
-### 7. Bitwise Manipulation
+
+### 3.8. Bitwise Manipulation
 
 > use ^ for XOR 10 ^ 0 = 10, 10 ^ 10 = 1
 > & bitwise and, ~ bitwise not
 
-### 8. Tortoise and Hare problems
+### 3.9. Tortoise and Hare problems
 
 slow and fast pointer problem
 > beware of the difference between array and linkedlist
@@ -299,9 +311,9 @@ slow and fast pointer problem
     fast = fast.next.next;
 ```
 
-### 9. Union Find - Disjointed Union Set
+### 3.10. Union Find - Disjointed Union Set
 
-#### Find and Union
+#### 3.10.1. Find and Union
 
 Find will return to root.
 Path compression and Union by rank.
@@ -310,7 +322,7 @@ Find: O(a(n)) ~= O(1)
 Union: O(a(n)) ~= O(1)
 Space: O(n)
 
-#### Template
+#### 3.10.2. Template
 
 [implementation1](https://people.eecs.berkeley.edu/~jrs/61bs02/hw/pj3/set/DisjointSets.java)
 
@@ -434,7 +446,7 @@ class DisjointUnionSets {
 ```
 
 
-### 10. Graph
+### 3.11. Graph
 
 _tarjan algorithm_
 
@@ -491,3 +503,59 @@ one of the toughest question i ever did
             }
         }
 ```
+
+### 3.12. Segement Tree, Binary index Trees
+
+Leet article: 
+[Recursive approach to segment tree](https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/)
+
+**Questions**
+
+[LC 307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+> pay attention to how size of a segment tree is calculated
+
+```java
+int height = (int)Math.ceil(Math.log(n) / Math.log(2));
+int size = 2 * (int)Math.pow(2, height) - 1;
+int[] tree = new int[size];
+
+// buildTree(0, 0, n - 1, A)
+public void buildTree(int treeIndex, int lo, int hi, int[] A)){
+    if (lo == hi){
+        tree[treeIndex] = A[lo];
+        return;
+    }
+    int mid = lo + (hi - lo) / 2;
+    buildTree(2 * treeIndex + 1, lo, mid, A);
+    buildTree(2 * treeIndex + 2, mid + 1, hi, A);
+    tree[treeIndex] = tree[treeIndex * 2 + 1] + tree[treeIndex * 2 + 2];
+}
+
+// updateTree(0, 0, n - 1, target, val)
+public void updateTree(int treeIndex, int lo, int hi, int target, int val){
+    if (lo == hi){
+        tree[treeIndex] = val;
+        return;
+    }
+    int mid = lo + (hi - lo)/2;
+    if (target <= mid){
+        updateTree(treeIndex * 2 + 1, lo, mid, target, val);
+    } else if  {
+        updateTree(treeIndex * 2 + 2, mid + 1, hi, target, val);
+    }
+    tree[treeIndex] = tree[treeIndex * 2 + 1] + tree[treeIndex * 2 + 2]
+}
+
+public int queryTree(int treeIndex, int lo, int hi, int left, int right){
+    if (left > hi || right < lo) return 0;
+    if (lo >= left && hi <= right) return tree[treeIndex];
+    int mid = lo + (hi - lo) / 2;
+
+    int left = queryTree(treeIndex * 2 + 1, lo, mid, left, right);
+    int right = queryTree(treeIndex * 2 + 2, mid + 1, hi, left, right);
+
+    return left + right;
+}
+
+```
+
