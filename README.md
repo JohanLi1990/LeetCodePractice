@@ -26,15 +26,25 @@
     - [4.10.2. Template](#4102-template)
   - [4.11. Graph](#411-graph)
   - [4.12. Segement Tree, Binary index Trees](#412-segement-tree-binary-index-trees)
+  - [4.13. Math](#413-math)
 
 
 ## 2. Everyday practices
 
-2021-12-06 08:30:32
-[regions cut by slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
-[Number of ways to get same bst](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
-[Smallest String with swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
-*ToDo*[Smallest missing genetic value in each substre](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)
+2021-12-20 09:07:12
+
+- *DoAgain* [Detect Cycles in 2d Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
+- *DoAgain* [Checking existence of edge length limited paths ii](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/)
+- *DoAgain* [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)
+- *DoAgain* [Critical and pseudo-critical edges in minimum spanning tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+- *DoAgain* [Number of ways to get same bst](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
+- *DoAgain* [Number of islands II](https://leetcode.com/problems/number-of-islands-ii/)
+- *DoAgain* [Smallest missing genetic value in each substre](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)
+- *DoAgain* [Connecting Cities with min cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+- *DoAgain* [Most Stones Removed with same row or clomn](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+- *DoAgain* [Nth-magical-number](https://leetcode.com/problems/nth-magical-number/submissions/)
+- *DoAgain* [Domino and Tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)
+- *DoAgain* [Regions cut by slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
 
 ## 3. System Design
 
@@ -261,6 +271,8 @@ for (int i = 0; i < 4; i++){
 }
 
 ```
+*Flood-Fill*
+
 
 ### 4.6. TopLogical Sort
 
@@ -489,7 +501,8 @@ one of the toughest question i ever did
 **Time Complexity**: 
 - O(n!) brute force
 - O(n^2 * 2^n) dynamic programming
-+[Find the shortest superstring](https://leetcode.com/problems/find-the-shortest-superstring/)
+
+[Find the shortest superstring](https://leetcode.com/problems/find-the-shortest-superstring/)
 ``` java
         // the tsp dp approach
         for (int i = 1; i < (1 << n); i++){
@@ -517,13 +530,26 @@ one of the toughest question i ever did
         }
 ```
 
-_Minimum Spanning Tree_
+_Minimum Spanning Tree_ (Kruskal Algorithm)
 
 A minimum spanning tree is a special kind of tree that minimizes the lengths (or “weights”) of the edges of the tree. An example is a cable company wanting to lay line to multiple neighborhoods; by minimizing the amount of cable laid, the cable company will save money. 
 
 you can use Kuscal's Alogorithm with DisjointSet as help
 [LC 1168. Optimize water distribution](https://leetcode.com/problems/optimize-water-distribution-in-a-village/submissions/)
+[Connecting Cities with Min cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/submissions/)
 
+```
+algorithm Kruskal(G) is
+    F:= ∅
+    for each v ∈ G.V do
+        MAKE-SET(v)
+    for each (u, v) in G.E ordered by weight(u, v), increasing do
+        if FIND-SET(u) ≠ FIND-SET(v) then
+            F:= F ∪ {(u, v)} ∪ {(v, u)}
+            UNION(FIND-SET(u), FIND-SET(v))
+    return F
+
+```
 
 ### 4.12. Segement Tree, Binary index Trees
 
@@ -577,6 +603,18 @@ public int queryTree(int treeIndex, int lo, int hi, int left, int right){
     int right = queryTree(treeIndex * 2 + 2, mid + 1, hi, left, right);
 
     return left + right;
+}
+
+```
+
+### 4.13. Math
+
+To find greatest common divisor of two number
+
+```java
+public int gcd(int x, int y){
+    if (x == 0) return y;
+    return gcd(y % x, x);
 }
 
 ```
