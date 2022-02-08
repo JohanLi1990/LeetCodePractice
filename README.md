@@ -14,6 +14,7 @@
     - [4.4.4. Decision Making Patterns](#444-decision-making-patterns)
     - [4.4.5. String Manipulations patterns](#445-string-manipulations-patterns)
     - [4.4.6. Distinct Ways](#446-distinct-ways)
+    - [4.4.7. Kadane's Algorithm](#447-kadanes-algorithm)
   - [4.5. Breadth First Search & Depth First Search](#45-breadth-first-search--depth-first-search)
     - [4.5.1. LeetCoe OpenLock Example](#451-leetcoe-openlock-example)
     - [4.5.2. Depth First Search](#452-depth-first-search)
@@ -31,8 +32,21 @@
 
 ## 2. Everyday practices
 
-2021-12-20 09:07:12
-
+2022-02-08 10:51:05
+- *DoAgain* [Maximum Earnings from Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)
+- *DoAgain* [Maximum subarray sum after one operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation)
+- *DoAgain* [Ways to make a fair array](https://leetcode.com/problems/ways-to-make-a-fair-array)
+- *DoAgain* [Minimum total space wasted with k resizing operations](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)
+- *DoAgain* [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)
+- *DoAgain* [Maximum Score from performing multiplication](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/submissions/)
+- *DoAgain* [Count submatrices with all ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)
+- *DoAgain* [Sum of subsequence width](https://leetcode.com/problems/sum-of-subsequence-widths/submissions/)
+- *DoAgain* [Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/submissions/)
+- *DoAgain* [Stone Games II](https://leetcode.com/problems/stone-game-ii/)
+- *DoAgain* [Egg Drops with 2 eggs and floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/)
+- *DoAgain* [Count number of teams](https://leetcode.com/problems/count-number-of-teams/submissions/)
+- *DoAgain* [GCD sort of an array](https://leetcode.com/problems/gcd-sort-of-an-array/submissions/)
+- *DoAgain* [Graph Connectivity with Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)
 - *DoAgain* [Check Existence of edge length limited](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/)
 - *DoAgain* [Couples-holding-hands](https://leetcode.com/problems/couples-holding-hands/submissions/)
 - *DoAgain* [Detect Cycles in 2d Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
@@ -47,8 +61,7 @@
 - *DoAgain* [Nth-magical-number](https://leetcode.com/problems/nth-magical-number/submissions/)
 - *DoAgain* [Domino and Tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)
 - *DoAgain* [Regions cut by slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
-- *ToDo*    [Graph Connectivity with Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)
-- *ToDo*    [https://leetcode.com/problems/count-square-submatrices-with-all-ones/](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+
 
 ## 3. System Design
 
@@ -201,6 +214,18 @@ depending on the stages for the subnode, the answer will be obtained at root nod
 + [LC576 Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/submissions/)
 
 
+#### 4.4.7. Kadane's Algorithm
+
+```
+// Given an input array of numbers "nums",
+best = negative infinity
+current = 0
+for num in nums:
+    current = Max(current + num, num)
+    best = Max(best, current)
+return best
+
+```
 
 ### 4.5. Breadth First Search & Depth First Search
 
