@@ -32,7 +32,16 @@
 
 ## 2. Everyday practices
 
-2022-02-08 10:51:05
+2022-02-25 09:13:30
+- *DoAgain* [number of dice rolls with target sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum)
+- *DoAgain* [Min Jump to reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)
+- *DoAgain* [Paint House III](https://leetcode.com/problems/paint-house-iii)
+- *DoAgain* [Super ugly number](https://leetcode.com/problems/super-ugly-number)
+- *DoAgain* [Airplane seat probability](https://leetcode.com/problems/airplane-seat-assignment-probability/)
+- *DoAgain* [Last Substring in lexicographical order](https://leetcode.com/problems/last-substring-in-lexicographical-order)
+- *DoAgain* [Maximum number of points with cost](https://leetcode.com/problems/maximum-number-of-points-with-cost)
+- *DoAgain* [Count unique characters of all substring of a given string](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
+- *DoAgain* [Bomb enemies](https://leetcode.com/problems/bomb-enemy)
 - *DoAgain* [Maximum Earnings from Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi/)
 - *DoAgain* [Maximum subarray sum after one operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation)
 - *DoAgain* [Ways to make a fair array](https://leetcode.com/problems/ways-to-make-a-fair-array)
@@ -61,6 +70,10 @@
 - *DoAgain* [Nth-magical-number](https://leetcode.com/problems/nth-magical-number/submissions/)
 - *DoAgain* [Domino and Tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)
 - *DoAgain* [Regions cut by slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+
+BST -> dfs/ bfs (2 questions) 
+Array -> sorting (2 questions)
+Graph -> 2 questions
 
 
 ## 3. System Design
