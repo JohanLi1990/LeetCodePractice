@@ -15,6 +15,8 @@
     - [4.4.5. String Manipulations patterns](#445-string-manipulations-patterns)
     - [4.4.6. Distinct Ways](#446-distinct-ways)
     - [4.4.7. Kadane's Algorithm](#447-kadanes-algorithm)
+    - [4.4.8. KMP Algorithms (Pattern search algorithm)](#448-kmp-algorithms-pattern-search-algorithm)
+    - [4.4.9. Knapsack Algorithm](#449-knapsack-algorithm)
   - [4.5. Breadth First Search & Depth First Search](#45-breadth-first-search--depth-first-search)
     - [4.5.1. LeetCoe OpenLock Example](#451-leetcoe-openlock-example)
     - [4.5.2. Depth First Search](#452-depth-first-search)
@@ -32,7 +34,23 @@
 
 ## 2. Everyday practices
 
-2022-02-25 09:13:30
+2022-03-19 15:24:36
+- *DoAgain* [Partition Array into two arrays to minimize sum difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference)
+- *DoAgain* [Last stone weight II](https://leetcode.com/problems/last-stone-weight-ii)
+- *DoAgain* [Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
+- *DoAgain* [Shopping offfer](https://leetcode.com/problems/shopping-offers)
+- *DoAgain* [integer replacement](https://leetcode.com/problems/integer-replacement/submissions/)
+- *DoAgain* [Encode String with shortest length](https://leetcode.com/problems/encode-string-with-shortest-length)
+- *DoAgain* [Scramble String](https://leetcode.com/problems/scramble-string)
+- *DoAgain* [Count the repetition](https://leetcode.com/problems/count-the-repetitions)
+- *DoAgain* [Count different palindrome subsequence](https://leetcode.com/problems/count-different-palindromic-subsequences/)
+- *DoAgain* [Longest repeating substring](https://leetcode.com/problems/longest-repeating-substring/)
+- *DoAgain* [number of music playlist](https://leetcode.com/problems/number-of-music-playlists/) 
+- *DoAgain* [k-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)
+- *DoAgain* [Unique substring in wraparound string](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)
+- *DoAgain* [number of Digit one](https://leetcode.com/problems/number-of-digit-one/submissions/)
+- *DoAgain* [Number of ways to build sturdy brick wall](https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall/submissions/)
+- *DoAgain* [First day where you have been in all the rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
 - *DoAgain* [number of dice rolls with target sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum)
 - *DoAgain* [Min Jump to reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)
 - *DoAgain* [Paint House III](https://leetcode.com/problems/paint-house-iii)
@@ -237,6 +255,79 @@ for num in nums:
     current = Max(current + num, num)
     best = Max(best, current)
 return best
+
+```
+
+#### 4.4.8. KMP Algorithms (Pattern search algorithm)
+
+```java
+// for pattern array, find size of suffix which is same as prefix
+private int[] computeTemporaryArray(char[] pattern) {
+    int[] lps = new int[pattern.length];
+    int index = 0;
+    int i = 1, j = 0;
+    while(i < pattern.length) {
+        if(pattern[i] == pattern[j]) {
+            lps[i++] = ++j;
+        } else if (j == 0) {
+            pattern[i++] = 0; 
+        } else {
+            j = lps[j - 1]; 
+        }
+    }
+    return lps;
+    // this can be used to find the repeating patterns in a string!
+} 
+
+public boolean KMP(char[] text, char[] pattern) {
+    int[] lps = computeTemporaryArray(pattern);
+    int i = 0;
+    int j = 0;
+    while (i < text.length && j < pattern.length){
+        if (text[i] == pattern[i]) {
+            i++; j++;
+        } else {
+            if (j != 0) {
+                // skip the prefix that is also suffix. 
+                j = lps[j - 1];
+            } else {
+                i++;
+            }
+        }
+    }
+    if (j == pattern.length) {
+        return true;
+    }
+    return false;
+}
+
+```
+
+#### 4.4.9. Knapsack Algorithm
+
+```java
+
+// return maximum value that can be put in a knapsack of capacity w
+// n item, with wt[], and val[], representing the values. 
+
+private int knapSack(int W, int[] wt, int[] val, int n) {
+    
+    int[][] K = new int[n + 1][W + 1];
+
+    // Build Table K[][] in a bottom up manner
+    for (int i = 0; i <= n; i++) {
+        for (int w = 0; w <= W; w++){
+            if (i == 0 || w == 0) {
+                K[i][w] = 0;
+            } else if (wt[i - 1] <= w) {
+                K[i][w] = Math.max(val[i - 1] + K[i - 1][w - wt[i - 1]], K[i -1][w]);
+            } else {
+                K[i][w] = K[i - 1][w];
+            }
+        }
+    }
+    return K[n][w];
+}
 
 ```
 
