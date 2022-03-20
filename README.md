@@ -34,7 +34,9 @@
 
 ## 2. Everyday practices
 
-2022-03-19 15:24:36
+2022-03-20 15:54:06
+- *DoAgain* [Race car](https://leetcode.com/problems/race-car)
+- *DoAgain* [New 21 Game](https://leetcode.com/problems/new-21-game)
 - *DoAgain* [Partition Array into two arrays to minimize sum difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference)
 - *DoAgain* [Last stone weight II](https://leetcode.com/problems/last-stone-weight-ii)
 - *DoAgain* [Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
@@ -87,11 +89,6 @@
 - *DoAgain* [Most Stones Removed with same row or clomn](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 - *DoAgain* [Nth-magical-number](https://leetcode.com/problems/nth-magical-number/submissions/)
 - *DoAgain* [Domino and Tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)
-- *DoAgain* [Regions cut by slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
-
-BST -> dfs/ bfs (2 questions) 
-Array -> sorting (2 questions)
-Graph -> 2 questions
 
 
 ## 3. System Design
