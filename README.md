@@ -39,6 +39,26 @@
 ## 2. Everyday practices
 
 2022-05-17 08:49:05 (mergeSort, BIT)
+- *DoAgain* [Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula)
+- *DoAgain* [Largest color value in a directed graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)
+- *DoAgain* [Find good days to rob the bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)
+- *DoAgain* [Reaching points](https://leetcode.com/problems/reaching-points) (If class is used in Set, need to override both equals and hash)
+- *DoAgain* [sum of subarray ranges](https://leetcode.com/problems/sum-of-subarray-ranges)
+- *DoAgain* [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)
+- *DoAgain* [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- *DoAgain* [Sequentially Ordinal Rank Tracker](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/)
+- *DoAgain* [Build Binary Expression Tree From Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)
+- *DoAgain* [Design in memory file system](https://leetcode.com/problems/design-in-memory-file-system/)
+- *DoAgain* [Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)
+- *DoAgain* [Analyze user website visit pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/)
+- *DoAgain* [Minimum Increment to make array unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)
+- *DoAgain* [Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)
+- *DoAgain* [Minimum Number of k consecutive bit flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
+- *DoAgain* [Minimum Time to Remove all cars containing illegal goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)
+- *DoAgain* [Partition Array into two arrays to minimize sum difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference)
+- *DoAgain* [Tallest Billboard](https://leetcode.com/problems/tallest-billboard)
+- *DoAgain* [Maximum Height by Stacking Cuboids](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)
+- *DoAgain* [The number of weak characters in the game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)
 - *DoAgain* [Bulb Switcher](https://leetcode.com/problems/bulb-switcher)
 - *DoAgain* [Form Largest Integer With Digits That Add up to Target](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)
 - *DoAgain* [Min Jump to reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)
@@ -69,9 +89,7 @@
 - *DoAgain* [Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
 - *DoAgain* [Online Majority Elements in subarry](https://leetcode.com/problems/online-majority-element-in-subarray)
 - *DoAgain* [Closest subsequence sum](https://leetcode.com/problems/closest-subsequence-sum/)
-- *DoAgain* [Partition Array into two arrays to minimize sum difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference)
 - *DoAgain* [Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)
-- *DoAgain* [Last stone weight II](https://leetcode.com/problems/last-stone-weight-ii)
 - *DoAgain* [Design Most recently used queue](https://leetcode.com/problems/design-most-recently-used-queue/)
 - *DoAgain* [GCD sort of an array](https://leetcode.com/problems/gcd-sort-of-an-array/submissions/)
 - *DoAgain* [My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
@@ -83,7 +101,6 @@
 - *DoAgain* [Count of smaller number after self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 - *DoAgain* [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
 - *DoAgain* [Smallest missing genetic value in each substree](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)
-- *DoAgain* [Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)
 - *DoAgain* [Longest repeating substring](https://leetcode.com/problems/longest-repeating-substring/)
 - *DoAgain* [Count number of teams](https://leetcode.com/problems/count-number-of-teams/)
 - *DoAgain* [Detect Cycles in 2d Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
@@ -98,19 +115,14 @@
 - *DoAgain* [Maximum students taking exam](https://leetcode.com/problems/maximum-students-taking-exam/)
 - *DoAgain* [Most Stones Removed with same row or clomn](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 - *DoAgain* [New 21 Game](https://leetcode.com/problems/new-21-game)
-- *DoAgain* [sum of subarray ranges](https://leetcode.com/problems/sum-of-subarray-ranges)
-- *DoAgain* [Minimum Number of k consecutive bit flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
-- *DoAgain* [Minimum Time to Remove all cars containing illegal goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)
 - *DoAgain* [Length of longest fibonacci subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)
 - *DoAgain* [Find valid matrix given row and column sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)
 - *DoAgain* [Largest-1-bordered-square](https://leetcode.com/problems/largest-1-bordered-square)
-- *DoAgain* [Tallest Billboard](https://leetcode.com/problems/tallest-billboard)
 - *DoAgain* [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word) -- attempt first with BitMask , then without BitMask
 - *DoAgain* [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string)
 - *DoAgain* [Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks)
 - *DoAgain* [Active Users](https://leetcode.com/problems/active-users/)
 - *DoAgain* [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
-- *DoAgain* [The number of weak characters in the game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)
 - *DoAgain* [Find two non-overlapping subarrays each with target sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum)
 - *DoAgain* [Number of Atoms](https://leetcode.com/problems/number-of-atoms)
 - *DoAgain* [24 Games](https://leetcode.com/problems/24-game)
@@ -512,10 +524,126 @@ for (int i = 0; i < 4; i++){
 **For DAG Only**
 **No vertex shall come after the one it is pointing to**
 **implemented by Stack and Set**
+In computer science, a topological sort or topological ordering of a directed graph is a linear ordering of its vertices such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering.
 
-+ [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
-+ [Parallel Courses](https://leetcode.com/problems/parallel-courses/) very interesting, look at solution, have all the approaches.
-+ [Alien Dictionary]()
+```java
+    L ← Empty list that will contain the sorted elements
+    S ← Set of all nodes with no incoming edge
+
+    while S is not empty do
+        remove a node n from S
+        add n to L
+        for each node m with an edge e from n to m do
+            remove edge e from the graph
+            /**
+                add operate on m based on the order between m and n, n may have some information that need to be passed to m
+            **/
+            if m has no other incoming edges then
+                insert m into S
+
+    if graph has edges then
+        return error   (graph has at least one cycle)
+    else 
+        return L   (a topologically sorted order)
+
+```
+
+yet another example:
+
+``` java
+// A Java program to print topological
+// sorting of a DAG
+import java.io.*;
+import java.util.*;
+
+// This class represents a directed graph
+// using adjacency list representation
+class Graph {
+	// No. of vertices
+	private int V;
+
+	// Adjacency List as ArrayList of ArrayList's
+	private ArrayList<ArrayList<Integer> > adj;
+
+	// Constructor
+	Graph(int v)
+	{
+		V = v;
+		adj = new ArrayList<ArrayList<Integer> >(v);
+		for (int i = 0; i < v; ++i)
+			adj.add(new ArrayList<Integer>());
+	}
+
+	// Function to add an edge into the graph
+	void addEdge(int v, int w) { adj.get(v).add(w); }
+
+	// A recursive function used by topologicalSort
+	void topologicalSortUtil(int v, boolean visited[],
+							Stack<Integer> stack)
+	{
+		// Mark the current node as visited.
+		visited[v] = true;
+		Integer i;
+
+		// Recur for all the vertices adjacent
+		// to thisvertex
+		Iterator<Integer> it = adj.get(v).iterator();
+		while (it.hasNext()) {
+			i = it.next();
+			if (!visited[i])
+				topologicalSortUtil(i, visited, stack);
+		}
+
+		// Push current vertex to stack
+		// which stores result
+		stack.push(new Integer(v));
+	}
+
+	// The function to do Topological Sort.
+	// It uses recursive topologicalSortUtil()
+	void topologicalSort()
+	{
+		Stack<Integer> stack = new Stack<Integer>();
+
+		// Mark all the vertices as not visited
+		boolean visited[] = new boolean[V];
+		for (int i = 0; i < V; i++)
+			visited[i] = false;
+
+		// Call the recursive helper
+		// function to store
+		// Topological Sort starting
+		// from all vertices one by one
+		for (int i = 0; i < V; i++)
+			if (visited[i] == false)
+				topologicalSortUtil(i, visited, stack);
+
+		// Print contents of stack
+		while (stack.empty() == false)
+			System.out.print(stack.pop() + " ");
+	}
+
+	// Driver code
+	public static void main(String args[])
+	{
+		// Create a graph given in the above diagram
+		Graph g = new Graph(6);
+		g.addEdge(5, 2);
+		g.addEdge(5, 0);
+		g.addEdge(4, 0);
+		g.addEdge(4, 1);
+		g.addEdge(2, 3);
+		g.addEdge(3, 1);
+
+		System.out.println("Following is a Topological "
+						+ "sort of the given graph");
+		// Function Call
+		g.topologicalSort();
+	}
+}
+// This code is contributed by Aakash Hasija
+
+```
 
 
 ### 4.8. Minimax (Gaming and Artificial Intelligence)
