@@ -39,6 +39,10 @@
 ## 2. Everyday practices
 
 2022-05-17 08:49:05 (mergeSort, BIT)
+- *DoAgain* [Merge BST to create single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/)
+- *DoAgain* [Find derangement of an Array](https://leetcode.com/problems/find-the-derangement-of-an-array/)
+- *DoAgain* [Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/)
+- *DoAgain* [K similar strings](https://leetcode.com/problems/k-similar-strings/)
 - *DoAgain* [Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula)
 - *DoAgain* [Largest color value in a directed graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)
 - *DoAgain* [Find good days to rob the bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)
