@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Welcome to the login Page</title>
+</head>
+
+<body>
+	<div th:text= " 'Welcome to Get your med! ' + ${username} ">	Welcome to Get your med!</div>
+	<div><a th:href="@{/list-drugplans(user=${username})}">Manage your Medications</a></div>
+</body>
+
+</html>

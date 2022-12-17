@@ -1,8 +1,8 @@
 ## 1. Table of Content
 - [1. Table of Content](#1-table-of-content)
-- [2. Everyday practices](#2-everyday-practices)
+- [2. Everyday practices (Focus)](#2-everyday-practices-focus)
 - [3. System Design](#3-system-design)
-- [4. Data Structure & Alogorithms](#4-data-structure--alogorithms)
+- [4. Data Structure \& Alogorithms](#4-data-structure--alogorithms)
   - [4.1. TODOs](#41-todos)
   - [4.2. 1.Trie](#42-1trie)
     - [4.2.1. Validation](#421-validation)
@@ -19,9 +19,10 @@
     - [4.4.9. KMP Algorithms (Pattern search algorithm)](#449-kmp-algorithms-pattern-search-algorithm)
     - [4.4.10. Knapsack Algorithm](#4410-knapsack-algorithm)
   - [4.5. Lowest Common Ancestor](#45-lowest-common-ancestor)
-  - [4.6. Breadth First Search & Depth First Search](#46-breadth-first-search--depth-first-search)
+  - [4.6. Breadth First Search \& Depth First Search](#46-breadth-first-search--depth-first-search)
     - [4.6.1. LeetCoe OpenLock Example](#461-leetcoe-openlock-example)
     - [4.6.2. Depth First Search](#462-depth-first-search)
+  - [Dijkstra Algorithm (Shorted distance in a weighted Graph)](#dijkstra-algorithm-shorted-distance-in-a-weighted-graph)
   - [4.7. TopLogical Sort](#47-toplogical-sort)
   - [4.8. Minimax (Gaming and Artificial Intelligence)](#48-minimax-gaming-and-artificial-intelligence)
   - [4.9. Bit Manipulation](#49-bit-manipulation)
@@ -36,47 +37,91 @@
   - [5.1. Bean Scope](#51-bean-scope)
 
 
-## 2. Everyday practices
+## 2. Everyday practices (Focus)
+https://leetcode.com/tag/dynamic-programming/
 
-2022-05-17 08:49:05 (mergeSort, BIT)
+2022-11-11 10:20:05
+- *DoAgain* [1012. Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/description/)
+- *DoAgain* [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/)
+- *DoAgain* [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
+- *DoAgain* [1444. Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) choose your state variable carefully
+- *DoAgain* [1363. Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)
+- *DoAgain* [2327. Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)
+- *DoAgain* [650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)
+- *DoAgain* [1062. Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)
+- *DoAgain* [1395. Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)
+- *DoAgain* [466. Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)
+- *DoAgain* [432. All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
+- *DoAgain* [634. Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array/)
+- *DoAgain* [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)
+- *DoAgain* [1172. Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)
+- *DoAgain* [995. Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
+- *DoAgain* [2167. Minimum Time to Remove All Cars Containing Illegal Goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)
+- *DoAgain* [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+- *DoAgain* [2281. Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)
+- *DoAgain* [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)
+- *DoAgain* [394. Decode String](https://leetcode.com/problems/decode-string/)
+- *DoAgain* [855. Exam Room](https://leetcode.com/problems/exam-room/)
+- *DoAgain* [1274. Number of Ships in a Rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle/solution/)
+- *DoAgain* [1242. Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)
+- *DoAgain* [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)
+- *DoAgain* [1488. Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)  need to apply treeset flexibily
+- *DoAgain* [2007. Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)
+- *DoAgain* [372. Super Pow](https://leetcode.com/problems/super-pow/)
+- *DoAgain* [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
+- *DoAgain* [Smallest sufficient team](https://leetcode.com/problems/smallest-sufficient-team/)
+- *DoAgain* [2002. Maximum Product of the Length of Two Palindromic Subsequences](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)
+- *DoAgain* [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)
+- *DoAgain* [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
+- *DoAgain* [1074. Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)
+- *DoAgain* [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+- *DoAgain* [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+- *DoAgain* [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- *DoAgain* [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+- *DoAgain* [966. Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)
+- *DoAgain* [1520. Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)
+- *DoAgain* [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)
+- *DoAgain* [2267. Check if There Is a Valid Parentheses String Path](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)
+- *DoAgain* [2014. Longest Subsequence Repeated k Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)
+- *DoAgain* [1982. Find Array Given Subset Sums](https://leetcode.com/problems/find-array-given-subset-sums/submissions/)
+- *DoAgain* [420. Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)
+- *DoAgain* [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)
+- *DoAgain* [2271. Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)
+- *DoAgain* [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+- *DoAgain* [903. Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)
+- *DoAgain* [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
+- *DoAgain* [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
+- *DoAgain* [1373. Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)
+- *DoAgain* [1124. Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)
+- *DoAgain* [24 Games](https://leetcode.com/problems/24-game)
 - *DoAgain* [Merge BST to create single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/)
-- *DoAgain* [Find derangement of an Array](https://leetcode.com/problems/find-the-derangement-of-an-array/)
 - *DoAgain* [Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/)
-- *DoAgain* [K similar strings](https://leetcode.com/problems/k-similar-strings/)
 - *DoAgain* [Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula)
 - *DoAgain* [Largest color value in a directed graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)
 - *DoAgain* [Find good days to rob the bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)
 - *DoAgain* [Reaching points](https://leetcode.com/problems/reaching-points) (If class is used in Set, need to override both equals and hash)
-- *DoAgain* [sum of subarray ranges](https://leetcode.com/problems/sum-of-subarray-ranges)
 - *DoAgain* [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)
-- *DoAgain* [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 - *DoAgain* [Sequentially Ordinal Rank Tracker](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/)
 - *DoAgain* [Build Binary Expression Tree From Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)
 - *DoAgain* [Design in memory file system](https://leetcode.com/problems/design-in-memory-file-system/)
-- *DoAgain* [Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)
 - *DoAgain* [Analyze user website visit pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/)
 - *DoAgain* [Minimum Increment to make array unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)
 - *DoAgain* [Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)
-- *DoAgain* [Minimum Number of k consecutive bit flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
-- *DoAgain* [Minimum Time to Remove all cars containing illegal goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)
 - *DoAgain* [Partition Array into two arrays to minimize sum difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference)
 - *DoAgain* [Tallest Billboard](https://leetcode.com/problems/tallest-billboard)
 - *DoAgain* [Maximum Height by Stacking Cuboids](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)
 - *DoAgain* [The number of weak characters in the game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)
-- *DoAgain* [Bulb Switcher](https://leetcode.com/problems/bulb-switcher)
 - *DoAgain* [Form Largest Integer With Digits That Add up to Target](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)
 - *DoAgain* [Min Jump to reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)
 - *DoAgain* [Additive Number](https://leetcode.com/problems/additive-number/)
 - *DoAgain* [Longest nice substring](https://leetcode.com/problems/longest-nice-substring/)
 - *DoAgain* [Count submatrices with all ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)
 - *DoAgain* [Sum of subsequence width](https://leetcode.com/problems/sum-of-subsequence-widths/submissions/)
-- *DoAgain* [Count subarrays with score less than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)
 - *DoAgain* [Substring with Largetst Variance](https://leetcode.com/problems/substring-with-largest-variance)
 - *DoAgain* [Shopping offer](https://leetcode.com/problems/shopping-offers) (consider using bit masking to improve speed)
 - *DoAgain* [k inverse pairs array](https://leetcode.com/problems/k-inverse-pairs-array/)
 - *DoAgain* [Super ugly number](https://leetcode.com/problems/super-ugly-number)
 - *DoAgain* [Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
-- *DoAgain* [Smallest sufficient team](https://leetcode.com/problems/smallest-sufficient-team/)
 - *DoAgain* [Find Minimum to finish all jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) --- Not everything is dynamic programing
 - *DoAgain* [Minimum number of work sessions to finish the tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)
 - *DoAgain* [Get the maximum score](https://leetcode.com/problems/get-the-maximum-score)
@@ -97,7 +142,6 @@
 - *DoAgain* [Design Most recently used queue](https://leetcode.com/problems/design-most-recently-used-queue/)
 - *DoAgain* [GCD sort of an array](https://leetcode.com/problems/gcd-sort-of-an-array/submissions/)
 - *DoAgain* [My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
-- *DoAgain* [Maximum number of points with cost](https://leetcode.com/problems/maximum-number-of-points-with-cost)
 - *DoAgain* [Minimum number of moves to make palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)
 - *DoAgain* [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 - *DoAgain* [Bus routes](https://leetcode.com/problems/bus-routes/)
@@ -105,10 +149,7 @@
 - *DoAgain* [Count of smaller number after self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 - *DoAgain* [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
 - *DoAgain* [Smallest missing genetic value in each substree](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)
-- *DoAgain* [Longest repeating substring](https://leetcode.com/problems/longest-repeating-substring/)
-- *DoAgain* [Count number of teams](https://leetcode.com/problems/count-number-of-teams/)
 - *DoAgain* [Detect Cycles in 2d Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
-- *DoAgain* [Bomb enemies](https://leetcode.com/problems/bomb-enemy)
 - *DoAgain* [Make array strictly increasing](https://leetcode.com/problems/make-array-strictly-increasing)
 - *DoAgain* [Find All good String](https://leetcode.com/problems/find-all-good-strings)
 - *DoAgain* [Kth ancestor of a tree node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node)
@@ -124,19 +165,16 @@
 - *DoAgain* [Largest-1-bordered-square](https://leetcode.com/problems/largest-1-bordered-square)
 - *DoAgain* [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word) -- attempt first with BitMask , then without BitMask
 - *DoAgain* [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string)
-- *DoAgain* [Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks)
 - *DoAgain* [Active Users](https://leetcode.com/problems/active-users/)
 - *DoAgain* [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
 - *DoAgain* [Find two non-overlapping subarrays each with target sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum)
 - *DoAgain* [Number of Atoms](https://leetcode.com/problems/number-of-atoms)
-- *DoAgain* [24 Games](https://leetcode.com/problems/24-game)
 - *DoAgain* [Lexicographical numbers](https://leetcode.com/problems/lexicographical-numbers/)
 - *DoAgain* [String transforms into another string](https://leetcode.com/problems/string-transforms-into-another-string)
 - *DoAgain* [Number Complement](https://leetcode.com/problems/number-complement)
 - *DoAgain* [integer replacement](https://leetcode.com/problems/integer-replacement/submissions/)
 - *DoAgain* [Encode String with shortest length](https://leetcode.com/problems/encode-string-with-shortest-length)
 - *DoAgain* [Scramble String](https://leetcode.com/problems/scramble-string)
-- *DoAgain* [Count the repetition](https://leetcode.com/problems/count-the-repetitions)
 - *DoAgain* [Unique substring in wraparound string](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)
 - *DoAgain* [number of Digit one](https://leetcode.com/problems/number-of-digit-one/submissions/)
 - *DoAgain* [First day where you have been in all the rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
@@ -153,6 +191,11 @@
 ## 3. System Design
 
 - Key Goal: Resilient / Scalable / Consistent
+- Define requirements, go backward
+- Draw high level design
+- how do they scale ? or distributed for availability
+- bottle necks / Trade-off
+- Defend your design?
 
 ## 4. Data Structure & Alogorithms
 
@@ -521,6 +564,58 @@ for (int i = 0; i < 4; i++){
 
 ```
 *Flood-Fill*
+
+### Dijkstra Algorithm (Shorted distance in a weighted Graph)
+
+- use PriorityQueue to do bfs
+
+[1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)
+```java
+class Solution {
+    int[] dirs = new int[]{-1, 0, 1, 0, -1};
+    public int maximumMinimumPath(int[][] grid) {
+        
+        // bfs but with PriorityQueue<>();
+        // only mark i, j as visited when you have everyways to visit i. j
+        
+        int m = grid.length, n = grid[0].length;
+        int[][] score = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                score[i][j] = -1;
+            }
+        }
+        boolean[][] visited = new boolean[m][n];
+        Queue<int[]> q = new PriorityQueue<>((a, b) -> b[0] - a[0]);
+        
+        q.offer(new int[]{grid[0][0], 0, 0});
+        
+        while(!q.isEmpty()) {
+            int[] cur = q.poll();
+            
+            if (cur[1] == m - 1 && cur[2] == n - 1) return cur[0];
+            
+            visited[cur[1]][cur[2]] = true;
+            
+            for(int i = 0; i < 4; i++) {
+                int nx = cur[1] + dirs[i];
+                int ny = cur[2] + dirs[i + 1];
+                
+                if (nx < 0 || ny < 0 || nx >= m || ny >= n || visited[nx][ny]) continue;
+                
+                int curScore = Math.min(grid[nx][ny], cur[0]);
+                if (curScore > score[nx][ny]) {
+                    score[nx][ny] = curScore;
+                    q.offer(new int[]{curScore, nx, ny});
+                }
+            }
+        }
+        return -1;
+        
+    }
+}
+
+```
 
 
 ### 4.7. TopLogical Sort
@@ -1036,7 +1131,7 @@ class BinaryIndexedTree {
 
 ### 4.14. Math
 
-To find greatest common divisor of two number
+**To find greatest common divisor of two number**
 
 ```java
 public int gcd(int x, int y){
@@ -1044,6 +1139,13 @@ public int gcd(int x, int y){
     return gcd(y % x, x);
 }
 
+```
+
+**How to find reminder of a very large number? Euler's Thereom**
+```java
+    (a * a ) % mod = ((a % mod) * (a % mod)) % mod;
+    ((a * x + c) * (a * x + c)) % a
+    = (c * c) % mod;
 ```
 
 ## 5. Spring Framework
