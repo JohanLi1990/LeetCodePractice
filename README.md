@@ -38,9 +38,19 @@
 
 
 ## 2. Everyday practices (Focus)
-https://leetcode.com/tag/dynamic-programming/
-
-2022-11-11 10:20:05
+- *DoAgain* [722. Remove Comments](https://leetcode.com/problems/remove-comments/description/)
+- *DoAgain* [1606. Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/description/)
+- *DoAgain* [913. Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/description/)
+- *DoAgain* [1916. Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/description/)
+- *DoAgain* [296. Best Meeting Point](https://leetcode.com/problems/best-meeting-point/description/)
+- *DoAgain* [1206. Design Skiplist](https://leetcode.com/problems/design-skiplist/description/)
+- *DoAgain* [2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take/description/)
+- *DoAgain* [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/description/)
+- *DoAgain* [2376. Count Special Integers](https://leetcode.com/problems/count-special-integers/description/)
+- *DoAgain* [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/description/)
+- *DoAgain* [1977. Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/description/)
+- *DoAgain* [2369. Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)
+- *DoAgain* [1307. Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/)
 - *DoAgain* [1012. Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/description/)
 - *DoAgain* [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/)
 - *DoAgain* [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)

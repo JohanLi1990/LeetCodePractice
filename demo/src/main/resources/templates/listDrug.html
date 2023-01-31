@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 
+
 <head>
-	<title>Welcome to the login Page</title>
+	<title>List of Drugs</title>
+	<link rel="stylesheet" href="webjars/bootstrap/5.1.3/css/bootstrap.min.css">
+
+
+	<!-- /META-INF/resources/webjars/bootstrap/5.1.3/css/bootstrap.min.css
+/META-INF/resources/webjars/bootstrap/5.1.3/js/bootstrap.min.js
+/META-INF/resources/webjars/jquery/3.6.0/jquery.min.js -->
 </head>
 
 <body>
-	<div th:text= " ${username} + 'Your Drugs Are' "> Your Drugs are</div>
-	<div th:text="${listDrugPlans}" >Nothing</div>
-	
-	
+	<div class="container">
+		<h1 th:text="'Dear '+ ${username} + ', Your Drugs Are' "> Your Drugs are</h1>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Drug</th>
+					<th>Quantity</th>
+					<th>Duration</th>
+					<th>Target Completion</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="drugPlan : ${listDrugPlans}">
+					<td th:text="${drugPlan.drugid}"></td>
+					<td th:text="${drugPlan.quantity}"></td>
+					<td th:text="${drugPlan.duration}"></td>
+					<td th:text="${#dates.format(drugPlan.targetDate, 'yyyy-MM-dd')}"></td>
+					<td><a th:href="@{/delete-plan(id=${drugPlan.id})}" class="btn btn-warning">Delete</a></td>
+					<td><a th:href="@{/update-plan(id=${drugPlan.id})}" class="btn btn-success">Update</a></td>				
+				</tr>
+			</tbody>
+		</table>
+		<a th:href="@{/add-drug}" class="btn btn-success">Add Drug Plan</a>
+	</div>
+	<script src="webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+	<script src="webjars/jquery/3.6.0/jquery.min.js"></script>
 </body>
+<!-- /META-INF/resources/webjars/bootstrap/5.1.3/css/bootstrap.min.css
+/META-INF/resources/webjars/bootstrap/5.1.3/js/bootstrap.min.js
+/META-INF/resources/webjars/jquery/3.6.0/jquery.min.js -->
 
 </html>

@@ -1390,7 +1390,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 13. Participate in one contest. []
 
-## 2022-07-08 10:27:21
+## 1.99. 2022-07-08 10:27:21
 1. JAVA 11 course. [] pg25
 2. JAVA 11 Udemy. [] (Programming via inheritance)
 3. Exercise [x]
@@ -1414,7 +1414,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 13. Participate in one contest. []
 
-## 2022-07-12 06:52:34
+## 1.100. 2022-07-12 06:52:34
 
 1. Test the following tests in the Deterministic Selenium Web driver ticket.
       <!-- <class name="testsuite.TC_SalesRole_UC2_Sales_ToSubmitted_Submit_UC4_Unshare"></class> --> [x]
@@ -1444,7 +1444,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 15. Participate in one contest. []
 
-## 2022-07-13 07:59:27
+## 1.101. 2022-07-13 07:59:27
 1. Test the following tests in the Deterministic Selenium Web driver ticket.
       <class name="testsuite.TC_SalesRole_UC2_Sales_ToSubmitted_Submit_UC4_Unshare"></class>  [x]
       <class name="testsuite.TC_SalesRole_UC8and9_TC_ToIndustrialized_Delivery"></class>
@@ -1471,7 +1471,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 15. Participate in one contest. []
 
-## 2022-07-14 09:22:29
+## 1.102. 2022-07-14 09:22:29
 1. Think about how to improve the following tests. 
       <class name="testsuite.TC_SalesRole_UC8and9_TC_ToIndustrialized_Delivery"></class>
 2. Request for new HeadSet [x] []
@@ -1495,7 +1495,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 15. Participate in one contest. []
 
-## 2022-07-15 2022-07-15 13:44:01
+## 1.103. 2022-07-15 2022-07-15 13:44:01
 1. Implement setup and tear down for all CPL tests [] [x]
 2. Implement RetryAnalyzer []
       <class name="testsuite.TC_SalesRole_UC8and9_TC_ToIndustrialized_Delivery"></class>
@@ -1519,7 +1519,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 16. Participate in one contest. []
 
-## 2022-07-16 08:44:43
+## 1.104. 2022-07-16 08:44:43
 1. Implement setup and tear down for all CPL tests [x] []
 2. Implement RetryAnalyzer []
       <class name="testsuite.TC_SalesRole_UC8and9_TC_ToIndustrialized_Delivery"></class>
@@ -1543,7 +1543,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 16. Participate in one contest. []
 
-## 2022-07-17 08:28:38
+## 1.105. 2022-07-17 08:28:38
 1. Implement setup and tear down for all CPL tests [x] []
 2. Implement RetryAnalyzer []
       <class name="testsuite.TC_SalesRole_UC8and9_TC_ToIndustrialized_Delivery"></class>
@@ -1567,7 +1567,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 16. Participate in one contest. []
 
-## 2022-07-18 07:24:16
+## 1.106. 2022-07-18 07:24:16
 1. Implement setup and tear down for all CPL tests [x] [] []
 2. Implement RetryAnalyzer []
       <class name="testsuite.TC_SalesRole_UC8and9_TC_ToIndustrialized_Delivery"></class>
@@ -1589,7 +1589,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 16. Participate in one contest. []
 
-## 2022-07-19 09:19:04
+## 1.107. 2022-07-19 09:19:04
 1. Implement setup and tear down for all CPL tests [x] [] []
 2. Implement RetryAnalyzer []
       <class name="testsuite.TC_SalesRole_UC8and9_TC_ToIndustrialized_Delivery"></class>
@@ -1611,7 +1611,7 @@ Note: can practice more on knapsack problems, LC416
 16. Participate in one contest. []
 17. hang the router on the wall. []
 
-## 2022-07-20 15:01:17
+## 1.108. 2022-07-20 15:01:17
 1. Implement setup and tear down for all CPL tests [x] [x] []
 2. Implement RetryAnalyzer []
 3. Amazon morning interview prep 1hr [x] 
@@ -1632,7 +1632,7 @@ Note: can practice more on knapsack problems, LC416
 16. Participate in one contest. []
 17. hang the router on the wall. []
 
-## 2022-07-21 09:48:33
+## 1.109. 2022-07-21 09:48:33
 1. Implement setup and tear down for all CPL tests [] [] []
 2. Implement RetryAnalyzer []
 3. Amazon morning interview prep 1hr [] 
@@ -1653,7 +1653,7 @@ Note: can practice more on knapsack problems, LC416
 16. Participate in one contest. []
 17. hang the router on the wall. []
 
-## 2022-07-21 09:48:33
+## 1.110. 2022-07-21 09:48:33
 1. Implement setup and tear down for all CPL tests [x] [x] [x]
 2. Confluence Page [x] [x]
 3. Implement RetryAnalyzer []
@@ -1670,7 +1670,7 @@ Note: can practice more on knapsack problems, LC416
 13. Participate in one contest. []
 14. hang the router on the wall. []
 
-## 2022-07-26 09:18:42
+## 1.111. 2022-07-26 09:18:42
 1. Amazon phone interview prep [x] [x] []
 2. Get back to amazon for phone interview []
 3. Amazon application high scalability [x]
@@ -1687,7 +1687,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 14. Participate in one contest. []
 
-## 2022-07-26 09:18:42
+## 1.112. 2022-07-26 09:18:42
 1. Buy vege and fruits []
 2. Talk with Julia Thong at 2:00PM [x]
 3. Development check-in session sign up [x]
@@ -1712,7 +1712,7 @@ Note: can practice more on knapsack problems, LC416
     Think about which stock to invest in for one year. []
 22. Participate in one contest. []
 
-## 2022-07-28 10:09:16
+## 1.113. 2022-07-28 10:09:16
 1. Remove Fortify Issues. []
 2. Call with Amazon Mehreen 12:00 to 12:15 AM, 29th July [x] Amazon Chime [x]
 3. Amazon phone interview prep [x] [] [] 
@@ -1744,7 +1744,7 @@ g.	Ownership
 h.	Invent & Simplify
 i.	Dive Deep
 
-## 2022-07-29 10:06:52
+## 1.114. 2022-07-29 10:06:52
 1. Remove Fortify Issues. [x]
 2. Amazon phone interview prep [x] [] [] 
 3. Amazon application high scalability [x]
@@ -1775,7 +1775,7 @@ h.	Invent & Simplify
 i.	Dive Deep
 
 
-## 22022-08-01 17:21:44
+## 1.115. 22022-08-01 17:21:44
 1. Remove Fortify Issues. [x] [x]
 2. Get back to Amazon about interviews [x]
 3. Amazon phone interview prep [x] [x] [x] 
@@ -1806,7 +1806,7 @@ g.	Ownership
 h.	Invent & Simplify
 i.	Dive Deep
 
-## 2022-08-02 13:17:15
+## 1.116. 2022-08-02 13:17:15
 1. Maven wildfly plugin try out [x] soliss-dev []
 2. Bytedance Tik Tok interview preparations [X]
 3. Amazon phone interview prep [x] [] [] 
@@ -1837,7 +1837,7 @@ i.	Dive Deep
     - h.	Invent & Simplify
     - i.	Dive Deep
 
-## 2022-08-03 08:36:35
+## 1.117. 2022-08-03 08:36:35
 1. Maven wildfly plugin try out soliss-dev [x] []
 2. Bytedance Tik Tok interview preparations [x]
 3. Amazon phone interview prep [] [] [] 
@@ -1868,7 +1868,7 @@ i.	Dive Deep
 14. Participate in one contest. []
 15. Sell laptops []
 
-## 2022-08-04 09:47:31
+## 1.118. 2022-08-04 09:47:31
 1. Maven wildfly plugin try out soliss-dev , firewall issues []
    Remove deployment of soliss-war [x] soliss-ear [x]
    Antony Lefevre [] Tony Cerezuela Marin []
@@ -1901,7 +1901,7 @@ i.	Dive Deep
 15. Participate in one contest. []
 16. Sell laptops []
 
-## 2022-08-05 10:19:10
+## 1.119. 2022-08-05 10:19:10
 1. Maven wildfly plugin try out soliss-dev , firewall issues []
    Antony Lefevre [] Tony Cerezuela Marin []
    confluence page []
@@ -1933,7 +1933,7 @@ i.	Dive Deep
 14. Participate in one contest. []
 15. Sell laptops []
 
-## 2022-08-08 10:11:30
+## 1.120. 2022-08-08 10:11:30
 1. confluence page []
    winRm [x][]
    Antony Lefevre [x] coming back next week
@@ -1967,7 +1967,7 @@ i.	Dive Deep
 14. Participate in one contest. []
 15. Sell laptops []
 
-## 2022-08-11 10:25:45
+## 1.121. 2022-08-11 10:25:45
 1. PoC winRM [x] [] [] []
    Review Eric's work [x] []
    Secure code warrior []
@@ -2001,7 +2001,7 @@ i.	Dive Deep
 15. Participate in one contest. []
 16. Sell laptops []
 
-## 2022-08-12 10:53:08
+## 1.122. 2022-08-12 10:53:08
 1. Forward firewall request to Patrick [x]
 2. Review Francois ticket [x] [x]
 3. Investigate Failed Integration tests []
@@ -2038,7 +2038,7 @@ i.	Dive Deep
 18. Sell laptops []
 
 
-## 2022-08-15 10:30:27
+## 1.123. 2022-08-15 10:30:27
 1. Investigate Failed Integration tests []
 2. Email Antony Lefevre [x] 
    Talk with Antony, 10:30pm - 11:00pm Tuesday []
@@ -2073,7 +2073,7 @@ i.	Dive Deep
 17. Participate in one contest. []
 18. Sell laptops []
 
-## 2022-08-16 10:59:57
+## 1.124. 2022-08-16 10:59:57
 1. PoC winRM [x] [] []
 2. Review with Sue How Xian [x] []
 3. Investigate Failed Integration tests []
@@ -2108,7 +2108,7 @@ i.	Dive Deep
 18. Sell laptops []
 
 
-## 2022-08-17 14:29:18
+## 1.125. 2022-08-17 14:29:18
 1. Confluence Diagram approach [x]
 2. Review with Sue How Xian []
 3. Clear vgerndvwd2621 C driver for extra space. []
@@ -2143,7 +2143,7 @@ i.	Dive Deep
 17. Participate in one contest. []
 18. Sell laptops []
 
-## 2022-08-18 09:25:37
+## 1.126. 2022-08-18 09:25:37
 1. Review with Sue How Xian [x] []
 2. PoC winRM [] []
 3. Clear vgerndvwd2621 C driver for extra space. []
@@ -2174,7 +2174,7 @@ i.	Dive Deep
 18. Participate in one contest. []
 19. Sell laptops []
 
-## 2022-08-19 09:25:37
+## 1.127. 2022-08-19 09:25:37
 1. Technical Ladder. []
 2. Review with Sue How Xian [x] [x]
 3. PoC winRM [x] []
@@ -2213,7 +2213,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-08-20 21:53:41
+## 1.128. 2022-08-20 21:53:41
 1. Technical Ladder. []
 2. PoC winRM [x] []
 3. Investigate Failed Integration tests []
@@ -2251,7 +2251,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-08-21 11:40:59
+## 1.129. 2022-08-21 11:40:59
 Kobe way of working:
 - 5:00 ~ 7:00 
 - 8:30 ~ 11:30
@@ -2296,7 +2296,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-08-22 08:22:18
+## 1.130. 2022-08-22 08:22:18
 Kobe way of working:
 - 5:00 ~ 7:00 
 - 8:30 ~ 11:30
@@ -2341,7 +2341,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-08-23 09:44:14
+## 1.131. 2022-08-23 09:44:14
 Kobe way of working:
 - 5:00 ~ 7:00 
 - 8:30 ~ 11:30
@@ -2383,7 +2383,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-08-24 10:18:53
+## 1.132. 2022-08-24 10:18:53
 Kobe way of working:
 - 5:00 ~ 7:00 
 - 8:30 ~ 11:30
@@ -2429,7 +2429,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-08-25 09:22:19
+## 1.133. 2022-08-25 09:22:19
 Kobe way of working:
 - 5:00 ~ 7:00 
 - 8:30 ~ 11:30
@@ -2476,7 +2476,7 @@ Come up with stories on Amazon leadership values:
 where do we place the GPDSoliss exe? What if there is an updates
 
 
-## 2022-08-26 09:48:47
+## 1.134. 2022-08-26 09:48:47
 Kobe way of working:
 - 5:00 ~ 7:00 
 - 8:30 ~ 11:30
@@ -2520,7 +2520,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-08-27 09:30:44
+## 1.135. 2022-08-27 09:30:44
 
 1. SOLISS GPD packing installer
    1. maven sonar, Christoph []
@@ -2557,7 +2557,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-08-29 13:40:03
+## 1.136. 2022-08-29 13:40:03
 
 1. GPD put all hardcoded stuff in properties.[x]
 2. GPDSoliss Write unit test []
@@ -2597,7 +2597,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-08-30 10:25:47
+## 1.137. 2022-08-30 10:25:47
 
 1. Put propterties files in soliss-data-setup /soliss-data-update [x]
 2. Test GPD locally [x]
@@ -2638,7 +2638,7 @@ Come up with stories on Amazon leadership values:
 where do we place the GPDSoliss exe? What if there is an updates
 
 
-## 2022-08-31 10:04:22
+## 1.138. 2022-08-31 10:04:22
 1. Deploy gpd to Soliss-dev to test []
 2. Reply to AWS about available timings []
 3. Renew Certificates []
@@ -2678,7 +2678,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-01 09:24:10
+## 1.139. 2022-09-01 09:24:10
 1. Deploy gpd to Soliss-dev to test [x]
 2. Reply to AWS about available timings [x]
 3. Check with Hadi on the progress of installer [x] 
@@ -2717,7 +2717,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-02 11:05:40
+## 1.140. 2022-09-02 11:05:40
 1. Secure Code Warrior [] [] [] [] [] [] [] [] []
 2. coding practices [x] [x] []
 3. DBS / Nomura / JPMorgan [x]
@@ -2753,7 +2753,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-04 20:05:52
+## 1.141. 2022-09-04 20:05:52
 1. Call uncle [x]
 2. check flight details [x] they are all around the same price, 3 to 4k, fuck it, just bite the bullet. 
 3. Secure Code Warrior [] [] [] [] [] [] [] [] []
@@ -2794,7 +2794,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-05 04:25:25
+## 1.142. 2022-09-05 04:25:25
 
 1. CPL Sales tests [] []
 2. Secure Code Warrior [] [] [] [] [] [] [] [] []
@@ -2835,7 +2835,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-07 14:55:05
+## 1.143. 2022-09-07 14:55:05
 
 1. Manual Test [x] [] [] [] []
 2. CPL Sales tests [x] [x]
@@ -2877,7 +2877,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-08 08:56:05
+## 1.144. 2022-09-08 08:56:05
 
 1. Secure Code Warrior [x] [] [] [] [] [] [] [] []
 2. Java GC:
@@ -2922,7 +2922,7 @@ Come up with stories on Amazon leadership values:
 where do we place the GPDSoliss exe? What if there is an updates
 
 
-## 2022-09-09 05:52:05
+## 1.145. 2022-09-09 05:52:05
 1. Secure Code Warrior [x] [x] [] [] [] [] [] []
 2. Java High concurrency in practice
    pattern   []
@@ -2966,7 +2966,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-11 06:33:20
+## 1.146. 2022-09-11 06:33:20
 1. Secure Code Warrior [] [] [] [] [] []
 2. Java High concurrency in practice
    pattern   []
@@ -3009,7 +3009,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-11 06:33:20
+## 1.147. 2022-09-11 06:33:20
 1. Secure Code Warrior [] [] [] [] [] []
 2. Java High concurrency in practice
    pattern   []
@@ -3052,7 +3052,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-12 10:16:02
+## 1.148. 2022-09-12 10:16:02
 1. Secure Code Warrior [x] [x] [] [] [] []
 2. Request access to GPD code to look at mechansim [x]
 3. Think about ways to transform it into a RESTApi services []
@@ -3097,7 +3097,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-13 13:34:27
+## 1.149. 2022-09-13 13:34:27
 1. Secure Code Warrior [x] [x] [x] [x] [x] [x]
 2. Think about ways to transform GPD into a RESTApi services []
 3. Java High concurrency in practice
@@ -3138,7 +3138,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-14 19:54:18
+## 1.150. 2022-09-14 19:54:18
 1. Investigate XML2GUI pipeline Failure [x] intermittent
 2. Review Maixme commits [x]
 3. Review GPD commits []
@@ -3184,7 +3184,7 @@ Come up with stories on Amazon leadership values:
 
 where do we place the GPDSoliss exe? What if there is an updates
 
-## 2022-09-14 19:54:18
+## 1.151. 2022-09-14 19:54:18
 1. Call Faith Clincs (6339 1129) and PLatinum Medical Group (6974 0800)
 2. Investigate XML2GUI pipeline Failure [x] intermittent
 3. Review Maixme commits [x]
@@ -3229,7 +3229,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-09-15 17:06:27
+## 1.152. 2022-09-15 17:06:27
 1. Call Faith Clincs (6339 1129) and PLatinum Medical Group (6974 0800) []
 2. Review GPD commits [x] []
 3. System Design [] [] []
@@ -3270,7 +3270,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-09-16 06:48:13
+## 1.153. 2022-09-16 06:48:13
 1. Book appointments with clinis [x] [x]
 2. Review GPD commits [x] []
 3. System Design [x] [] []
@@ -3307,7 +3307,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-09-18 14:46:45
+## 1.154. 2022-09-18 14:46:45
 1. Book appointments with clinis [x] [x]
 2. Review GPD commits [x] []
 3. System Design [x] [] []
@@ -3344,7 +3344,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify
  - i.	Dive Deep
 
-## 2022-09-18 14:46:45
+## 1.155. 2022-09-18 14:46:45
 1. Secure Code Warrior December edition [x] [] [] [] 
 2. Review GPD commits [x] []
 3. System Design [] [] []
@@ -3380,7 +3380,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify []
  - i.	Dive Deep []
 
-## 2022-09-20 15:10:10
+## 1.156. 2022-09-20 15:10:10
 1. System Design [] [] []
 2. Debug the 4461 [x] [x]
 3. Review Hadi's code [x] [x]
@@ -3418,7 +3418,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify []
  - i.	Dive Deep []
 
-## 2022-09-21 05:32:38
+## 1.157. 2022-09-21 05:32:38
 1. Reply 
 2. System Design [x] [] []
 3. Secure Code Warrior December edition [] [] [] 
@@ -3456,7 +3456,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify []
  - i.	Dive Deep []
 
-## 2022-09-22 14:25:01
+## 1.158. 2022-09-22 14:25:01
 1. Reply Meta, NetEase, Wise [] [] []
 2. System Design [x] [] []
 3. Secure Code Warrior December edition [] [] [] 
@@ -3495,7 +3495,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-09-23 06:17:42
+## 1.159. 2022-09-23 06:17:42
 1. Renew Certificates [] (PKI emails)
 2. Get Vegetable and Fruits for PP [] 
 3. Cancel Spotify [x] 
@@ -3537,7 +3537,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-09-24 22:23:36
+## 1.160. 2022-09-24 22:23:36
 1. Renew Certificates [x] (PKI emails)
 2. Get Vegetable and Fruits for PP [x] 
 3. Cancel Spotify [x] 
@@ -3579,7 +3579,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-09-24 22:23:36
+## 1.161. 2022-09-24 22:23:36
 1. System Design [x] [] []
 2. Secure Code Warrior December edition [] [] [] 
 3. Think about ways to transform GPD into a RESTApi services []
@@ -3613,7 +3613,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify []
  - i.	Dive Deep []
 
-## 2022-09-26 10:26:51
+## 1.162. 2022-09-26 10:26:51
 1. Soliss Auto Test [x] []
 2. System Design [x] [x] [x]
 3. Secure Code Warrior December edition [] [] [] 
@@ -3648,7 +3648,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify []
  - i.	Dive Deep []
 
-## 2022-09-27 08:41:20
+## 1.163. 2022-09-27 08:41:20
 1. Soliss Auto Test [x] [x]
 2. System Design [] [] []
 3. Secure Code Warrior December edition [] [] [] 
@@ -3684,7 +3684,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-09-28 11:07:21
+## 1.164. 2022-09-28 11:07:21
 1. AutoTest [x]
 2. TC_DisplayNameTest adjustment:
    Convert one product uploaded by nwijewar to Li Chenyang []
@@ -3725,7 +3725,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-09-29 08:39:09
+## 1.165. 2022-09-29 08:39:09
 1. Order Train Ticket []
    - 坐火车可以中转么 
    - 几点从这边出发 
@@ -3775,7 +3775,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-09-30 06:58:03
+## 1.166. 2022-09-30 06:58:03
 1. Order Train Ticket [x]
    - 坐火车可以中转么 
    - 几点从这边出发 
@@ -3825,7 +3825,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-10-01 09:27:31
+## 1.167. 2022-10-01 09:27:31
 1. TC_MakeCardNG044
    Government_eTravel Essential V1.0_G275_CTL_M1008595_step1, upload this one to SOLISS-INT Gov Program []
 2. TC_DisplayNameTest adjustment:
@@ -3867,7 +3867,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-10-04 07:23:44
+## 1.168. 2022-10-04 07:23:44
 1. Convert Auto Test []
 2. System Design [x] [x] [x]
 3. 找出第二条舒服的裤子 [x]
@@ -3913,7 +3913,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-10-05 09:19:02
+## 1.169. 2022-10-05 09:19:02
 1. Convert Auto Test []
 2. System Design [] [] []
 3. Tell me about a time that you made a mistake []
@@ -3950,7 +3950,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-10-06 16:57:21
+## 1.170. 2022-10-06 16:57:21
 1. Convert Auto Test [x] []
 2. System Design [] [] []
 3. Tell me about a time that you made a mistake []
@@ -3986,7 +3986,7 @@ Come up with stories on Amazon leadership values:
  - h.	Invent & Simplify []
  - i.	Dive Deep []
 
-## 2022-10-07 07:36:23
+## 1.171. 2022-10-07 07:36:23
 1. Reply Shamoli [x]
 2. Reply John
 3. Convert Auto Test [x] []
@@ -4021,7 +4021,7 @@ Come up with stories on Amazon leadership values:
  - i.	Dive Deep []
 
 
-## 2022-10-14 08:23:22
+## 1.172. 2022-10-14 08:23:22
 1. Install latest GPD on Local [x]
 2. Think about throughput test on SOLISS-DEV []
 3. Coding practice []
@@ -4045,7 +4045,7 @@ Come up with stories on Amazon leadership values:
 16. legacy tax []
 17. Sell laptops []
 
-## 2022-10-17 10:13:25
+## 1.173. 2022-10-17 10:13:25
 1. Did a guide on Spring IO [x]
 2. GPD throughput test using Integration test on Local []
 3. Install latest GPD on soliss-dev [x]
@@ -4068,7 +4068,7 @@ Come up with stories on Amazon leadership values:
 16. legacy tax []
 17. Sell laptops []
 
-## 2022-10-18 08:13:55
+## 1.174. 2022-10-18 08:13:55
 1. GPD throughput test using Integration test on Local []
 2. Think about ways to transform GPD into a RESTApi services []
 3. Website on challenge management []
@@ -4089,7 +4089,7 @@ Come up with stories on Amazon leadership values:
 14. legacy tax []
 15. Sell laptops []
 
-## 2022-11-09 14:16:59
+## 1.175. 2022-11-09 14:16:59
 1. XSS reflected problems, try to encode value at JSON level, GetConfiguration line 311 [x] [x]
 2. Challenger project []
 3. Spring Boot Study []
@@ -4109,7 +4109,7 @@ Come up with stories on Amazon leadership values:
 13. Participate in one contest. []
 14. Sell laptops []
 
-## 2022-11-10 08:25:44
+## 1.176. 2022-11-10 08:25:44
 1. XSS reflected problems, Try reducing it a bit further [x]
 2. Challenger project []
 3. Spring Boot Study []
@@ -4126,7 +4126,7 @@ Come up with stories on Amazon leadership values:
 13. Participate in one contest. []
 14. Sell laptops []
 
-## 2022-11-11 08:52:57
+## 1.177. 2022-11-11 08:52:57
 1. Medication-Planning project []
    - help user plan their medications, when to take the medications, how much
    - show how much medication left, if not enough for 3 days, show warning
@@ -4148,7 +4148,7 @@ Come up with stories on Amazon leadership values:
 14. Participate in one contest. []
 15. Sell laptops []
 
-## 2022-11-13 10:16:02
+## 1.178. 2022-11-13 10:16:02
 1. Medication-Planning project []
    - help user plan their medications, when to take the medications, how much
    - show how much medication left, if not enough for 3 days, show warning
@@ -4170,7 +4170,7 @@ Come up with stories on Amazon leadership values:
 14. Participate in one contest. []
 15. Sell laptops []
 
-## 2022-11-17 10:16:02
+## 1.179. 2022-11-17 10:16:02
 1. Review Eric's Issue [x]
 2. pick a present for Rona [x] [x]
 3. pick a present for Mama []
@@ -4195,7 +4195,7 @@ Come up with stories on Amazon leadership values:
 17. Sell laptops []
 
 
-## 2022-11-18 15:13:16
+## 1.180. 2022-11-18 15:13:16
 1. Review Eric's Issue [x] [x]
 2. pick a present for Rona [x] [x]
 3. pick a present for Mama []
@@ -4219,7 +4219,7 @@ Come up with stories on Amazon leadership values:
 16. Participate in one contest. []
 17. Sell laptops []
 
-## 2022-11-23 16:29:26
+## 1.181. 2022-11-23 16:29:26
 1. pick a present for Mama [x]
 4. Buy present for Secret Santa []
 5. Medication-Planning project []
@@ -4241,7 +4241,7 @@ Come up with stories on Amazon leadership values:
 16. Participate in one contest. []
 17. Sell laptops []
 
-## 2022-11-24 15:32:15
+## 1.182. 2022-11-24 15:32:15
 1. Buy present for Secret Santa []
 2. Medication-Planning project []
    - help user plan their medications, when to take the medications, how much
@@ -4262,7 +4262,7 @@ Come up with stories on Amazon leadership values:
 13. Participate in one contest. []
 14. Sell laptops []
 
-## 2022-11-25 08:41:28
+## 1.183. 2022-11-25 08:41:28
 1. LeetCode problem [x]
 2. Buy present for Secret Santa []
 3. Medication-Planning project []
@@ -4284,7 +4284,7 @@ Come up with stories on Amazon leadership values:
 14. Participate in one contest. []
 15. Sell laptops []
 
-## 2022-11-28 10:55:35
+## 1.184. 2022-11-28 10:55:35
 1. LeetCode problem []
 2. Buy present for Secret Santa [x]
 3. Buy lunch box [x]
@@ -4307,7 +4307,7 @@ Come up with stories on Amazon leadership values:
 15. Participate in one contest. []
 16. Sell laptops []
 
-## 2022-11-29 09:54:41
+## 1.185. 2022-11-29 09:54:41
 1. LeetCode problem [x] []
 2. Spring Boot Study [] []
 3. Medication-Planning project []
@@ -4328,7 +4328,7 @@ Come up with stories on Amazon leadership values:
 13. Participate in one contest. []
 14. Sell laptops []
 
-## 2022-12-01 13:43:17
+## 1.186. 2022-12-01 13:43:17
 1. Review Sue's ticket []
 2. LeetCode problem [x]
 3. Spring Boot Study []
@@ -4350,7 +4350,7 @@ Come up with stories on Amazon leadership values:
 14. Participate in one contest. []
 15. Sell laptops []
 
-## 2022-12-07 09:30:44
+## 1.187. 2022-12-07 09:30:44
 1. Run Automated Test [x]
 2. LeetCode problem [x]
 3. Spring Boot Study []
@@ -4372,7 +4372,7 @@ Come up with stories on Amazon leadership values:
 14. Participate in one contest. []
 15. Sell laptops []
 
-## 2022-12-07 09:30:44
+## 1.188. 2022-12-07 09:30:44
 1. PCR Test [x]
 2. Debug Test []
 3. LeetCode problem []
@@ -4395,7 +4395,7 @@ Come up with stories on Amazon leadership values:
 15. Participate in one contest. []
 16. Sell laptops []
 
-## 2022-12-10 15:09:57
+## 1.189. 2022-12-10 15:09:57
 1. train ticket [x]
 2. print document []
 3. read email and sign []
@@ -4422,7 +4422,7 @@ Come up with stories on Amazon leadership values:
 19. Participate in one contest. []
 20. Sell laptops []
 
-## 2022-12-11 17:35:21
+## 1.190. 2022-12-11 17:35:21
 1. Book appointment with ShangHai [x] Xiamen [x] Gunagzhou [x]
 2. book a taxi to Baiyun [x]
 3. Cancel Xiamen [x]
@@ -4458,13 +4458,13 @@ cancel appointment with Xiamen []
 Photocopy Identity card and passport []
 Sign all documents []
 
-## 2022-12-13 08:33:52
+## 1.191. 2022-12-13 08:33:52
 
-1. phtocopy china ID []
+1. phtocopy china ID [x]
 2. read email and sign [x]
 3. mark down places that require signature/ and stamp by a witness. 
-4. Debug Test []
-5.  LeetCode problem []
+4. Debug Test [x]
+5.  LeetCode problem [x]
 6.  Spring Boot Study []
 7.  Medication-Planning project []
    - help user plan their medications, when to take the medications, how much
@@ -4489,3 +4489,361 @@ book air-ticket to GuangZhou []
 cancel appointment with Xiamen []
 Photocopy Identity card and passport []
 Sign all documents []
+
+
+## 1.192. 2022-12-19 15:14:33
+1. LeetCode problem [x]
+   Spring Boot Study [x]
+2.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+3.  Overal Strategy for reducing XSS
+   header.jsp -- modifying dom using javascript instead of java backend []
+4.  致18年后的你. [] 
+5.  Secure Code Warrior December edition [] []
+6.  Java Perforamnce []
+7.  Exercise []
+8.  JAVA 11 course. [] pg25
+9.  Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+10. Participate in one contest. []
+11. Sell laptops []
+
+
+## 1.193. 2022-12-20 10:41:37
+1. LeetCode problem [x]
+   Spring Boot Study [x]
+   Overal Strategy for reducing XSS
+   header.jsp -- modifying dom using javascript instead of java backend [x]
+   
+2.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+3.  致18年后的你. [] 
+4.  Secure Code Warrior December edition [] []
+5.  Java Perforamnce []
+6.  Exercise []
+7.  JAVA 11 course. [] pg25
+8.  Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+9.  Participate in one contest. []
+10. Sell laptops []
+
+## 1.194. 2022-12-21 14:53:06
+1. LeetCode problem []
+   Spring Boot Study [x]
+   Overal Strategy for reducing XSS
+   header.jsp -- use relative path [x]
+   encode.forHTML strategy ------- []
+2.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+3.  致18年后的你. [] 
+4.  Secure Code Warrior December edition [] []
+5.  Java Perforamnce []
+6.  Exercise []
+7.  JAVA 11 course. [] pg25
+8.  Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+9.  Participate in one contest. []
+10. Sell laptops []
+
+## 1.195. 2022-12-30 10:46:15
+1. LeetCode problem [x]
+   Spring Boot Study [x]
+   Overal Strategy for reducing XSS
+   encode.forHTML strategy ------- [x]
+2.  Buy Air Ticket [x]
+3.  Mail Books back to Singapore []
+4.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+5.  致18年后的你. [] 
+6.  Secure Code Warrior December edition [] []
+7.  Java Perforamnce []
+8.  Exercise []
+9.  JAVA 11 course. [] pg25
+10. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+11. Participate in one contest. []
+12. Sell laptops []
+
+
+## 1.196. 2022-12-31 08:35:34
+1. LeetCode problem [x]
+   Spring Boot Study [x]
+   Overal Strategy for reducing XSS
+   encode.forHTML strategy ------- []
+2.  Mail Books back to Singapore []
+3.  Buy some Singapore dollars and send back to Singapore []
+4.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+5.  致18年后的你. [] 
+6.  Secure Code Warrior December edition [] []
+7.  Java Perforamnce []
+8.  Exercise []
+9.  JAVA 11 course. [] pg25
+10. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+11. Participate in one contest. []
+12. Sell laptops []
+
+## 1.197. 2023-01-02 09:24:54
+1. LeetCode problem [x]
+   Spring Boot Study [x]
+   Overal Strategy for reducing XSS
+   encode.forHTML strategy ------- []
+2.  Mail Books back to Singapore []
+3.  Buy some Singapore dollars and send back to Singapore []
+4.  Secure the JPM job []
+5.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+6.  致18年后的你. [] 
+7.  Secure Code Warrior December edition [] []
+8.  Java Perforamnce []
+9.  Exercise []
+10. JAVA 11 course. [] pg25
+11. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+12. Participate in one contest. []
+13. Sell laptops []
+
+## 1.198. 2023-01-03 13:36:39
+1. LeetCode problem []
+   Spring Boot Study [x]
+   Overal Strategy for reducing XSS
+   encode.forHTML strategy ------- []
+2.  Mail Books back to Singapore [x]
+3.  Buy some Singapore dollars and send back to Singapore []
+4.  Secure the JPM job []
+5.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+6.  致18年后的你. [] 
+7.  Secure Code Warrior December edition [] []
+8.  Java Perforamnce []
+9.  Exercise []
+10. JAVA 11 course. [] pg25
+11. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+12. Participate in one contest. []
+13. Sell laptops []
+
+## 1.199. 2023-01-09 08:35:25
+1. LeetCode problem [x]
+   Spring Boot Study []
+   Spring regression tests [x]
+2. Java revision (concurrency / JVM) []
+3. Apply for leave [x]
+4. Buy some Singapore dollars and send back to Singapore []
+5. Buy money for Grandpa [x]
+6. Buy gift for Ruyue's Grandpa [x]
+7.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+8.  致18年后的你. [] 
+9.  Secure Code Warrior December edition [] []
+10. Java Perforamnce []
+11. Exercise []
+12. JAVA 11 course. [] pg25
+13. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+14. Participate in one contest. []
+15. Sell laptops []
+
+## 1.200. 2023-01-11 09:44:16
+1. LeetCode problem [x] [x] [x]
+   Spring Boot Study []
+2. UBS hackerrank [] 
+3. Java revision (concurrency / JVM) []
+4. Secure code Warriors []
+5. Buy some Singapore dollars and send back to Singapore []
+6.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+7.  致18年后的你. [] 
+8.  Secure Code Warrior December edition [] []
+9.  Java Perforamnce []
+10. Exercise []
+11. JAVA 11 course. [] pg25
+12. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+13. Participate in one contest. []
+14. Sell laptops []
+
+## 1.201. 2023-01-16 17:07:47
+1. LeetCode problem [x] [x] [x]
+   Spring Boot Study []
+2. UBS hackerrank [x] 
+3. Java revision (concurrency / JVM) []
+4. Secure code Warriors []
+5. Buy some Singapore dollars and send back to Singapore []
+6.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+7.  致18年后的你. [] 
+8.  Secure Code Warrior December edition [] []
+9.  Java Perforamnce []
+10. Exercise []
+11. JAVA 11 course. [] pg25
+12. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+13. Participate in one contest. []
+14. Sell laptops []
+
+## 1.202. 2023-01-19 12:56:21
+1. LeetCode mock interview []
+   Spring Boot Study [x]
+2. Java interview questions [x]
+3. Spring interview questions []
+4. System Design []
+5. Submit resume []
+6. Secure code Warriors []
+7. Buy some Singapore dollars and send back to Singapore []
+8.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+9.  致18年后的你. [] 
+10. Secure Code Warrior December edition [] []
+11. Java Perforamnce []
+12. Exercise []
+13. JAVA 11 course. [] pg25
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+
+## 1.203. 2023-01-20 13:50:08
+1. LeetCode mock interview [x] [x] [x]
+   Spring Boot Study [x]
+2. Java interview questions [x]
+3. Spring interview questions []
+4. System Design []
+5. Submit resume []
+6. Secure code Warriors []
+7. Buy some Singapore dollars and send back to Singapore []
+8.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+9.  致18年后的你. [] 
+10. Secure Code Warrior December edition [] []
+11. Java Perforamnce []
+12. Exercise []
+13. JAVA 11 course. [] pg25
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+
+## 1.204. 2023-01-27 14:24:43
+1. JP Morgan assignment []
+2. LeetCode mock interview []
+   Spring Boot Study []
+3. Java interview questions []
+4. Spring interview questions []
+5. System Design []
+6. Submit resume []
+7. Secure code Warriors []
+8. Buy some Singapore dollars and send back to Singapore []
+9.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+10. 致18年后的你. [] 
+11. Secure Code Warrior December edition [] []
+12. Java Perforamnce []
+13. Exercise []
+14. JAVA 11 course. [] pg25
+15. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+16. Participate in one contest. []
+17. Sell laptops []
+
+
+## 2023-01-30 23:27:33
+1. UBS interviews []
+   https://sg.linkedin.com/jobs/view/software-engineer-at-ubs-3375716041 
+2. JP Morgan assignment
+   Exception and Special case handling [x]
+   controller unit test [x]
+   markdown [x]
+3. LeetCode mock interview []
+   Spring Boot Study []
+4. Java interview questions []
+5. Spring interview questions []
+6. System Design []
+7. Submit resume []
+8. Secure code Warriors []
+9.  Buy some Singapore dollars and send back to Singapore []
+10. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+11. 致18年后的你. [] 
+12. Secure Code Warrior December edition [] []
+13. Java Perforamnce []
+14. Exercise []
+15. JAVA 11 course. [] pg25
+16. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+17. Participate in one contest. []
+18. Sell laptops []
+
+
+## 2023-01-31 05:27:33
+1. LeetCode mock interview [x]
+2. UBS interviews []
+   https://sg.linkedin.com/jobs/view/software-engineer-at-ubs-3375716041 
+   think about questions (not just coding ones) []
+   dress appropriately []
+   look into the cameras []
+   delete distractions []
+3.  Spring Boot Study []
+4. Java interview questions []
+5. Spring interview questions []
+6. System Design []
+7. Submit resume []
+8. Secure code Warriors []
+9.  Buy some Singapore dollars and send back to Singapore []
+10. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+11. 致18年后的你. [] 
+12. Secure Code Warrior December edition [] []
+13. Java Perforamnce []
+14. Exercise []
+15. JAVA 11 course. [] pg25
+16. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+17. Participate in one contest. []
+18. Sell laptops []

@@ -12,6 +12,8 @@
     - [Visibility and Mutual Exclusions](#visibility-and-mutual-exclusions)
     - [Use Lazy Initailization Judiciously](#use-lazy-initailization-judiciously)
   - [Design Patterns](#design-patterns)
+  - [JAVA interview Questions](#java-interview-questions)
+    - [why is String final in Java](#why-is-string-final-in-java)
   - [Behaviour Interviews](#behaviour-interviews)
     - [Customer Obsession](#customer-obsession)
 
@@ -166,6 +168,18 @@ public class Pizza {
   }
 }
 ```
+## JAVA interview Questions
+
+### why is String final in Java
+内存(memory)
+同步(synchronization)
+数据结构(data structure)
+
+1. Memory, we use String pool, multiple clients to access same String, this saves memory
+2. hashcode of String will not change, doesn't have to recompute everytime, so it helps with operations involving hash such as Set.contains, Map.contains etc
+3. It is widely used in class loading, so if it is mutable we might load something dangerous, and destroy our security
+4. Immutable objects are threadsafe  by nature
+
 ## Behaviour Interviews
 
 ### Customer Obsession

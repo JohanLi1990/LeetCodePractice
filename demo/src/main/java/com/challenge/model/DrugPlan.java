@@ -1,15 +1,34 @@
 package com.challenge.model;
 
-import java.time.LocalDate;
+import java.util.Date;
+
+import javax.validation.constraints.Size;
+
+import org.springframework.format.annotation.DateTimeFormat;
 
 // Store in Database (MySql)
 // Static List of todos => Database (H2, MySQL)
+
 public class DrugPlan {
+	
+	
+	private long id;
+	
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	private String userid;
-	private String drugId;
+	
+	@Size(min=10, message="Enter at least 10 Characters")
+	private String drugid;
 	private int quantity;
-	private LocalDate targetDate;
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	private Date targetDate;
 	private int duration;
 
 	public String getUserid() {
@@ -20,12 +39,12 @@ public class DrugPlan {
 		this.userid = userid;
 	}
 
-	public String getDrugId() {
-		return drugId;
+	public String getDrugid() {
+		return drugid;
 	}
 
-	public void setDrugId(String drugId) {
-		this.drugId = drugId;
+	public void setDrugid(String drugid) {
+		this.drugid = drugid;
 	}
 
 	public int getQuantity() {
@@ -36,11 +55,11 @@ public class DrugPlan {
 		this.quantity = quantity;
 	}
 
-	public LocalDate getTargetDate() {
+	public Date getTargetDate() {
 		return targetDate;
 	}
 
-	public void setTargetDate(LocalDate targetDate) {
+	public void setTargetDate(Date targetDate) {
 		this.targetDate = targetDate;
 	}
 
@@ -52,19 +71,5 @@ public class DrugPlan {
 		this.duration = duration;
 	}
 
-	public DrugPlan(String userid, String drugId, int quantity, LocalDate targetDate, int duration) {
-		super();
-		this.userid = userid;
-		this.drugId = drugId;
-		this.quantity = quantity;
-		this.targetDate = targetDate;
-		this.duration = duration;
-	}
-
-	@Override
-	public String toString() {
-		return "DrugPlan [userid=" + userid + ", drugId=" + drugId + ", quantity=" + quantity + ", targetDate="
-				+ targetDate + ", duration=" + duration + "]";
-	}
 
 }

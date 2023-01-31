@@ -6,8 +6,11 @@
 </head>
 
 <body>
-	<div th:text= " 'Welcome to Get your med! ' + ${username} ">	Welcome to Get your med!</div>
-	<div><a th:href="@{/list-drugplans(user=${username})}">Manage your Medications</a></div>
+	<div class="container">
+		<h1 th:text= " 'Welcome to Get your med! ' + ${username} ">	Welcome to Get your med!</h1>
+		<div><a th:href="@{/list-drugplans(user=${username})}">Manage your Medications</a></div>
+	</div>
+
 </body>
 
 </html>

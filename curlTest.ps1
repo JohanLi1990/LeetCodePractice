@@ -1,0 +1,1 @@
+curl -i -H "Accept:application/json" -H "Content-Type:application/json" -X POST http://localhost:8080 --data '{"tradeId": "12345131", "SSICode":"DBS_OCBC_1", "amount": 113013, "currency": "USD", "valueDate":"20230123"}' 
