@@ -4822,28 +4822,78 @@ Sign all documents []
 1. LeetCode mock interview [x]
 2. UBS interviews []
    https://sg.linkedin.com/jobs/view/software-engineer-at-ubs-3375716041 
-   think about questions (not just coding ones) []
+   think about questions (not just coding ones) [x]
    dress appropriately []
    look into the cameras []
    delete distractions []
-3.  Spring Boot Study []
-4. Java interview questions []
-5. Spring interview questions []
-6. System Design []
-7. Submit resume []
-8. Secure code Warriors []
-9.  Buy some Singapore dollars and send back to Singapore []
-10. Medication-Planning project []
+
+   possible questions:
+   java coding []
+   multi-threaded programming []
+   java memory management (GC) []  Spring framework questions []
+   Spring Boot, Hibernate []
+   profiling []
+
+3. Applied to Binance [x]
+4. Spring Boot Study []
+5. Java interview questions []
+6. Spring interview questions []
+7. System Design []
+8. Submit resume []
+9. Secure code Warriors []
+10. Buy some Singapore dollars and send back to Singapore []
+11. Medication-Planning project []
    - help user plan their medications, when to take the medications, how much
    - show how much medication left, if not enough for 3 days, show warning
    - show medication side effects
    - show medication interactions with one another.
-11. 致18年后的你. [] 
-12. Secure Code Warrior December edition [] []
-13. Java Perforamnce []
-14. Exercise []
-15. JAVA 11 course. [] pg25
-16. Moomoo tutorial beginner []
+12. 致18年后的你. [] 
+13. Secure Code Warrior December edition [] []
+14. Java Perforamnce []
+15. Exercise []
+16. JAVA 11 course. [] pg25
+17. Moomoo tutorial beginner []
     Think about which stock to invest in for one year. []
-17. Participate in one contest. []
-18. Sell laptops []
+18. Participate in one contest. []
+19. Sell laptops []
+
+## 2023-02-01 14:26:39
+1. LeetCode mock interview [x]
+2. UBS interviews []
+   https://sg.linkedin.com/jobs/view/software-engineer-at-ubs-3375716041 
+   think about questions (not just coding ones) [x]
+   dress appropriately []
+   look into the cameras []
+   delete distractions []
+
+   possible questions:
+   java coding []
+   multi-threaded programming [x] chp 12
+   java memory management (GC) [] 
+   profiling [] chp 13
+   Spring framework questions []
+   Spring Boot, Hibernate []
+   
+
+3. Applied to Binance [x]
+4. Spring Boot Study []
+5. Java interview questions []
+6. Spring interview questions []
+7. System Design []
+8. Submit resume []
+9. Secure code Warriors []
+10. Buy some Singapore dollars and send back to Singapore []
+11. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+12. 致18年后的你. [] 
+13. Secure Code Warrior December edition [] []
+14. Java Perforamnce []
+15. Exercise []
+16. JAVA 11 course. [] pg25
+17. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+18. Participate in one contest. []
+19. Sell laptops []

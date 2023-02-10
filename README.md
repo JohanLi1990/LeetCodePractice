@@ -4,6 +4,7 @@
 - [3. System Design](#3-system-design)
 - [4. Data Structure \& Alogorithms](#4-data-structure--alogorithms)
   - [4.1. TODOs](#41-todos)
+  - [Set, List, Comparators](#set-list-comparators)
   - [4.2. 1.Trie](#42-1trie)
     - [4.2.1. Validation](#421-validation)
   - [4.3. Greedy Algorithms](#43-greedy-algorithms)
@@ -22,22 +23,33 @@
   - [4.6. Breadth First Search \& Depth First Search](#46-breadth-first-search--depth-first-search)
     - [4.6.1. LeetCoe OpenLock Example](#461-leetcoe-openlock-example)
     - [4.6.2. Depth First Search](#462-depth-first-search)
-  - [Dijkstra Algorithm (Shorted distance in a weighted Graph)](#dijkstra-algorithm-shorted-distance-in-a-weighted-graph)
-  - [4.7. TopLogical Sort](#47-toplogical-sort)
-  - [4.8. Minimax (Gaming and Artificial Intelligence)](#48-minimax-gaming-and-artificial-intelligence)
-  - [4.9. Bit Manipulation](#49-bit-manipulation)
-  - [4.10. Tortoise and Hare problems](#410-tortoise-and-hare-problems)
-  - [4.11. Union Find - Disjointed Union Set](#411-union-find---disjointed-union-set)
-    - [4.11.1. Find and Union](#4111-find-and-union)
-    - [4.11.2. Template](#4112-template)
-  - [4.12. Graph](#412-graph)
-  - [4.13. Segement Tree, Binary index Trees](#413-segement-tree-binary-index-trees)
-  - [4.14. Math](#414-math)
-- [5. Spring Framework](#5-spring-framework)
-  - [5.1. Bean Scope](#51-bean-scope)
+  - [4.7. Dijkstra Algorithm (Shorted distance in a weighted Graph)](#47-dijkstra-algorithm-shorted-distance-in-a-weighted-graph)
+  - [4.8. TopLogical Sort](#48-toplogical-sort)
+  - [4.9. Minimax (Gaming and Artificial Intelligence)](#49-minimax-gaming-and-artificial-intelligence)
+  - [4.10. Bit Manipulation](#410-bit-manipulation)
+  - [4.11. Tortoise and Hare problems](#411-tortoise-and-hare-problems)
+  - [4.12. Union Find - Disjointed Union Set](#412-union-find---disjointed-union-set)
+    - [4.12.1. Find and Union](#4121-find-and-union)
+    - [4.12.2. Template](#4122-template)
+  - [4.13. Graph](#413-graph)
+  - [4.14. Segement Tree, Binary index Trees](#414-segement-tree-binary-index-trees)
+  - [4.15. Math](#415-math)
 
 
 ## 2. Everyday practices (Focus)
+- *DoAgain* [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/description/)
+- *DoAgain* [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
+- *DoAgain* [2101. Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/description/)
+- *DoAgain* [2127. Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/description/)
+- *DoAgain* [1066. Campus Bikes II](https://leetcode.com/problems/campus-bikes-ii/description/)
+- *DoAgain* [2096. Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/)
+- *DoAgain* [1626. Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/description/)
+- *DoAgain* [2312. Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/description/)
+- *DoAgain* [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/)
+- *DoAgain* [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
+- *DoAgain* [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/)
+- *DoAgain* [1654. Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)
+- *DoAgain* [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/)
 - *DoAgain* [722. Remove Comments](https://leetcode.com/problems/remove-comments/description/)
 - *DoAgain* [1606. Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/description/)
 - *DoAgain* [913. Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/description/)
@@ -100,7 +112,6 @@
 - *DoAgain* [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 - *DoAgain* [903. Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)
 - *DoAgain* [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
-- *DoAgain* [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
 - *DoAgain* [1373. Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)
 - *DoAgain* [1124. Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)
 - *DoAgain* [24 Games](https://leetcode.com/problems/24-game)
@@ -122,16 +133,13 @@
 - *DoAgain* [Maximum Height by Stacking Cuboids](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)
 - *DoAgain* [The number of weak characters in the game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)
 - *DoAgain* [Form Largest Integer With Digits That Add up to Target](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)
-- *DoAgain* [Min Jump to reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/)
 - *DoAgain* [Additive Number](https://leetcode.com/problems/additive-number/)
 - *DoAgain* [Longest nice substring](https://leetcode.com/problems/longest-nice-substring/)
 - *DoAgain* [Count submatrices with all ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)
 - *DoAgain* [Sum of subsequence width](https://leetcode.com/problems/sum-of-subsequence-widths/submissions/)
 - *DoAgain* [Substring with Largetst Variance](https://leetcode.com/problems/substring-with-largest-variance)
-- *DoAgain* [Shopping offer](https://leetcode.com/problems/shopping-offers) (consider using bit masking to improve speed)
 - *DoAgain* [k inverse pairs array](https://leetcode.com/problems/k-inverse-pairs-array/)
 - *DoAgain* [Super ugly number](https://leetcode.com/problems/super-ugly-number)
-- *DoAgain* [Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
 - *DoAgain* [Find Minimum to finish all jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) --- Not everything is dynamic programing
 - *DoAgain* [Minimum number of work sessions to finish the tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)
 - *DoAgain* [Get the maximum score](https://leetcode.com/problems/get-the-maximum-score)
@@ -230,6 +238,16 @@ Things that I am not very good at
 10. Line Sweep
 11. Rolling Hash
 12. OOP
+
+### Set, List, Comparators
+if object in list can be compared, then Set<List> is going to ignore those list that contain similar object
+e.g.
+```java
+Set<List<Integer>> set = new HashSet<>();
+set.add(new ArrayList<>(Arrays.asList(1, 2, 3)));
+set.add(new ArrayList<>(Arrays.asList(1, 2, 3)));
+assertTrue(set.size() == 1);
+```
 
 ### 4.2. 1.Trie
 
@@ -467,6 +485,25 @@ private int knapSack(int W, int[] wt, int[] val, int n) {
 
 ### 4.5. Lowest Common Ancestor
 
+**common technique**
+```java
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) return null;
+        if (root == p || root == q) return root;
+        
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+        if (left != null && right != null) return root;
+        if (left != null) return left;
+        if (right != null) return right;
+        
+        return null;
+    }
+}
+```
+
 A technique to calculate ancestor faster --> binary lifting
 
 ```java
@@ -575,7 +612,7 @@ for (int i = 0; i < 4; i++){
 ```
 *Flood-Fill*
 
-### Dijkstra Algorithm (Shorted distance in a weighted Graph)
+### 4.7. Dijkstra Algorithm (Shorted distance in a weighted Graph)
 
 - use PriorityQueue to do bfs
 
@@ -628,12 +665,14 @@ class Solution {
 ```
 
 
-### 4.7. TopLogical Sort
+### 4.8. TopLogical Sort
 
 **For DAG Only**
 **No vertex shall come after the one it is pointing to**
 **implemented by Stack and Set**
 In computer science, a topological sort or topological ordering of a directed graph is a linear ordering of its vertices such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering.
+
+**Topological Sor** is able to identify non-Cycle nodes of a graph.
 
 ```java
     L ← Empty list that will contain the sorted elements
@@ -755,7 +794,7 @@ class Graph {
 ```
 
 
-### 4.8. Minimax (Gaming and Artificial Intelligence)
+### 4.9. Minimax (Gaming and Artificial Intelligence)
 
 Good Place to Start
 + <https://www.hackerearth.com/blog/developers/minimax-algorithm-alpha-beta-pruning/>
@@ -787,7 +826,7 @@ function minimax(node, depth, maximizingPlayer)
 *start from the simplest scenario and build from there, and try to come up with a transition function*
 
 
-### 4.9. Bit Manipulation
+### 4.10. Bit Manipulation
 
 > use ^ for XOR 10 ^ 0 = 10, 10 ^ 10 = 1
 > & bitwise and, ~ bitwise not
@@ -802,7 +841,10 @@ function minimax(node, depth, maximizingPlayer)
   ```
 > To get the reminder of a value divided by power of 2 (e.g. 16) : rem = a % 16, or rem = a & 15;
 
-### 4.10. Tortoise and Hare problems
+Interesting example questions
+- [Shopping offer](https://leetcode.com/problems/shopping-offers) (consider using bit masking to improve speed)
+
+### 4.11. Tortoise and Hare problems
 
 slow and fast pointer problem
 > beware of the difference between array and linkedlist
@@ -816,9 +858,9 @@ slow and fast pointer problem
     fast = fast.next.next;
 ```
 
-### 4.11. Union Find - Disjointed Union Set
+### 4.12. Union Find - Disjointed Union Set
 
-#### 4.11.1. Find and Union
+#### 4.12.1. Find and Union
 
 Find will return to root.
 Path compression and Union by rank.
@@ -827,7 +869,7 @@ Find: O(a(n)) ~= O(1)
 Union: O(a(n)) ~= O(1)
 Space: O(n)
 
-#### 4.11.2. Template
+#### 4.12.2. Template
 
 [implementation1](https://people.eecs.berkeley.edu/~jrs/61bs02/hw/pj3/set/DisjointSets.java)
 
@@ -951,7 +993,7 @@ class DisjointUnionSets {
 ```
 
 
-### 4.12. Graph
+### 4.13. Graph
 
 _tarjan algorithm_
 
@@ -1040,7 +1082,7 @@ algorithm Kruskal(G) is
 ```
 
 
-### 4.13. Segement Tree, Binary index Trees
+### 4.14. Segement Tree, Binary index Trees
 
 Leet article: 
 [Recursive approach to segment tree](https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/)
@@ -1139,7 +1181,7 @@ class BinaryIndexedTree {
 
 ```
 
-### 4.14. Math
+### 4.15. Math
 
 **To find greatest common divisor of two number**
 
@@ -1158,8 +1200,3 @@ public int gcd(int x, int y){
     = (c * c) % mod;
 ```
 
-## 5. Spring Framework
-
-- Guide: https://www.interviewbit.com/spring-interview-questions/
-
-### 5.1. Bean Scope
