@@ -1,6 +1,6 @@
 ## 1. Table of Content
 - [1. Table of Content](#1-table-of-content)
-- [2. Everyday practices (Focus)](#2-everyday-practices-focus)
+- [2. EveryDay Practice (Focus on Old Questions first)](#2-everyday-practice-focus-on-old-questions-first)
 - [3. System Design](#3-system-design)
 - [4. Data Structure \& Alogorithms](#4-data-structure--alogorithms)
   - [4.1. TODOs](#41-todos)
@@ -36,7 +36,12 @@
   - [4.15. Math](#415-math)
 
 
-## 2. Everyday practices (Focus)
+## 2. EveryDay Practice (Focus on Old Questions first)
+- *DoAgain* [960. Delete Columns to Make Sorted III
+](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/description/)
+- *DoAgain* [1488. Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)  need to apply treeset flexibily
+- *DoAgain* [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)
+- *DoAgain* [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)
 - *DoAgain* [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/description/)
 - *DoAgain* [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
 - *DoAgain* [2101. Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/description/)
@@ -66,28 +71,23 @@
 - *DoAgain* [1012. Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/description/)
 - *DoAgain* [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/)
 - *DoAgain* [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
-- *DoAgain* [1444. Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) choose your state variable carefully
 - *DoAgain* [1363. Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)
 - *DoAgain* [2327. Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)
-- *DoAgain* [650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)
 - *DoAgain* [1062. Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)
 - *DoAgain* [1395. Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)
 - *DoAgain* [466. Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)
 - *DoAgain* [432. All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
 - *DoAgain* [634. Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array/)
-- *DoAgain* [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)
 - *DoAgain* [1172. Dinner Plate Stacks](https://leetcode.com/problems/dinner-plate-stacks/)
 - *DoAgain* [995. Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 - *DoAgain* [2167. Minimum Time to Remove All Cars Containing Illegal Goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)
 - *DoAgain* [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - *DoAgain* [2281. Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)
-- *DoAgain* [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)
 - *DoAgain* [394. Decode String](https://leetcode.com/problems/decode-string/)
 - *DoAgain* [855. Exam Room](https://leetcode.com/problems/exam-room/)
 - *DoAgain* [1274. Number of Ships in a Rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle/solution/)
 - *DoAgain* [1242. Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)
 - *DoAgain* [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)
-- *DoAgain* [1488. Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)  need to apply treeset flexibily
 - *DoAgain* [2007. Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)
 - *DoAgain* [372. Super Pow](https://leetcode.com/problems/super-pow/)
 - *DoAgain* [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
@@ -175,7 +175,6 @@
 - *DoAgain* [Check if an original string exists given two encoded strings](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings)
 - *DoAgain* [Count different palindrome subsequence](https://leetcode.com/problems/count-different-palindromic-subsequences/)
 - *DoAgain* [Dice Roll simulations](https://leetcode.com/problems/dice-roll-simulation/)
-- *DoAgain* [Maximum students taking exam](https://leetcode.com/problems/maximum-students-taking-exam/)
 - *DoAgain* [Most Stones Removed with same row or clomn](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 - *DoAgain* [New 21 Game](https://leetcode.com/problems/new-21-game)
 - *DoAgain* [Length of longest fibonacci subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)

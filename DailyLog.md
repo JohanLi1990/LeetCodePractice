@@ -4897,3 +4897,194 @@ Sign all documents []
     Think about which stock to invest in for one year. []
 18. Participate in one contest. []
 19. Sell laptops []
+
+## 2023-02-16 10:18:01
+1. LeetCode BFS [x] []
+2. Prepare for 3rd Round interview [x]
+3. SQL refresher []
+4. Secure code Warriors []
+5.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+6.  致18年后的你. [] 
+7.  Java Perforamnce []
+8.  Exercise []
+9.  JAVA 11 course. [] pg25
+10. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+11. Participate in one contest. []
+12. Sell laptops []
+
+## 2023-02-17 10:27:45
+1. Present the work []
+2. SQL refresher []
+3. Netowrk refresher []
+4. LeetCode []
+5. Secure code Warriors []
+6.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+7.  致18年后的你. [] 
+8.  Java Perforamnce []
+9.  Exercise []
+10. JAVA 11 course. [] pg25
+11. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+12. Participate in one contest. []
+13. Sell laptops []
+
+## 2023-02-18 11:04:22
+1. Present the work []
+2. SQL refresher []
+3. Netowrk refresher []
+4. LeetCode []
+5. Secure code Warriors []
+6.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+7.  致18年后的你. [] 
+8.  Java Perforamnce []
+9.  Exercise []
+10. JAVA 11 course. [] pg25
+11. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+12. Participate in one contest. []
+13. Sell laptops []
+
+## 2023-02-18 11:23:43
+1. SQL refresher []
+2. Present the work []
+3. Netowrk refresher []
+4. LeetCode []
+5. Secure code Warriors []
+6.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+7.  致18年后的你. [] 
+8.  Java Perforamnce []
+9.  Exercise []
+10. JAVA 11 course. [] pg25
+11. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+12. Participate in one contest. []
+13. Sell laptops []
+
+Culture Fit
+This interview will assess your knowledge on Software Engineering; Concepts like Software Development best practices, things to avoid and improving software quality will be covered during this interview. You can also review Software Engineering fundamentals and best practices in the industry. In addition, you will be asked behavioural questions from your past; Please be prepared to share specific examples from your career.
+
+Please also familiarise yourself with Binance Values. You can find more information on our Careers page here. 
+
+## 2023-02-24 16:02:48
+1. Include reference [x]
+2. Objectives in Workday [x]
+3. LeetCode []
+4. Secure code Warriors []
+5.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+6.  致18年后的你. [] 
+7.  Java Perforamnce []
+8.  Exercise []
+9.  JAVA 11 course. [] pg25
+10. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+11. Participate in one contest. []
+12. Sell laptops []
+
+## 2023-02-27 08:48:36
+1. LeetCode []
+2. CPF adjust monthly contribution [x]
+3. IRAS file tax []
+4. Include Reference Unit Tests []
+5. Objectives in Workday [x] []
+6. Secure code Warriors []
+7.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+8.  致18年后的你. [] 
+9.  Java Perforamnce []
+10. Exercise []
+11. JAVA 11 course. [] pg25
+12. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+13. Participate in one contest. []
+14. Sell laptops []
+
+## 2023-03-01 05:46:28
+1. LeetCode []
+2. Apply leave for 28th Feb, and April [x] [x]
+3. Pay for Medical Claims [x]
+4. File Medical Claims []
+5. IRAS file tax []
+6. Include Reference Unit Tests []
+7. Objectives in Workday [x] [x]
+8. Secure code Warriors []
+9.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+10. 致18年后的你. [] 
+11. Java Perforamnce []
+12. Exercise []
+13. JAVA 11 course. [] pg25
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+
+## 2023-03-01 05:46:28
+1. LeetCode [x]
+2. File Medical Claims []
+3. IRAS file tax []
+4. Include Reference Unit Tests []
+5. Apply leave 13th March []
+6. Secure code Warriors []
+7.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+8.  致18年后的你. [] 
+9.  Java Perforamnce []
+10. Exercise []
+11. JAVA 11 course. [] pg25
+12. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+13. Participate in one contest. []
+14. Sell laptops []
+
+## 2023-03-03 11:48:55
+1. Finish the damn Unit Tests []
+2. LeetCode []
+3. Try to book a Chiro Session []
+4. Apply leave 13th March []
+5. File Medical Claims [] 
+6. IRAS file tax []
+7. Include Reference Unit Tests []
+8. Secure code Warriors []
+9.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+10. 致18年后的你. [] 
+11. Java Perforamnce []
+12. Exercise []
+13. JAVA 11 course. [] pg25
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
