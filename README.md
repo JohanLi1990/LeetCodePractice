@@ -37,8 +37,9 @@
 
 
 ## 2. EveryDay Practice (Focus on Old Questions first)
-- *DoAgain* [960. Delete Columns to Make Sorted III
-](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/description/)
+
+- *DoAgain* [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)
+- *DoAgain* [960. Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/description/)
 - *DoAgain* [1488. Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)  need to apply treeset flexibily
 - *DoAgain* [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)
 - *DoAgain* [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)
@@ -91,7 +92,6 @@
 - *DoAgain* [2007. Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)
 - *DoAgain* [372. Super Pow](https://leetcode.com/problems/super-pow/)
 - *DoAgain* [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
-- *DoAgain* [Smallest sufficient team](https://leetcode.com/problems/smallest-sufficient-team/)
 - *DoAgain* [2002. Maximum Product of the Length of Two Palindromic Subsequences](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)
 - *DoAgain* [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)
 - *DoAgain* [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)

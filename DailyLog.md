@@ -5067,13 +5067,37 @@ Please also familiarise yourself with Binance Values. You can find more informat
 14. Sell laptops []
 
 ## 2023-03-03 11:48:55
-1. Finish the damn Unit Tests []
-2. LeetCode []
-3. Try to book a Chiro Session []
-4. Apply leave 13th March []
-5. File Medical Claims [] 
-6. IRAS file tax []
-7. Include Reference Unit Tests []
+1. Finish the damn Unit Tests [x]
+2. Add exceptions [x]
+3. LeetCode []
+4. Try to book a Chiro Session []
+5. Apply leave 13th March []
+6. File Medical Claims [] 
+7. IRAS file tax []
+8. Include Reference Unit Tests []
+9. Secure code Warriors []
+10. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+11. 致18年后的你. [] 
+12. Java Perforamnce []
+13. Exercise []
+14. JAVA 11 course. [] pg25
+15. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+16. Participate in one contest. []
+17. Sell laptops []
+
+## 2023-03-06 10:57:54
+1. Deploy Soliss with latest changes [x] [x]
+2. SLS-4702 getProductInformation []
+3. LeetCode []
+4. Try to book a Chiro Session []
+5. Apply leave 13th March [x]
+6. File Medical Claims [] 
+7. IRAS file tax []
 8. Secure code Warriors []
 9.  Medication-Planning project []
    - help user plan their medications, when to take the medications, how much
@@ -5088,3 +5112,105 @@ Please also familiarise yourself with Binance Values. You can find more informat
     Think about which stock to invest in for one year. []
 15. Participate in one contest. []
 16. Sell laptops []
+
+## 2023-03-07 09:36:35
+1. Complete the signing of UBS background check [x] [x]
+2. SLS4619, update error message to hide full path file name []
+3. SLS-4702 getProductInformation [x] []
+4. BlueSG [x]
+5. LeetCode []
+6. UBS personal information [x]
+7. UBS: Salary crediting bank account (provide a clear image of internet banking screenshot or bank statement showing your full legal name, bank account number in PDF format) [x]
+8. Copy of entry permit, re-entry permit and NRIC (if you have not provided) [x]
+9. Please provide your dependents information (i.e., Marriage Certificate, Spouse ID and/or Childbirth Certificate if applicable) too. Kindly note that the processing time takes up to 4 weeks and any delay will result in longer waiting time, so please submit at the earliest [x]
+10. Try to book a Chiro Session []
+11. Apply leave 13th March [x]
+12. File Medical Claims [] 
+13. IRAS file tax []
+14. Secure code Warriors []
+15. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+16. 致18年后的你. [] 
+17. Java Perforamnce []
+18. Exercise []
+19. JAVA 11 course. [] pg25
+20. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+21. Participate in one contest. []
+22. Sell laptops []
+
+## 2023-03-08 09:30:38
+1. SLS4619, update error message to hide full path file name [x]
+2. apply for Msia eVisa for family [] []
+3. SLS-4702 getProductInformation, need to merge ProductInformation as well [x] [x] []
+4. LeetCode []
+5. Try to book a Chiro Session []
+6.  File Medical Claims [] 
+7.  IRAS file tax []
+8.  Secure code Warriors []
+9.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+10. 致18年后的你. [] 
+11. Java Perforamnce []
+12. Exercise []
+13. JAVA 11 course. [] pg25
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+
+## 2023-03-09 09:35:44
+1. apply for Msia eVisa for family [] []
+2. SLS-4702 getProductInformation, need to merge ProductInformation as well [x] [x] []
+3. Modify previous implememntations to be based on ids []
+4. LeetCode [x]
+5. Try to book a Chiro Session []
+6.  File Medical Claims [] 
+7.  IRAS file tax []
+8.  Secure code Warriors []
+9.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+10. 致18年后的你. [] 
+11. Java Perforamnce []
+12. Exercise []
+13. JAVA 11 course. [] pg25
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+
+
+    
+
+## 2023-03-10 09:55:49
+1. apply for Msia eVisa for family [] []
+2. SLS-4702 getProductInformation, need to merge ProductInformation as well [x] [x] [x]
+3. Modify previous implememntations to be based on ids [x]
+4. LeetCode [], https://leetcode.com/problems/cut-off-trees-for-golf-event/description/
+5. Try to book a Chiro Session []
+6.  File Medical Claims [] 
+7.  IRAS file tax []
+8.  Secure code Warriors []
+9.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+10. 致18年后的你. [] 
+11. Java Perforamnce []
+12. Exercise []
+13. JAVA 11 course. [] pg25
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+    
