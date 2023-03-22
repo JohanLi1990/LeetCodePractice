@@ -5214,3 +5214,229 @@ Please also familiarise yourself with Binance Values. You can find more informat
 15. Participate in one contest. []
 16. Sell laptops []
     
+## 2023-03-11 07:07:45
+1. LeetCode [x]
+2. GIT [] Linux []
+3. apply for Msia eVisa for family [] []
+4. Try to book a Chiro Session []
+5.  File Medical Claims [] 
+6.  IRAS file tax []
+7.  Secure code Warriors []
+8.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+9.  致18年后的你. [] 
+10. Java Perforamnce []
+11. Exercise []
+12. JAVA 11 course. [] pg25
+13. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+14. Participate in one contest. []
+15. Sell laptops []
+
+## 2023-03-14 15:36:30
+1. LeetCode [x] [x]
+2. GIT [x] Linux []
+3. apply for Msia eVisa for family [x] []
+4. Try to book a Chiro Session []
+5.  File Medical Claims [] 
+6.  IRAS file tax []
+7.  Secure code Warriors []
+8.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+9.  致18年后的你. [] 
+10. Java Perforamnce []
+11. Exercise []
+12. JAVA 11 course. [] pg25
+13. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+14. Participate in one contest. []
+15. Sell laptops []
+
+## 2023-03-15 07:09:14
+1. Review All include reference ticket []
+2. Update Jenkins version to latest []
+3. Upload MC []
+4. Exercise []
+5. LeetCode []
+6. GIT [] Linux []
+7. apply for Msia eVisa for family []
+8. Try to book a Chiro Session []
+9.  File Medical Claims [] 
+10. IRAS file tax []
+11. Secure code Warriors []
+12. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+13. 致18年后的你. [] 
+14. Java Perforamnce []
+15. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+16. Participate in one contest. []
+17. Sell laptops []
+18. 3D blogs []
+
+Reviews Comments:
+- DeleteProduct.java, line 169 forceDeleteProduct, need to use Tranctional annotations, in case we have a problem, we can roll back. 
+
+
+## 2023-03-16 10:14:41
+1. Review All include reference ticket [x]
+2. Update Jenkins version to latest []
+3. Upload MC [x]
+4. Exercise []
+5. LeetCode []
+6. GIT [] Linux []
+7. apply for Msia eVisa for family []
+8. Try to book a Chiro Session []
+9.  File Medical Claims [x] 
+10. IRAS file tax []
+11. Secure code Warriors []
+12. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+13. 致18年后的你. [] 
+14. Java Perforamnce []
+15. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+16. Participate in one contest. []
+17. Sell laptops []
+18. 3D blogs []
+
+Reviews Comments:
+- DeleteProduct.java, line 169 forceDeleteProduct, need to use Tranctional annotations, in case we have a problem, we can roll back. 
+- ProductUpdater.java, line 74, it is best to also put transaction annotations at service level, so that if this unit of work logic gets exceptions (updateProduct method), our database gets rolled back.
+- ParseSavedConfig,.java: Line 155 should change to 
+  List<String> sortedKeys = new ArrayList<>(customerNames.keySet());
+- PRoductUnicity.java, Line 26, use booleanValue() to simplify code
+- ProductUnicity.java, Line 51, use lamda expression, and Math.max to simplify the code. 
+- ProductUnicity.java, line 84 to 94, refactor into else if
+- ProductUnicity.java, method getAllRevisionsFromPARefOrCIRef, we can combine some of the if else, using else if
+
+## 2023-03-17 09:33:13
+1. Activate bank card [x]
+2. Order food for Friday []
+3. LeetCode []
+4. GIT [x] Linux []
+5. Exercise []
+6. Update Jenkins version to latest []
+7. apply for Msia eVisa for family []
+8. Try to book a Chiro Session []
+9. Name Rona for CPF []
+10. IRAS file tax []
+11. Secure code Warriors []
+12. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+13. 致18年后的你. [] 
+14. Java Perforamnce []
+15. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+16. Participate in one contest. []
+17. Sell laptops []
+18. 3D blogs []
+
+# 2023-03-19 05:34:55
+1. Update medical claims [x]
+2. LeetCode []
+3. GIT [x] Linux []
+4. Exercise []
+5. Update Jenkins version to latest []
+6. apply for Msia eVisa for family []
+7. Try to book a Chiro Session []
+8. Name Rona for CPF []
+9.  IRAS file tax [x]
+10. Secure code Warriors []
+11. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+12. 致18年后的你. [] 
+13. Java Perforamnce []
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+17. 3D blogs []
+
+# 2023-03-20 10:41:11
+1. Review Rafael Ticket [x]
+2. LeetCode []
+3. GIT [x] BASH LINUX []
+4. Exercise [x]
+5. Update Jenkins version to latest []
+6. apply for Msia eVisa for family []
+7. Try to book a Chiro Session []
+8. Name Rona for CPF []
+9. Secure code Warriors []
+10. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+11. 致18年后的你. [] 
+12. Java Perforamnce []
+13. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+14. Participate in one contest. []
+15. Sell laptops []
+16. 3D blogs []
+
+
+# 2023-03-21 06:07:14
+1. Run CPL automation tests []
+2. LeetCode []
+3. GIT [] BASH LINUX []
+4. Exercise [x]
+5. Update Jenkins version to latest []
+6. apply for Msia eVisa for family []
+7. Try to book a Chiro Session []
+8. Name Rona for CPF []
+9. Secure code Warriors []
+10. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+11. 致18年后的你. [] 
+12. Java Perforamnce []
+13. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+14. Participate in one contest. []
+15. Sell laptops []
+16. 3D blogs []
+
+
+# 2023-03-22 05:46:59
+1. LeetCode []
+2. GIT [x] BASH LINUX []
+3. Exercise []
+4. Update Jenkins version to latest []
+5. apply for Msia eVisa for family []
+6. Try to book a Chiro Session []
+7. Name Rona for CPF []
+8. Secure code Warriors []
+9.  Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+10. 致18年后的你. [] 
+11. Java Perforamnce []
+12. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+13. Participate in one contest. []
+14. Sell laptops []
+15. 3D blogs []

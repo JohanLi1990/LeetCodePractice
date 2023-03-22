@@ -37,7 +37,8 @@
 
 
 ## 2. EveryDay Practice (Focus on Old Questions first)
-
+https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/
+- *DoAgain* [1521. Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/description/))
 - *DoAgain* [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)
 - *DoAgain* [960. Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/description/)
 - *DoAgain* [1488. Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/)  need to apply treeset flexibily
@@ -1112,13 +1113,13 @@ public void buildTree(int treeIndex, int lo, int hi, int[] A)){
 // updateTree(0, 0, n - 1, target, val)
 public void updateTree(int treeIndex, int lo, int hi, int target, int val){
     if (lo == hi){
-        tree[treeIndex] = val;
+        tree[treeIndex] += val;
         return;
     }
     int mid = lo + (hi - lo)/2;
     if (target <= mid){
         updateTree(treeIndex * 2 + 1, lo, mid, target, val);
-    } else if  {
+    } else {
         updateTree(treeIndex * 2 + 2, mid + 1, hi, target, val);
     }
     tree[treeIndex] = tree[treeIndex * 2 + 1] + tree[treeIndex * 2 + 2]
@@ -1129,10 +1130,10 @@ public int queryTree(int treeIndex, int lo, int hi, int left, int right){
     if (lo >= left && hi <= right) return tree[treeIndex];
     int mid = lo + (hi - lo) / 2;
 
-    int left = queryTree(treeIndex * 2 + 1, lo, mid, left, right);
-    int right = queryTree(treeIndex * 2 + 2, mid + 1, hi, left, right);
+    int leftval = queryTree(treeIndex * 2 + 1, lo, mid, left, right);
+    int rightval = queryTree(treeIndex * 2 + 2, mid + 1, hi, left, right);
 
-    return left + right;
+    return leftval + rightval;
 }
 
 ```
