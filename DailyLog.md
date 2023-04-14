@@ -5420,7 +5420,7 @@ Reviews Comments:
 
 
 # 2023-03-22 05:46:59
-1. LeetCode []
+1. LeetCode [x]
 2. GIT [x] BASH LINUX []
 3. Exercise []
 4. Update Jenkins version to latest []
@@ -5440,3 +5440,184 @@ Reviews Comments:
 13. Participate in one contest. []
 14. Sell laptops []
 15. 3D blogs []
+
+# 2023-04-01 08:24:57
+1. One hour of GIT Lesson [] 
+2. One hour of MicroService Lesson[]
+3. One hour of Reactive Programming Lesson []
+4. BASH LINUX []
+5. LeetCode []
+6. Exercise []
+7. Update Jenkins version to latest []
+8. Try to book a Chiro Session []
+9. Name Rona for CPF []
+10. Secure code Warriors []
+11. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+12. 致18年后的你. [] 
+13. Java Perforamnce []
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+17. 3D blogs []
+
+# 2023-04-05 15:05:35
+1. 体检 [x] 15/4/2023 早晨
+3. 妈妈肠胃镜 []
+4. 上坟装饰 [x]
+5. One hour of GIT Lesson [x] 
+6. One hour of MicroService Lesson[]
+7. One hour of Reactive Programming Lesson []
+8. BASH LINUX []
+9. LeetCode [X]
+10. Exercise []
+11. Update Jenkins version to latest []
+12. Try to book a Chiro Session []
+13. Name Rona for CPF []
+14. Medication-Planning project []
+   - help user plan their medications, when to take the medications, how much
+   - show how much medication left, if not enough for 3 days, show warning
+   - show medication side effects
+   - show medication interactions with one another.
+15. 致18年后的你. [] 
+16. Java Perforamnce []
+17. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+18. Participate in one contest. []
+19. Sell laptops []
+20. 3D blogs []
+
+# 2023-04-06 09:39:29
+1. 妈妈肠胃镜 [] 11/4/2023
+2. One hour of GIT Lesson [x] 
+3. One hour of MicroService Lesson[]
+4. One hour of Reactive Programming Lesson []
+5. 体检 15/4/2023 早晨 [] [x]
+6. BASH LINUX []
+7.  LeetCode []
+8.  Exercise []
+9.  Update Jenkins version to latest []
+10. Try to book a Chiro Session []
+11. 致18年后的你. [] 
+12. Java Perforamnce []
+13. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+14. Participate in one contest. []
+15. Sell laptops []
+16. 3D blogs []
+
+# 2023-04-07 13:33:39
+1. 爬山 早晨 [] 9/4/2023 8:30
+2. 妈妈肠胃镜 [] 11/4/2023
+3. One hour of MicroService Lesson[]
+4. One hour of Reactive Programming Lesson []
+5. 体检 15/4/2023 早晨 [] [x]
+6. BASH LINUX []
+7.  LeetCode []
+8.  Exercise []
+9.  Update Jenkins version to latest []
+10. Try to book a Chiro Session []
+11. 致18年后的你. [] 
+12. Java Perforamnce []
+13. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+14. Participate in one contest. []
+15. Sell laptops []
+16. 3D blogs []
+
+# 2023-04-07 13:33:39
+1. 爬山 早晨 [x] 9/4/2023 8:30
+2. 零食, 饮料 [x], 三明治 [x]
+3. 妈妈肠胃镜 [] 11/4/2023
+4. One hour of MicroService Lesson[x]
+5. One hour of Reactive Programming Lesson []
+6. 体检 15/4/2023 早晨 [] [x]
+7. BASH LINUX []
+8.  LeetCode [x]
+9.  Exercise []
+10. Update Jenkins version to latest []
+11. Try to book a Chiro Session []
+12. 致18年后的你. [] 
+13. Java Perforamnce []
+14. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+15. Participate in one contest. []
+16. Sell laptops []
+17. 3D blogs []
+
+# 2023-04-10 07:48:40
+1. 给Jenkins upgrade[x]
+2. 修手表 []
+3. 转移鱼缸 [x] [x]困水
+4. 妈妈肠胃镜 [x] 11/4/2023
+5. One hour of MicroService Lesson[x]
+6. One hour of Reactive Programming Lesson []
+7. 体检 15/4/2023 早晨 [] [x]
+8. BASH LINUX []
+9.  LeetCode []
+10. Exercise []
+11. Update Jenkins version to latest []
+12. Try to book a Chiro Session []
+13. 致18年后的你. [] 
+14. Java Perforamnce []
+15. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+16. Participate in one contest. []
+17. Sell laptops []
+18. 3D blogs []
+
+# 2023-04-12 07:46:31
+1. Buy Wife present [x]
+2. One hour of MicroService Lesson[x]
+3. One hour of Reactive Programming Lesson []
+4. 体检 15/4/2023 早晨 [] [x]
+5. BASH LINUX []
+6.  LeetCode [x]
+7.  Exercise []
+8.  Update Jenkins version to latest [x]
+9.  Try to book a Chiro Session []
+10. 致18年后的你. [] 
+11. Java Perforamnce []
+12. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+13. Participate in one contest. []
+14. Sell laptops []
+15. 3D blogs []
+
+# 2023-04-13 10:24:22
+1. Buy luggage [x]
+2. One hour of MicroService Lesson[x]
+3. One hour of Reactive Programming Lesson []
+4. 体检 15/4/2023 早晨 [] [x]
+5.  LeetCode [x]
+6.  Exercise []
+7.  Try to book a Chiro Session []
+8.  致18年后的你. [] 
+9.  Java Perforamnce []
+10. Moomoo tutorial beginner []
+    Think about which stock to invest in for one year. []
+11. Participate in one contest. []
+12. Sell laptops []
+13. Create a spring boot applicaiton, takes request, query openapi, and return openapi response. []
+14. 3D blogs []
+
+# 2023-04-14 08:13:55
+- [ ] Study JNDI injections issue 
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] 体检 15/4/2023 早晨 
+- [ ] LeetCode
+- [ ] Exercise 
+- [ ] Try to book a Chiro Session 
+- [ ] 致18年后的你.
+- [ ] Java Perforamnce 
+- [ ] Moomoo tutorial beginner 
+- [ ] Think about which stock to invest in for one year. 
+- [ ] Participate in one contest. 
+- [ ] Sell laptops 
+- [ ] Create a spring boot applicaiton, takes request, query openapi, and return openapi response. 
+- [ ] 3D blogs 

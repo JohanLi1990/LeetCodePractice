@@ -20,6 +20,7 @@
   - [5.5. What is threadLocal](#55-what-is-threadlocal)
   - [5.6. Common threadsafe datastructures](#56-common-threadsafe-datastructures)
   - [5.7. Producer Consumer Pattern](#57-producer-consumer-pattern)
+  - [5.8. CompletableFuture for Asynchronous Event handling](#58-completablefuture-for-asynchronous-event-handling)
 - [6. Design Patterns](#6-design-patterns)
   - [6.1. Common Design Patterns](#61-common-design-patterns)
   - [6.2. Inversion of Control](#62-inversion-of-control)
@@ -79,6 +80,7 @@
   - [13.6. Best Practices](#136-best-practices)
     - [13.6.1. why is String final in Java](#1361-why-is-string-final-in-java)
     - [13.6.2. JDBC best practices](#1362-jdbc-best-practices)
+- [14. How to use OPENAI API in SpringBoot Project](#14-how-to-use-openai-api-in-springboot-project)
 
 Page 23
 # 2. Lesson Learnt for Interview Experiences
@@ -293,7 +295,28 @@ public class SimpleProducerConsumerDemonstrator {
     }
 
 ```
+## 5.8. CompletableFuture for Asynchronous Event handling
 
+We need our code to be non-blocking for most of the time. 
+If we need to make use of the result obtained from a execution pool
+we can do 
+```java
+  var futures = executor.invokeAll(tasks);
+  for (var f : futures) {
+    var result = f.get();
+    // perform callback
+  }
+
+```
+However this code is blocking, because f.get() will block the current thread, and the for loop also is not efficient. We have to wait for all tasks to finish.
+CompletableFuture resolve this by allowing the next callback to be triggered, whenever the first is done. 
+
+```java
+var cf = CompletableFuture.supplyAsync(this::getSthSlow, executor);
+cf.thenAccept(results::add); // also a great way to handle callback
+```
+
+[Another Example](https://leetcode.com/problems/web-crawler-multithreaded/solutions/2973071/very-fast-java-completablefuture-solution-5ms/)
 
 
 # 6. Design Patterns
@@ -844,3 +867,79 @@ Backlog refinement / sprint planning to refine work.
 <property name = "hibernate.jdbc.batch_size">50</property>
 ```
 - Replication and Sharding
+
+
+# 14. How to use OPENAI API in SpringBoot Project
+
+```xml
+<dependency>
+    <groupId>com.openai</groupId>
+    <artifactId>openai-java</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+Create a OpenAIService class that will interact with the OpenAI API. 
+This class should use the OpenAI class from the OpenAI Java client library to make API requests.
+```java
+import com.openai.OpenAI;
+import com.openai.exception.AuthenticationException;
+import com.openai.exception.OpenAIException;
+import com.openai.model.CompletionRequest;
+import com.openai.model.CompletionResponse;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+@Service
+public class OpenAIService {
+
+    @Value("${openai.apiKey}")
+    private String apiKey;
+
+    private OpenAI openAI;
+
+    public OpenAIService() {
+        this.openAI = new OpenAI(apiKey);
+    }
+
+    public String generateText(String prompt, String model, int maxTokens, double temperature) throws AuthenticationException, OpenAIException {
+        CompletionRequest request = new CompletionRequest.Builder()
+                .prompt(prompt)
+                .model(model)
+                .maxTokens(maxTokens)
+                .temperature(temperature)
+                .build();
+
+        CompletionResponse response = openAI.complete(request);
+        return response.getChoices().get(0).getText();
+    }
+}
+
+```
+
+In your controller class, inject the OpenAIService and call the generateText() method to generate text using the OpenAI API.
+```java
+import com.openai.exception.AuthenticationException;
+import com.openai.exception.OpenAIException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TextGenerationController {
+
+    @Autowired
+    private OpenAIService openAIService;
+
+    @GetMapping("/generateText")
+    public String generateText(@RequestParam String prompt,
+                               @RequestParam String model,
+                               @RequestParam int maxTokens,
+                               @RequestParam double temperature) throws AuthenticationException, OpenAIException {
+        return openAIService.generateText(prompt, model, maxTokens, temperature);
+    }
+}
+
+```
