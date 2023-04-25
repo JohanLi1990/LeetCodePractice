@@ -21,66 +21,71 @@
   - [5.6. Common threadsafe datastructures](#56-common-threadsafe-datastructures)
   - [5.7. Producer Consumer Pattern](#57-producer-consumer-pattern)
   - [5.8. CompletableFuture for Asynchronous Event handling](#58-completablefuture-for-asynchronous-event-handling)
-- [6. Design Patterns](#6-design-patterns)
-  - [6.1. Common Design Patterns](#61-common-design-patterns)
-  - [6.2. Inversion of Control](#62-inversion-of-control)
-  - [6.3. SOLID Principle:](#63-solid-principle)
-  - [6.4. Design Patterns in Spring:](#64-design-patterns-in-spring)
-- [7. Spring Framework](#7-spring-framework)
-  - [7.1. IoC and its implementations](#71-ioc-and-its-implementations)
-  - [7.2. Bean Life Cycle](#72-bean-life-cycle)
-  - [7.3. Bean Scope:](#73-bean-scope)
-  - [7.4. How to gurantee thread safety for a Bean?](#74-how-to-gurantee-thread-safety-for-a-bean)
-  - [7.5. How does Spring solve Cycle Dependency between two Beans](#75-how-does-spring-solve-cycle-dependency-between-two-beans)
-  - [7.6. Autowire Need for Disambiguation](#76-autowire-need-for-disambiguation)
-  - [7.7. Spring Transactions Management](#77-spring-transactions-management)
-- [8. Behaviour Interviews](#8-behaviour-interviews)
-  - [8.1. Customer Obsession](#81-customer-obsession)
-- [9. OS Interview Questions](#9-os-interview-questions)
-  - [9.1. Process vs Threads](#91-process-vs-threads)
-- [10. Network Interview Questions](#10-network-interview-questions)
-  - [10.1. TCP/IP Model of Network](#101-tcpip-model-of-network)
-  - [10.2. What happens when you enter URL int a web browser](#102-what-happens-when-you-enter-url-int-a-web-browser)
-  - [10.3. Idempotency](#103-idempotency)
-  - [10.4. GET vs POST](#104-get-vs-post)
-  - [10.5. PUT vs PATCH vs POST](#105-put-vs-patch-vs-post)
-  - [10.6. HTTP vs HTTPS](#106-http-vs-https)
-  - [10.7. How Does HTTPS work](#107-how-does-https-work)
-  - [10.8. TCP vs UDP](#108-tcp-vs-udp)
-  - [10.9. TCP 4-way HandShake to terminate connection](#109-tcp-4-way-handshake-to-terminate-connection)
-  - [10.10. XSS Reflected vs Persistent vs DOM](#1010-xss-reflected-vs-persistent-vs-dom)
-- [11. Database Questions](#11-database-questions)
-  - [11.1. ACID Compliance](#111-acid-compliance)
-  - [11.2. CAP Therom](#112-cap-therom)
-  - [11.3. SQL index, what are they, when do you use them?](#113-sql-index-what-are-they-when-do-you-use-them)
-  - [11.4. WHy not indexing all columns?](#114-why-not-indexing-all-columns)
-  - [11.5. Clustered vs Non-Clustered index](#115-clustered-vs-non-clustered-index)
-  - [11.6. Explain keyword MySQL](#116-explain-keyword-mysql)
-  - [11.7. MYSQL 回表](#117-mysql-回表)
-  - [11.8. MYSQL how to enable Master Slave Replication](#118-mysql-how-to-enable-master-slave-replication)
-  - [11.9. MySQL dynamically scalling.](#119-mysql-dynamically-scalling)
-- [12. System Design Interview](#12-system-design-interview)
-  - [12.1. what kind of questions should I ask???](#121-what-kind-of-questions-should-i-ask)
-  - [12.2. Back Of Envelop Calculation](#122-back-of-envelop-calculation)
-  - [12.3. Basic Building Blocks](#123-basic-building-blocks)
-    - [12.3.1. Domain Name system](#1231-domain-name-system)
-    - [12.3.2. Load Balancers](#1232-load-balancers)
-    - [12.3.3. Database](#1233-database)
-      - [12.3.3.1. SQL vs NoSQL](#12331-sql-vs-nosql)
-      - [12.3.3.2. Data Replication](#12332-data-replication)
-      - [12.3.3.3. Data Distributions](#12333-data-distributions)
-    - [12.3.4. Key-Value Store](#1234-key-value-store)
-    - [12.3.5. Distributed Search](#1235-distributed-search)
-- [13. Effective Software Engineering](#13-effective-software-engineering)
-  - [13.1. Six pillars of Effective Software](#131-six-pillars-of-effective-software)
-  - [13.2. From Customer Insights to Internal Requirements](#132-from-customer-insights-to-internal-requirements)
-  - [13.3. Implementation and Coding](#133-implementation-and-coding)
-  - [13.4. Testing and Quality Assurance](#134-testing-and-quality-assurance)
-  - [13.5. Clean Code in Java](#135-clean-code-in-java)
-  - [13.6. Best Practices](#136-best-practices)
-    - [13.6.1. why is String final in Java](#1361-why-is-string-final-in-java)
-    - [13.6.2. JDBC best practices](#1362-jdbc-best-practices)
-- [14. How to use OPENAI API in SpringBoot Project](#14-how-to-use-openai-api-in-springboot-project)
+- [6. Java New Features since Java 11](#6-java-new-features-since-java-11)
+- [7. Design Patterns](#7-design-patterns)
+  - [7.1. Common Design Patterns](#71-common-design-patterns)
+  - [7.2. Inversion of Control](#72-inversion-of-control)
+  - [7.3. SOLID Principle:](#73-solid-principle)
+  - [7.4. Design Patterns in Spring:](#74-design-patterns-in-spring)
+- [8. Spring Framework](#8-spring-framework)
+  - [Spring Framework vs J2EE](#spring-framework-vs-j2ee)
+  - [Design consideration of using DispatchServlet](#design-consideration-of-using-dispatchservlet)
+  - [8.1. IoC and its implementations](#81-ioc-and-its-implementations)
+  - [8.2. Bean Life Cycle](#82-bean-life-cycle)
+  - [8.3. Bean Scope:](#83-bean-scope)
+  - [8.4. How to gurantee thread safety for a Bean?](#84-how-to-gurantee-thread-safety-for-a-bean)
+  - [8.5. How does Spring solve Cycle Dependency between two Beans](#85-how-does-spring-solve-cycle-dependency-between-two-beans)
+  - [8.6. Autowire Need for Disambiguation](#86-autowire-need-for-disambiguation)
+  - [8.7. Spring Transactions Management](#87-spring-transactions-management)
+- [9. Behaviour Interviews](#9-behaviour-interviews)
+  - [9.1. Customer Obsession](#91-customer-obsession)
+- [10. OS Interview Questions](#10-os-interview-questions)
+  - [10.1. Process vs Threads](#101-process-vs-threads)
+- [11. Network Interview Questions](#11-network-interview-questions)
+  - [11.1. TCP/IP Model of Network](#111-tcpip-model-of-network)
+  - [11.2. What happens when you enter URL int a web browser](#112-what-happens-when-you-enter-url-int-a-web-browser)
+  - [11.3. Idempotency](#113-idempotency)
+  - [11.4. GET vs POST](#114-get-vs-post)
+  - [11.5. PUT vs PATCH vs POST](#115-put-vs-patch-vs-post)
+  - [11.6. HTTP vs HTTPS](#116-http-vs-https)
+  - [11.7. How Does HTTPS work](#117-how-does-https-work)
+  - [11.8. TCP vs UDP](#118-tcp-vs-udp)
+  - [11.9. TCP 4-way HandShake to terminate connection](#119-tcp-4-way-handshake-to-terminate-connection)
+  - [11.10. XSS Reflected vs Persistent vs DOM](#1110-xss-reflected-vs-persistent-vs-dom)
+- [12. Database Questions](#12-database-questions)
+  - [12.1. ACID Compliance](#121-acid-compliance)
+  - [12.2. CAP Therom](#122-cap-therom)
+  - [12.3. SQL index, what are they, when do you use them?](#123-sql-index-what-are-they-when-do-you-use-them)
+  - [12.4. WHy not indexing all columns?](#124-why-not-indexing-all-columns)
+  - [12.5. Clustered vs Non-Clustered index](#125-clustered-vs-non-clustered-index)
+  - [12.6. Explain keyword MySQL](#126-explain-keyword-mysql)
+  - [12.7. MYSQL 回表](#127-mysql-回表)
+  - [12.8. MYSQL how to enable Master Slave Replication](#128-mysql-how-to-enable-master-slave-replication)
+  - [12.9. MySQL dynamically scalling.](#129-mysql-dynamically-scalling)
+- [13. System Design Interview](#13-system-design-interview)
+  - [13.1. what kind of questions should I ask???](#131-what-kind-of-questions-should-i-ask)
+  - [13.2. Back Of Envelop Calculation](#132-back-of-envelop-calculation)
+  - [13.3. Basic Building Blocks](#133-basic-building-blocks)
+    - [13.3.1. Domain Name system](#1331-domain-name-system)
+    - [13.3.2. Load Balancers](#1332-load-balancers)
+    - [13.3.3. Database](#1333-database)
+      - [13.3.3.1. SQL vs NoSQL](#13331-sql-vs-nosql)
+      - [13.3.3.2. Data Replication](#13332-data-replication)
+      - [13.3.3.3. Data Distributions](#13333-data-distributions)
+    - [13.3.4. Key-Value Store](#1334-key-value-store)
+    - [13.3.5. Distributed Search](#1335-distributed-search)
+- [14. Effective Software Engineering](#14-effective-software-engineering)
+  - [14.1. Six pillars of Effective Software](#141-six-pillars-of-effective-software)
+  - [14.2. From Customer Insights to Internal Requirements](#142-from-customer-insights-to-internal-requirements)
+  - [14.3. Implementation and Coding](#143-implementation-and-coding)
+  - [14.4. Testing and Quality Assurance](#144-testing-and-quality-assurance)
+  - [14.5. Clean Code in Java](#145-clean-code-in-java)
+  - [14.6. Best Practices](#146-best-practices)
+    - [14.6.1. why is String final in Java](#1461-why-is-string-final-in-java)
+    - [14.6.2. JDBC best practices](#1462-jdbc-best-practices)
+- [15. How to use OPENAI API in SpringBoot Project](#15-how-to-use-openai-api-in-springboot-project)
+- [16. Another way to improve Grammar via GrammarBot API (Not Feasible)](#16-another-way-to-improve-grammar-via-grammarbot-api-not-feasible)
+- [17. Use old laptop as a proxy server](#17-use-old-laptop-as-a-proxy-server)
 
 Page 23
 # 2. Lesson Learnt for Interview Experiences
@@ -318,12 +323,51 @@ cf.thenAccept(results::add); // also a great way to handle callback
 
 [Another Example](https://leetcode.com/problems/web-crawler-multithreaded/solutions/2973071/very-fast-java-completablefuture-solution-5ms/)
 
+# 6. Java New Features since Java 11
 
-# 6. Design Patterns
+**Record Class**
+a simplified pojo
+[Record class](https://docs.oracle.com/en/java/javase/15/language/records.html)
+
+**Enhanced Switch Pattern**
+```java
+static record Human (String name, int age, String profession) {}
+
+public String checkObject(Object obj) {
+    return switch (obj) {
+        case Human h -> "Name: %s, age: %s and profession: %s".formatted(h.name(), h.age(), h.profession());
+        case Circle c -> "This is a circle";
+        case Shape s -> "It is just a shape";
+        case null -> "It is null";
+        default -> "It is an object";
+    };
+}
+
+public String checkShape(Shape shape) {
+    return switch (shape) {
+        case Triangle t && (t.getNumberOfSides() != 3) -> "This is a weird triangle";
+        case Circle c && (c.getNumberOfSides() != 0) -> "This is a weird circle";
+        default -> "Just a normal shape";
+    };
+}
+
+```
+
+**Java Sealed Class and Interface**
+[sealed class/ interface](https://www.baeldung.com/java-sealed-classes-interfaces)
+Define super class or interface extendable only to a few subclass
+This feature is about enabling more fine-grained inheritance control in Java. Sealing allows classes and interfaces to define their permitted subtypes.
+
+**Java Virtual Threads**
+TBD 
+[documents](https://www.happycoders.eu/java/virtual-threads/)
+
+
+# 7. Design Patterns
 
 Best practices evolved over a period of time by experienced software developer
 
-## 6.1. Common Design Patterns
+## 7.1. Common Design Patterns
 
 - **Singleton**: Manage global states, cache, threadpools, registries
 - **Factory Pattern**: pass types to get a class. so I have decoupled myself from the actual constuctor methods. E.g. Hiring Process
@@ -387,7 +431,7 @@ public class Pizza {
 
 - **Proxy pattern** : Proxy pattern is used when we need to create a wrapper to cover the main object's complexity from the client. 
 
-## 6.2. Inversion of Control
+## 7.2. Inversion of Control
 
 ```java
 // instaed of doing 
@@ -414,7 +458,7 @@ public class TextEditor {
 
 ```
 
-## 6.3. SOLID Principle:
+## 7.3. SOLID Principle:
 
 - **Single Responsibility**: Do one thing and one thing only, if too much responsiblity need to refactor. 
 - **Open/Closed** : Open for Extension, Closed for Modifications
@@ -422,42 +466,53 @@ public class TextEditor {
 - **Interface Segregation**: Do not put all methods together.
 - **Dependency Inversion**: Classes should depend only on abstractions and not on their concrete implementations
 
-## 6.4. Design Patterns in Spring:
+## 7.4. Design Patterns in Spring:
 - Factory, Bean Factory, Application Context
 - Proxy Pattern, Spring AOP is one example
 - Template Pattern (Strategy pattern): JDBCTemplate RestTemplate
 - Observer Pattern: ApplicationEvent
 - Adapter Pattern: Spring use adapter pattern to adapt to differnet controller
 
-# 7. Spring Framework
+# 8. Spring Framework
 
-## 7.1. IoC and its implementations
+## Spring Framework vs J2EE
+- J2EE is a set of APIs for developing distributed, multi-tierd web-based applications. 
+- Spring is a lightweight open-source framework for builiding enterprise level Java applications
+- Spring simplifies the design process, and reduce boiler plate codes.
+- Sppring offers several features that J@EE does not provide out-of-the box, such as writing unit test for your code, and support for annotation-based configuration, which can significantly reduce the amount of XML configuration required. 
+
+## Design consideration of using DispatchServlet
+- Provide scalable and modular architecture for bulding web applications, direct appropriate request to controllers,
+- Ability to handle multiple type of request (including HTTP,SOAP)
+- Support for pluggable view technologies, so we can get rid of jsps.
+
+## 8.1. IoC and its implementations
 Spring Core Container : BeanFactory + Application Context
 how Spring core initialize: load configuration metadata --> BeanDefinitionReader --> Create BeanDefintions --> put in Registry
 
-## 7.2. Bean Life Cycle
+## 8.2. Bean Life Cycle
 - instantiation:
 - populate:
 - Initialization: Aware(setBeanName, setBeanFactory, setBeanApplicationContext) --- PreInitBeanPostProcessor - -- AfterPropertiesSet()-- Init() --- PostInitBeanPostProcessor ---- destroy
 - Destruction:
 
-## 7.3. Bean Scope:
+## 8.3. Bean Scope:
 Prototyp - Singleton - Session - Request - Application - WebSocket
 
-## 7.4. How to gurantee thread safety for a Bean?
+## 8.4. How to gurantee thread safety for a Bean?
 - Singleton? Bean has to be stateless
 - Prototype? Put Bean's state in a ThreadLocal wrapper. 
 
-## 7.5. How does Spring solve Cycle Dependency between two Beans
+## 8.5. How does Spring solve Cycle Dependency between two Beans
  only works if both are setter injections, both are attribute injections, or one of them is setter inject (setter should gets instantiated first, then constructor, doesn't work other ways)
  doesn't work if both are constructor injections.
  This is because bean populate phase and instantiation phase are separate.
 
-## 7.6. Autowire Need for Disambiguation
+## 8.6. Autowire Need for Disambiguation
 use @Qualifier annotation
 use @Primary for default
 
-## 7.7. Spring Transactions Management
+## 8.7. Spring Transactions Management
 Enabled by default in Spring Boot.
 When enabled we can use @Transactional to annotate a bean.
 
@@ -477,17 +532,17 @@ Read.serialized, no concurrency atall
 
 
 
-# 8. Behaviour Interviews
+# 9. Behaviour Interviews
 
-## 8.1. Customer Obsession
+## 9.1. Customer Obsession
 
 Story:
 How to make customer happy? Understanding -> Planning -> Executing -> Assessing
 *Context*: 
 
-# 9. OS Interview Questions
+# 10. OS Interview Questions
 
-## 9.1. Process vs Threads
+## 10.1. Process vs Threads
 | Process | Threads |
 | --------|----------|
 | Processes are isolated | Threads share memeory |
@@ -497,9 +552,9 @@ How to make customer happy? Understanding -> Planning -> Executing -> Assessing
 | It takes more time for creation. | It takes less time for creation. |
 
 
-# 10. Network Interview Questions
+# 11. Network Interview Questions
 
-## 10.1. TCP/IP Model of Network
+## 11.1. TCP/IP Model of Network
 
 **Application Layer**: HTTP, DNS, FTP, NFS< Telnet, SNMP, SRC, 
 **Transport Layer**: TCP / UDP
@@ -507,7 +562,7 @@ How to make customer happy? Understanding -> Planning -> Executing -> Assessing
 **DataLink**: Error prevention and Point to Point Protocol framing
 **Physical Layer**: Bit transmission
 
-## 10.2. What happens when you enter URL int a web browser
+## 11.2. What happens when you enter URL int a web browser
 
 - broweser check cache for DNS records
   - browsers' own cache
@@ -520,16 +575,16 @@ How to make customer happy? Understanding -> Planning -> Executing -> Assessing
 - Server sends out an HTTP response
 - Browser displays HTML content
 
-## 10.3. Idempotency 
+## 11.3. Idempotency 
 
 Property of some operations such that no matter how many times you execute them, you achieve the same result
 
-## 10.4. GET vs POST
+## 11.4. GET vs POST
 - Get put request info in url, Post put in request body; Therefore Get can only carry limited amount of request, whereas POST can carry much more; with request in url, the data is exposed, wheres for POST it is more secure. 
 - Get is more idempotent and secure from DATABASE perspective, it is not used to change data in database,
 - Get request can be cached by browser, because it is idempotent, thereby reducing burden on the web server. 
 
-## 10.5. PUT vs PATCH vs POST
+## 11.5. PUT vs PATCH vs POST
 
 |S.No. |	PUT |	PATCH|
 |------|------|------|
@@ -540,14 +595,14 @@ Property of some operations such that no matter how many times you execute them,
 Put is idempotent, 
 Patch and Post are not 
 
-## 10.6. HTTP vs HTTPS
+## 11.6. HTTP vs HTTPS
 HTTPS implements TLS (application layer security protocol) in between HTTP / TCP
 - HTTP connection relies on TCP (3-way handshakes) , HTTPS requries 3-way handshakes plus TLS handsahkes
 - HTTP is clear text transmission, HTTPS is encrypted
 - HTTP port is 80, HTTPS is 443
 - HTTPS requires Certificate from CA, to ensure Server is reliable
 
-## 10.7. How Does HTTPS work
+## 11.7. How Does HTTPS work
 - Client init request, connect to 443
 - Server side has Digital Certificate (Public key, Issuer Org, Expiry Date)
 - Server send D.C to Client
@@ -556,7 +611,7 @@ HTTPS implements TLS (application layer security protocol) in between HTTP / TCP
 - Server decrypt the Symmetric Key with its private key, to gain the real Symmetric key. And then use the real Symmetric Key to encrypt all future transmission. 
 - Client recevies transmission, and use Symmetric key to decrypt the transmission to get data. 
 
-## 10.8. TCP vs UDP
+## 11.8. TCP vs UDP
 
 [TCP](https://www.spiceworks.com/tech/networking/articles/tcp-vs-udp/)
 The transmission control protocol (TCP) is defined as a connection-oriented communication protocol that allows computing devices and applications to send data via a network and verify its delivery, forming one of the crucial pillars of the global internet.
@@ -573,7 +628,7 @@ Communication programs and computing devices utilize TCP for exchanging messages
 | Host to Host | Process to Process |
 | Handshakes | no Handshakes to ensure order|
 
-## 10.9. TCP 4-way HandShake to terminate connection
+## 11.9. TCP 4-way HandShake to terminate connection
 |Client|Server|
 |----|-----|
 |FIN |     |
@@ -581,7 +636,7 @@ Communication programs and computing devices utilize TCP for exchanging messages
 |      |FIN + ACK|
 |ACK|       |
 
-## 10.10. XSS Reflected vs Persistent vs DOM
+## 11.10. XSS Reflected vs Persistent vs DOM
 
 - A Persistent XSS attack is possible when a website or web application stores user input and later serves it to other users. 
 - Reflected XSS attacks, also known as non-persistent attacks, occur when a malicious script is reflected off of a web application to the victim’s browser. **it is not stored on the web site**. Website use the user input to create part of html without even verify it. 
@@ -591,27 +646,27 @@ Communication programs and computing devices utilize TCP for exchanging messages
 
 
 
-# 11. Database Questions
+# 12. Database Questions
 
-## 11.1. ACID Compliance
+## 12.1. ACID Compliance
 - Atomicity − A transaction should be treated as a single unit of operation, which means either the entire sequence of operations is successful or unsuccessful.
 - Consistency − This represents the consistency of the referential integrity of the database, unique primary keys in tables, etc. Not NUl, minimum 10 etc
 - Isolation − There may be many transaction processing with the same data set at the same time. Each transaction should be isolated- from others to prevent data corruption.
 - Durability − Once a transaction has completed, the results of this transaction have to be made permanent and cannot be erased from the database due to system failure.
 
-## 11.2. CAP Therom
+## 12.2. CAP Therom
 - Consistency : all users should see the same data at the same time
 - Availability: minimal downtime, every request received by a node should have a response
 - Partition tolerance: if part of the system breaks down it still functions. 
 
-## 11.3. SQL index, what are they, when do you use them?
+## 12.3. SQL index, what are they, when do you use them?
 
-## 11.4. WHy not indexing all columns?
+## 12.4. WHy not indexing all columns?
 - Too much memory
 - Too many index can hurt performance, especially when query a subset of the columns that are used for indexing.
 - [Clustered v.s. NonClustered, Use Cases Etc](https://medium.com/fintechexplained/clustered-vs-non-clustered-index-8efed55ed7b9)
 
-## 11.5. Clustered vs Non-Clustered index
+## 12.5. Clustered vs Non-Clustered index
 P.K ---> Clustered Index
 Unique ---> Non-Clustered Index
 
@@ -625,27 +680,27 @@ Unique ---> Non-Clustered Index
 
 [Clustered v.s. NonClustered, Use Cases Etc](https://medium.com/fintechexplained/clustered-vs-non-clustered-index-8efed55ed7b9)
 
-## 11.6. Explain keyword MySQL
+## 12.6. Explain keyword MySQL
 you can use explain keyword to help you optimize your search
 
-## 11.7. MYSQL 回表
+## 12.7. MYSQL 回表
 search use secondary index, but request for stuff it doesn't have, therefore need to traverse the table again for stuff. 
 
-## 11.8. MYSQL how to enable Master Slave Replication
+## 12.8. MYSQL how to enable Master Slave Replication
 - New Data written into  Master, master will update binlog
 - Master create a dump thread, and push binlog to slave
 - Slave when connected to master, will create an IO thread to take ino the binlog, and write to relaylog.
 - Slave will open another sql thread to read the relay log and execute in slave. thus synchronize
 - slave updates its own bin log. 
 
-## 11.9. MySQL dynamically scalling.
+## 12.9. MySQL dynamically scalling.
 
-# 12. System Design Interview
+# 13. System Design Interview
 
 [系统设计面试题整理](https://juejin.cn/post/6995797668190486535)
 [System Design Primer](https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md#%E5%BC%B1%E4%B8%80%E8%87%B4%E6%80%A7)
 
-## 12.1. what kind of questions should I ask???
+## 13.1. what kind of questions should I ask???
 [how to solve system design](https://www-zhihu-com.translate.goog/question/26312148?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc)
 
 - 这个系统的核心功能是什么？
@@ -662,7 +717,7 @@ search use secondary index, but request for stuff it doesn't have, therefore nee
 - What is the expected read to write ratio?
 
 
-## 12.2. Back Of Envelop Calculation
+## 13.2. Back Of Envelop Calculation
 
 Objectives
 - number of concurrent TCP connections a a server can support
@@ -717,15 +772,15 @@ Video: 5 * 25M / (86400) * 3MB = 375TB * 8 / 86400  = 3000TB / 86400 = 3 TB / 8.
 
 400Gb/s read, 16Gb/s write
 
-## 12.3. Basic Building Blocks
+## 13.3. Basic Building Blocks
 
-### 12.3.1. Domain Name system
-### 12.3.2. Load Balancers
+### 13.3.1. Domain Name system
+### 13.3.2. Load Balancers
 Health Cehcking(heart beat protocol)
 TLS terminations
-### 12.3.3. Database
+### 13.3.3. Database
 
-#### 12.3.3.1. SQL vs NoSQL
+#### 13.3.3.1. SQL vs NoSQL
 | SQL | NoSQL|
 |-----|------|
 | Impedence Mismatch | Simple Design |
@@ -733,27 +788,27 @@ TLS terminations
 | ACID Compliance | Highly available |
 
 Type of NoSQL (key value pair DynamoDB / Redis, Columnar / BigTable, HBase, Cassandra, Graph Neo4j, Document / MangoDB, CouchDB)
-#### 12.3.3.2. Data Replication
+#### 13.3.3.2. Data Replication
 Single leader / Multileader / peer to peer 
 Single Lead is most effective for high read.
 
-#### 12.3.3.3. Data Distributions
+#### 13.3.3.3. Data Distributions
 pros and cons
 
-### 12.3.4. Key-Value Store
+### 13.3.4. Key-Value Store
 
 
-### 12.3.5. Distributed Search
+### 13.3.5. Distributed Search
 crawling - indexing - searching
 
 
 
 
-# 13. Effective Software Engineering
+# 14. Effective Software Engineering
 
 Sometimes people will ask this. 
 
-## 13.1. Six pillars of Effective Software
+## 14.1. Six pillars of Effective Software
 - Meet users’ expectations
 - No defects
 - Scale out horizontally
@@ -761,7 +816,7 @@ Sometimes people will ask this.
 - Accelerate development pace
 - Double ROI per developer, team, and software
 
-## 13.2. From Customer Insights to Internal Requirements
+## 14.2. From Customer Insights to Internal Requirements
 talk to customers asap.
 Do white-board modelling, visualize entities and their relationships, 
 UML diagram or sequence diagram (Confluence)
@@ -771,7 +826,7 @@ Write Requirements and Stories in Ubiquitious language. Gherkin
 Backlog refinement / sprint planning to refine work. 
 
 
-## 13.3. Implementation and Coding
+## 14.3. Implementation and Coding
 
 - continuous Improving / refactoring
 - Quality over quantity
@@ -782,13 +837,13 @@ Backlog refinement / sprint planning to refine work.
   - Make sure to write unit tests for both back-end and front-end code
   - TDD, BDD
 
-## 13.4. Testing and Quality Assurance
+## 14.4. Testing and Quality Assurance
 - Test everything and automate everything
 - Test Design Per Case, Don't overload a test
 - Apply Test automatiion design patterns, Gherkin test pattern
 - Test Data Management, centralized / decentralized
 
-## 13.5. Clean Code in Java
+## 14.5. Clean Code in Java
 - Code should be Focused
 - Code should be Simple
 - Code should be Testable
@@ -805,9 +860,9 @@ Backlog refinement / sprint planning to refine work.
 - TDD, write test first before any code.
 - use linting tools, SonarQube SonarLint
 
-## 13.6. Best Practices
+## 14.6. Best Practices
 
-### 13.6.1. why is String final in Java
+### 14.6.1. why is String final in Java
 内存(memory)
 同步(synchronization)
 数据结构(data structure)
@@ -817,7 +872,7 @@ Backlog refinement / sprint planning to refine work.
 3. It is widely used in class loading, so if it is mutable we might load something dangerous, and destroy our security
 4. Immutable objects are threadsafe  by nature
 
-### 13.6.2. JDBC best practices
+### 14.6.2. JDBC best practices
 
 - Connection Pool is expensive, use HiKariCP. (default ConPool for Sprintboot 2)
 - Try to exectute batch request, 
@@ -869,7 +924,7 @@ Backlog refinement / sprint planning to refine work.
 - Replication and Sharding
 
 
-# 14. How to use OPENAI API in SpringBoot Project
+# 15. How to use OPENAI API in SpringBoot Project
 
 ```xml
 <dependency>
@@ -893,6 +948,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class OpenAIService {
+    // in application.properties, put
+    // openai.apiKey=MY_API_KEY
 
     @Value("${openai.apiKey}")
     private String apiKey;
@@ -943,3 +1000,102 @@ public class TextGenerationController {
 }
 
 ```
+
+```java
+// an exmaple of usage
+
+@RestController
+public class EssayImprovementController {
+    
+    @PostMapping("/improve-essay")
+    public String improveEssay(@RequestBody String essay) throws Exception {
+        String prompt = "Please provide suggestions to improve the following essay:\n\n" + essay + "\n\nSuggested improvements:";
+        
+        CompletionRequest request = new CompletionRequest.Builder()
+            .setEngine("text-davinci-002")
+            .setPrompt(prompt)
+            .setMaxTokens(100)
+            .setN(1)
+            .setTemperature(0.5)
+            .build();
+            
+        CompletionResponse response = Completion.create(request);
+        
+        return response.getChoices().get(0).getText().trim();
+    }
+}
+
+```
+
+# 16. Another way to improve Grammar via GrammarBot API (Not Feasible)
+
+**From ChatGPT**
+
+```xml
+<dependency>
+    <groupId>com.github.kevinstl</groupId>
+    <artifactId>grammar-bot-client</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
+```
+
+This controller has a single endpoint, /check-grammar, which accepts a POST request with a JSON payload containing a single field, "text". The controller passes the text to GrammarBot API using the GrammarBotAPI instance created in the constructor, and returns a list of Correction objects in the response.
+
+```java
+import com.github.kevinstl.grammarbotapi.GrammarBotAPI;
+import com.github.kevinstl.grammarbotapi.GrammarBotAPIImpl;
+import com.github.kevinstl.grammarbotapi.models.Correction;
+import com.github.kevinstl.grammarbotapi.models.GrammarBotResponse;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+
+@RestController
+public class GrammarBotController {
+
+    private final GrammarBotAPI grammarBotAPI;
+
+    public GrammarBotController() {
+        grammarBotAPI = new GrammarBotAPIImpl();
+    }
+
+    @PostMapping("/check-grammar")
+    public ResponseEntity<List<Correction>> checkGrammar(@RequestBody String text) {
+        GrammarBotResponse response = grammarBotAPI.check(text);
+        List<Correction> corrections = response.getCorrections();
+        return ResponseEntity.ok(corrections);
+    }
+}
+
+```
+
+Run your Spring Boot application and make a request to the /check-grammar endpoint with some text to test the integration with GrammarBot API. Here's an example using the curl command:
+
+```bash
+curl -X POST \
+  http://localhost:8080/check-grammar \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "text": "I is very happy."
+}'
+
+
+```
+
+# 17. Use old laptop as a proxy server 
+
+Yes, you can use your old Windows laptop in Singapore as a proxy or VPN server to bypass internet censorship in China and access Gmail. Here's how you can do it:
+
+    Choose a proxy or VPN server software: There are several free and paid proxy or VPN server software available online that you can use to set up your server. Some popular options include OpenVPN, SoftEther VPN, and Squid Proxy.
+
+    Install and configure the proxy or VPN server software on your Windows laptop: Once you've chosen your software, you'll need to download and install it on your old Windows laptop. Follow the instructions provided by the software to configure the server settings, such as the IP address, port number, and authentication settings.
+
+    Open the necessary ports on your router and firewall: To enable access to your proxy or VPN server from outside your local network, you'll need to configure your router and firewall to allow incoming connections on the necessary ports. You'll need to open the port that you have chosen to use for your proxy or VPN server, as specified in your software settings.
+
+    Connect to your proxy or VPN server from China: Once you've set up your server and opened the necessary ports, you can connect to your proxy or VPN server from China using your laptop's public IP address and the port number you've configured. You can then use your proxy or VPN connection to access Gmail or other blocked websites.
+
+It's important to note that using a proxy or VPN server to bypass internet censorship in China may not always work, as the Great Firewall is constantly evolving and developing new techniques to block internet traffic. Additionally, using a proxy or VPN server may be illegal or against the terms of service of your internet service provider in some countries. Be sure to check local laws and regulations before using a proxy or VPN server to bypass internet censorship.

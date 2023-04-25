@@ -5606,11 +5606,12 @@ Reviews Comments:
 14. 3D blogs []
 
 # 2023-04-14 08:13:55
-- [ ] Study JNDI injections issue 
-- [ ] One hour of MicroService Lesson
+- [x] Study JNDI injections issue 
+- [ ] Discharge of Liability Letter, reply HR
+- [x] One hour of MicroService Lesson
 - [ ] One hour of Reactive Programming Lesson
 - [ ] 体检 15/4/2023 早晨 
-- [ ] LeetCode
+- [x] LeetCode
 - [ ] Exercise 
 - [ ] Try to book a Chiro Session 
 - [ ] 致18年后的你.
@@ -5621,3 +5622,121 @@ Reviews Comments:
 - [ ] Sell laptops 
 - [ ] Create a spring boot applicaiton, takes request, query openapi, and return openapi response. 
 - [ ] 3D blogs 
+
+# 2023-04-14 08:13:55
+- [x] Discharge of Liability Letter, reply HR
+- [x] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [x] 体检 15/4/2023 早晨 
+- [ ] LeetCode
+- [x] Exercise 
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Java Perforamnce 
+- [ ] Moomoo tutorial beginner 
+- [ ] Think about which stock to invest in for one year. 
+- [ ] Participate in one contest. 
+- [ ] Sell laptops 
+- [x] Study how to create a spring boot applicaiton, takes request, query openapi / grammar bot, and return openapi response. 
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] 3D blogs 
+
+# 2023-04-17 13:53:51
+- [ ] Check all outstanding JNDI issues
+- [x] Discharge of liability re-signed
+- [x] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [x] Java 17 / Java 20  vs Java 11
+- [ ] 体检 result / follow up
+- [ ] LeetCode
+- [ ] Exercise 
+- [ ] 收拾行李
+- [ ] 收拾爸爸办公室VirtualThreadScheduler 
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs 
+
+# 2023-04-18 08:14:48
+- [x] Check all outstanding JNDI issues
+- [ ] Review Su's Ticket
+- [x] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] 体检 result / follow up
+- [x] LeetCode
+- [ ] Exercise 
+- [ ] 收拾行李
+- [x] 收拾爸爸东西
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs 
+
+# 2023-04-19 11:29:27
+- [x] Review Su's Ticket
+- [ ] Talk to Eric about the Consolidation of Controllers ticket
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] 体检 result / follow up
+- [ ] LeetCode
+- [ ] Exercise 
+- [ ] 收拾行李
+- [x] 收拾爸爸东西
+- [x] 打扫办公室
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+# 2023-04-20 14:01:01
+- [ ] Talk to Eric about the Consolidation of Controllers ticket
+- [x] Sue's ticket
+- [ ] Harmonize Servlet Technology
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [x] 体检 result / follow up
+- [ ] LeetCode
+- [ ] Exercise 
+- [x] 收拾行李
+- [x] 带姥姥出去玩儿
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+# 2023-04-24 08:54:49
+- [x] Harmonize Servlet Technology
+- [ ] Exit Clearance Form
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] LeetCode
+- [ ] Exercise 
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+# 2023-04-25 05:50:35
+- [ ] Confluence page Harmonize Servlet Technology
+- [ ] Run Selenium Tests on Sue's Ticket
+- [ ] Exit Clearance Form
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] LeetCode
+- [ ] Exercise 
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs

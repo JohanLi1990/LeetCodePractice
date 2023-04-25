@@ -37,6 +37,7 @@
 
 
 ## 2. EveryDay Practice (Focus on Old Questions first)
+- *DoAgain* [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)
 - *DoAgain* [1242. Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)
 - *DoAgain* [1520. Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)
 - *DoAgain* [1062. Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)
@@ -89,7 +90,6 @@
 - *DoAgain* [394. Decode String](https://leetcode.com/problems/decode-string/)
 - *DoAgain* [855. Exam Room](https://leetcode.com/problems/exam-room/)
 - *DoAgain* [1274. Number of Ships in a Rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle/solution/)
-- *DoAgain* [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)
 - *DoAgain* [2007. Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)
 - *DoAgain* [372. Super Pow](https://leetcode.com/problems/super-pow/)
 - *DoAgain* [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
@@ -125,7 +125,6 @@
 - *DoAgain* [Build Binary Expression Tree From Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)
 - *DoAgain* [Design in memory file system](https://leetcode.com/problems/design-in-memory-file-system/)
 - *DoAgain* [Analyze user website visit pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/)
-- *DoAgain* [Minimum Increment to make array unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)
 - *DoAgain* [Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)
 - *DoAgain* [Partition Array into two arrays to minimize sum difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference)
 - *DoAgain* [Tallest Billboard](https://leetcode.com/problems/tallest-billboard)
