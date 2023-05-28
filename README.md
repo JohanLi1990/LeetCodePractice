@@ -1,4 +1,5 @@
 ## 1. Table of Content
+
 - [1. Table of Content](#1-table-of-content)
 - [2. EveryDay Practice (Focus on Old Questions first)](#2-everyday-practice-focus-on-old-questions-first)
 - [3. System Design](#3-system-design)
@@ -35,8 +36,8 @@
   - [4.14. Segement Tree, Binary index Trees](#414-segement-tree-binary-index-trees)
   - [4.15. Math](#415-math)
 
-
 ## 2. EveryDay Practice (Focus on Old Questions first)
+
 - *DoAgain* [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)
 - *DoAgain* [1242. Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)
 - *DoAgain* [1520. Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)
@@ -147,7 +148,7 @@
 - *DoAgain* [Total appeal of a string](https://leetcode.com/problems/total-appeal-of-a-string)
 - *DoAgain* [Count unique characters of all substring of a given string](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
 - *DoAgain* [Minimum number of days to eat orange](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges)
-- *DoAgain* [number of music playlist](https://leetcode.com/problems/number-of-music-playlists/) 
+- *DoAgain* [number of music playlist](https://leetcode.com/problems/number-of-music-playlists/)
 - *DoAgain* [Minimum total space wasted with k resizing operations](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)
 - *DoAgain* [Russian Doll Envelops](https://leetcode.com/problems/russian-doll-envelopes/)
 - *DoAgain* [Find the longest valid obstacles course at each position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)
@@ -201,8 +202,6 @@
 - *DoAgain* [Crit and pseudo-crit edges in minimum spanning tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 - *DoAgain* [Number of ways to get same bst](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 
-
-
 ## 3. System Design
 
 - Key Goal: Resilient / Scalable / Consistent
@@ -228,17 +227,21 @@ Things that I am not very good at
 5. Design
 6. Topological Sort
 7. Binary Indexed Tree
-8.  Segment Tree 
-   1)  [Range Query Sum](https://leetcode.com/problems/range-sum-query-mutable/)
-   2)  [G4G article](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
-9.  Minimax
+8. Segment Tree
+
+   1) [Range Query Sum](https://leetcode.com/problems/range-sum-query-mutable/)
+   2) [G4G article](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
+
+9. Minimax
 10. Line Sweep
 11. Rolling Hash
 12. OOP
 
 ### Set, List, Comparators
+
 if object in list can be compared, then Set<List> is going to ignore those list that contain similar object
 e.g.
+
 ```java
 Set<List<Integer>> set = new HashSet<>();
 set.add(new ArrayList<>(Arrays.asList(1, 2, 3)));
@@ -267,37 +270,37 @@ class Node{
 Greedy Algorithms only apply to problems whose global optimal solution relies on its local optimal solutions.
 The way to Think is, is my current step able to bring me closer to the answer for sure?
 
-+ [Jump Game](https://leetcode.com/problems/jump-game/)
-+ [Jump Game II](https://leetcode.com/problems/jump-game-II/)
-+ [Stamping Sequence](https://leetcode.com/problems/stamping-the-sequence/)
-+ [Spliting String](https://leetcode.com/problems/split-a-string-in-balanced-strings/submissions/)
-+ [Maximum NUmber of Events that can attend](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
+- [Jump Game](https://leetcode.com/problems/jump-game/)
+- [Jump Game II](https://leetcode.com/problems/jump-game-II/)
+- [Stamping Sequence](https://leetcode.com/problems/stamping-the-sequence/)
+- [Spliting String](https://leetcode.com/problems/split-a-string-in-balanced-strings/submissions/)
+- [Maximum NUmber of Events that can attend](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 
 Each day I try to grab / take more, but I do have my own code: the grabing / taking should sustain me as long as possible. Therefore I only grab the one that ends first, and save the ones that ends later.
 
-+ [Remove K digits](https://leetcode.com/problems/remove-k-digits/)
+- [Remove K digits](https://leetcode.com/problems/remove-k-digits/)
 
 Somtimes you need to consider the interval, Heap data structure comes in real handy
 
-+ [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
-+ [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
+- [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
+- [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 
 Sometimes you can do it backward, like consider the largest/ most unlikely choice, if that one works, all the other choice should work
 
-+ [Construct Target Array with Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
-+ [Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)
-+ [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/)
+- [Construct Target Array with Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
+- [Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)
+- [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/)
 
 ### 4.4. Dynamic Programming
 
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
-_Doing Topological Sort for a group of subproblems dependency DAG_
+*Doing Topological Sort for a group of subproblems dependency DAG*
 
-+ Merging Intervals [DONE]
-+ Minimum (Maximum) Path to Reach a Target
-+ Distinct Ways
-+ DP on Strings [DONE]
-+ Decision Making [DONE]
+- Merging Intervals [DONE]
+- Minimum (Maximum) Path to Reach a Target
+- Distinct Ways
+- DP on Strings [DONE]
+- Decision Making [DONE]
 
 Top-Down approach and bottom up approach.
 
@@ -313,14 +316,14 @@ It always works if you cache your result.
 #### 4.4.2. Shortest Path
 
 _for memoization to work, you need **ACYCLIC GRAPH**_
-_Else you will run into infinite loop_
+*Else you will run into infinite loop*
 
 To make a Cyclic Graph Acyclic:
 
-> + given search space, v
-> + make k copies of (based on k in degrees);
-> + for v edges
-> + search space v * k
+> - given search space, v
+> - make k copies of (based on k in degrees);
+> - for v edges
+> - search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
 #### 4.4.3. Merge Interval Patterns
@@ -336,38 +339,37 @@ for (int win = 1; win < length; win++){
 }
 ```
 
-+ [LC312 Burst Ballons](https://leetcode.com/problems/burst-balloons)
-+ [LC1039 Minimum Score Triangulation](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)
-+ [LC1000 Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
-+ [LC546 Remove Boxes](https://leetcode.com/problems/remove-boxes/)
-+ [LC1130  Minimum Cost Tree](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
+- [LC312 Burst Ballons](https://leetcode.com/problems/burst-balloons)
+- [LC1039 Minimum Score Triangulation](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)
+- [LC1000 Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
+- [LC546 Remove Boxes](https://leetcode.com/problems/remove-boxes/)
+- [LC1130  Minimum Cost Tree](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
 #### 4.4.4. Decision Making Patterns
 
-+ [LC198 House Robber](https://leetcode.com/problems/house-robber/)
-+ [LC188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
-+ [LC309 Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
-+ [LC213 House Robber II](https://leetcode.com/problems/house-robber-ii/)
-+ [LC714 Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+- [LC198 House Robber](https://leetcode.com/problems/house-robber/)
+- [LC188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
+- [LC309 Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+- [LC213 House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- [LC714 Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 
 When the dynamic programming travels down a binary tree, normally for each node there are some stages
 depending on the stages for the subnode, the answer will be obtained at root node
-+ [LC986 Binary Tree Camera](https://leetcode.com/problems/binary-tree-cameras/)
-+ [LC337 House Robber III](https://leetcode.com/problems/house-robber-iii/)
-+ ~~[LC979 Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)~~
-
+- [LC986 Binary Tree Camera](https://leetcode.com/problems/binary-tree-cameras/)
+- [LC337 House Robber III](https://leetcode.com/problems/house-robber-iii/)
+- ~~[LC979 Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)~~
 
 #### 4.4.5. String Manipulations patterns
 
-+ [LC1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-+ [LC115 Distinct Subsequence](https://leetcode.com/problems/distinct-subsequences/)
-+ [LC5 Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-+ [LC72 Edit Distance](https://leetcode.com/problems/edit-distance/)
-+ [LC712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
+- [LC1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [LC115 Distinct Subsequence](https://leetcode.com/problems/distinct-subsequences/)
+- [LC5 Longest Palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [LC72 Edit Distance](https://leetcode.com/problems/edit-distance/)
+- [LC712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
 #### 4.4.6. Distinct Ways
-+ [LC576 Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/submissions/)
 
++ [LC576 Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/submissions/)
 
 #### 4.4.7. Kadane's Algorithm
 
@@ -483,6 +485,7 @@ private int knapSack(int W, int[] wt, int[] val, int n) {
 ### 4.5. Lowest Common Ancestor
 
 **common technique**
+
 ```java
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -590,7 +593,7 @@ A technique to calculate ancestor faster --> binary lifting
     }
 ```
 
-_idea is that b^(d/2) + b^(d/2) is much less than b^d. b is branch factor, d is depth._
+*idea is that b^(d/2) + b^(d/2) is much less than b^d. b is branch factor, d is depth.*
 
 #### 4.6.2. Depth First Search
 
@@ -607,6 +610,7 @@ for (int i = 0; i < 4; i++){
 }
 
 ```
+
 *Flood-Fill*
 
 ### 4.7. Dijkstra Algorithm (Shorted distance in a weighted Graph)
@@ -614,6 +618,7 @@ for (int i = 0; i < 4; i++){
 - use PriorityQueue to do bfs
 
 [1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)
+
 ```java
 class Solution {
     int[] dirs = new int[]{-1, 0, 1, 0, -1};
@@ -661,7 +666,6 @@ class Solution {
 
 ```
 
-
 ### 4.8. TopLogical Sort
 
 **For DAG Only**
@@ -704,97 +708,96 @@ import java.util.*;
 // This class represents a directed graph
 // using adjacency list representation
 class Graph {
-	// No. of vertices
-	private int V;
+ // No. of vertices
+ private int V;
 
-	// Adjacency List as ArrayList of ArrayList's
-	private ArrayList<ArrayList<Integer> > adj;
+ // Adjacency List as ArrayList of ArrayList's
+ private ArrayList<ArrayList<Integer> > adj;
 
-	// Constructor
-	Graph(int v)
-	{
-		V = v;
-		adj = new ArrayList<ArrayList<Integer> >(v);
-		for (int i = 0; i < v; ++i)
-			adj.add(new ArrayList<Integer>());
-	}
+ // Constructor
+ Graph(int v)
+ {
+  V = v;
+  adj = new ArrayList<ArrayList<Integer> >(v);
+  for (int i = 0; i < v; ++i)
+   adj.add(new ArrayList<Integer>());
+ }
 
-	// Function to add an edge into the graph
-	void addEdge(int v, int w) { adj.get(v).add(w); }
+ // Function to add an edge into the graph
+ void addEdge(int v, int w) { adj.get(v).add(w); }
 
-	// A recursive function used by topologicalSort
-	void topologicalSortUtil(int v, boolean visited[],
-							Stack<Integer> stack)
-	{
-		// Mark the current node as visited.
-		visited[v] = true;
-		Integer i;
+ // A recursive function used by topologicalSort
+ void topologicalSortUtil(int v, boolean visited[],
+       Stack<Integer> stack)
+ {
+  // Mark the current node as visited.
+  visited[v] = true;
+  Integer i;
 
-		// Recur for all the vertices adjacent
-		// to thisvertex
-		Iterator<Integer> it = adj.get(v).iterator();
-		while (it.hasNext()) {
-			i = it.next();
-			if (!visited[i])
-				topologicalSortUtil(i, visited, stack);
-		}
+  // Recur for all the vertices adjacent
+  // to thisvertex
+  Iterator<Integer> it = adj.get(v).iterator();
+  while (it.hasNext()) {
+   i = it.next();
+   if (!visited[i])
+    topologicalSortUtil(i, visited, stack);
+  }
 
-		// Push current vertex to stack
-		// which stores result
-		stack.push(new Integer(v));
-	}
+  // Push current vertex to stack
+  // which stores result
+  stack.push(new Integer(v));
+ }
 
-	// The function to do Topological Sort.
-	// It uses recursive topologicalSortUtil()
-	void topologicalSort()
-	{
-		Stack<Integer> stack = new Stack<Integer>();
+ // The function to do Topological Sort.
+ // It uses recursive topologicalSortUtil()
+ void topologicalSort()
+ {
+  Stack<Integer> stack = new Stack<Integer>();
 
-		// Mark all the vertices as not visited
-		boolean visited[] = new boolean[V];
-		for (int i = 0; i < V; i++)
-			visited[i] = false;
+  // Mark all the vertices as not visited
+  boolean visited[] = new boolean[V];
+  for (int i = 0; i < V; i++)
+   visited[i] = false;
 
-		// Call the recursive helper
-		// function to store
-		// Topological Sort starting
-		// from all vertices one by one
-		for (int i = 0; i < V; i++)
-			if (visited[i] == false)
-				topologicalSortUtil(i, visited, stack);
+  // Call the recursive helper
+  // function to store
+  // Topological Sort starting
+  // from all vertices one by one
+  for (int i = 0; i < V; i++)
+   if (visited[i] == false)
+    topologicalSortUtil(i, visited, stack);
 
-		// Print contents of stack
-		while (stack.empty() == false)
-			System.out.print(stack.pop() + " ");
-	}
+  // Print contents of stack
+  while (stack.empty() == false)
+   System.out.print(stack.pop() + " ");
+ }
 
-	// Driver code
-	public static void main(String args[])
-	{
-		// Create a graph given in the above diagram
-		Graph g = new Graph(6);
-		g.addEdge(5, 2);
-		g.addEdge(5, 0);
-		g.addEdge(4, 0);
-		g.addEdge(4, 1);
-		g.addEdge(2, 3);
-		g.addEdge(3, 1);
+ // Driver code
+ public static void main(String args[])
+ {
+  // Create a graph given in the above diagram
+  Graph g = new Graph(6);
+  g.addEdge(5, 2);
+  g.addEdge(5, 0);
+  g.addEdge(4, 0);
+  g.addEdge(4, 1);
+  g.addEdge(2, 3);
+  g.addEdge(3, 1);
 
-		System.out.println("Following is a Topological "
-						+ "sort of the given graph");
-		// Function Call
-		g.topologicalSort();
-	}
+  System.out.println("Following is a Topological "
+      + "sort of the given graph");
+  // Function Call
+  g.topologicalSort();
+ }
 }
 // This code is contributed by Aakash Hasija
 
 ```
 
-
 ### 4.9. Minimax (Gaming and Artificial Intelligence)
 
 Good Place to Start
-+ <https://www.hackerearth.com/blog/developers/minimax-algorithm-alpha-beta-pruning/>
+- <https://www.hackerearth.com/blog/developers/minimax-algorithm-alpha-beta-pruning/>
 
 ```python
 function minimax(node, depth, maximizingPlayer)
@@ -815,13 +818,13 @@ function minimax(node, depth, maximizingPlayer)
                           bestValue := min(bestValue, v)
                    return bestValue
 ```
+
 *min max sometimes can be dp too*
 *here is an example:*
-+ [LC1690 Stone Game VII](https://leetcode.com/problems/stone-game-vii/submissions/)
+- [LC1690 Stone Game VII](https://leetcode.com/problems/stone-game-vii/submissions/)
 
 *sometimes DP reminds me of the method of deduction, work backwards, ask your self, what if there are only 2 items*
 *start from the simplest scenario and build from there, and try to come up with a transition function*
-
 
 ### 4.10. Bit Manipulation
 
@@ -830,15 +833,18 @@ function minimax(node, depth, maximizingPlayer)
 > To get the right most bit n & ( ~ (n - 1));
 > [To get all submasks of b](https://cp-algorithms.com/algebra/all-submasks.html)
   To get all submasks,
+
   ``` java
     // insanely useful when you need to represent subset as a state
     for (int i = b; i > 0 ; i = (i - 1) & b){
         // code goes here
     }
   ```
+
 > To get the reminder of a value divided by power of 2 (e.g. 16) : rem = a % 16, or rem = a & 15;
 
 Interesting example questions
+
 - [Shopping offer](https://leetcode.com/problems/shopping-offers) (consider using bit masking to improve speed)
 
 ### 4.11. Tortoise and Hare problems
@@ -989,13 +995,13 @@ class DisjointUnionSets {
 } 
 ```
 
-
 ### 4.13. Graph
 
-_tarjan algorithm_
+*tarjan algorithm*
 
-+ [Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/solution/)
+- [Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/solution/)
 you can use rank to detect cycles in a graph
+
 ``` java
       public void dfs(int node,int parent,int[] rank,int[] discovery,int[] lowDiscovery,
                    List<Integer>[] graph,List<List<Integer>> bridges){
@@ -1014,14 +1020,16 @@ you can use rank to detect cycles in a graph
 
 ```
 
-_Traverlling Salseman_
+*Traverlling Salseman*
 
 one of the toughest question i ever did
-**Time Complexity**: 
+**Time Complexity**:
+
 - O(n!) brute force
 - O(n^2 * 2^n) dynamic programming
 
 [Find the shortest superstring](https://leetcode.com/problems/find-the-shortest-superstring/)
+
 ``` java
         // the tsp dp approach
         for (int i = 1; i < (1 << n); i++){
@@ -1049,9 +1057,9 @@ one of the toughest question i ever did
         }
 ```
 
-_Minimum Spanning Tree_ (Kruskal Algorithm)
+*Minimum Spanning Tree* (Kruskal Algorithm)
 
-A minimum spanning tree is a special kind of tree that minimizes the lengths (or “weights”) of the edges of the tree. An example is a cable company wanting to lay line to multiple neighborhoods; by minimizing the amount of cable laid, the cable company will save money. 
+A minimum spanning tree is a special kind of tree that minimizes the lengths (or “weights”) of the edges of the tree. An example is a cable company wanting to lay line to multiple neighborhoods; by minimizing the amount of cable laid, the cable company will save money.
 
 you can use Kuscal's Alogorithm with DisjointSet as help
 [LC 1168. Optimize water distribution](https://leetcode.com/problems/optimize-water-distribution-in-a-village/submissions/)
@@ -1078,10 +1086,9 @@ algorithm Kruskal(G) is
 
 ```
 
-
 ### 4.14. Segement Tree, Binary index Trees
 
-Leet article: 
+Leet article:
 [Recursive approach to segment tree](https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/)
 
 **Questions**
@@ -1138,9 +1145,10 @@ public int queryTree(int treeIndex, int lo, int hi, int left, int right){
 **Binary Indexed Tree Implementation**
  we can easily calculate range sum of first i elements this way
  Time complexity is O(LogN);
- 
- we can also easily modify elements in the array, 
+
+ we can also easily modify elements in the array,
  Time Complexity if O(logN);
+
 ```java
     // reference from https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
 
@@ -1191,9 +1199,9 @@ public int gcd(int x, int y){
 ```
 
 **How to find reminder of a very large number? Euler's Thereom**
+
 ```java
     (a * a ) % mod = ((a % mod) * (a % mod)) % mod;
     ((a * x + c) * (a * x + c)) % a
     = (c * c) % mod;
 ```
-

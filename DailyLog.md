@@ -5727,8 +5727,8 @@ Reviews Comments:
 - [ ] 3D blogs
 
 # 2023-04-25 05:50:35
-- [ ] Confluence page Harmonize Servlet Technology
-- [ ] Run Selenium Tests on Sue's Ticket
+- [x] Confluence page Harmonize Servlet Technology
+- [x] Run Selenium Tests on Sue's Ticket
 - [ ] Exit Clearance Form
 - [ ] One hour of MicroService Lesson
 - [ ] One hour of Reactive Programming Lesson
@@ -5740,3 +5740,63 @@ Reviews Comments:
 - [ ] Moomoo tutorial beginner 
 - [ ] Fix the laptop when coming back from China in September 
 - [ ] 3D blogs
+
+# 2023-04-26 06:23:37
+- [x] Set up new Laptop
+- [x] Exit Clearance Form
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] LeetCode
+- [ ] Exercise 
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+# 2023-05-01 09:01:29
+- [x] JAVA 17
+- [ ] The chatgpt improve literature web application
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] LeetCode
+- [ ] Exercise 
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+# 2023-05-03 20:55:21
+- [ ] The chatgpt improve literature web application
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] LeetCode
+- [ ] Exercise
+- [ ] Mom's LTVP applications
+- [ ] Mom's insurance inquiry
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+# 2023-05-07 06:59:05
+- [ ] The chatgpt improve literature web application
+- [ ] One hour of MicroService Lesson
+- [ ] One hour of Reactive Programming Lesson
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] LeetCode
+- [ ] Exercise
+- [ ] Mom's LTVP applications
+- [ ] Mom's insurance inquiry
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+This log book is suspended for now. Everything is moving to the phone
