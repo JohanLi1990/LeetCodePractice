@@ -2,7 +2,7 @@
 
 - [1. The General Learning Notebook](#1-the-general-learning-notebook)
   - [1.1. Lesson Learnt for Interview Experiences](#11-lesson-learnt-for-interview-experiences)
-  - [1.2. Raod Map](#12-raod-map)
+  - [1.2. Raod Map (In 24 months time, becaome expert level trading platform developer!!!)](#12-raod-map-in-24-months-time-becaome-expert-level-trading-platform-developer)
   - [1.3. JAVA JVM](#13-java-jvm)
     - [1.3.1. JVM Memory Structure](#131-jvm-memory-structure)
   - [1.4. Possible cause of Memory Leak](#14-possible-cause-of-memory-leak)
@@ -74,6 +74,7 @@
         - [10.3.3.3. Data Distributions](#10333-data-distributions)
       - [10.3.4. Key-Value Store](#1034-key-value-store)
       - [10.3.5. Distributed Search](#1035-distributed-search)
+    - [Design of stock Exchange System](#design-of-stock-exchange-system)
   - [11. Effective Software Engineering](#11-effective-software-engineering)
     - [11.1. Six pillars of Effective Software](#111-six-pillars-of-effective-software)
     - [11.2. From Customer Insights to Internal Requirements](#112-from-customer-insights-to-internal-requirements)
@@ -98,10 +99,22 @@ Page 23
  5. Keep practicing / keep practicing
  6. If the role requires java, study java ; Otherwise pay attention to network / OS type of interview questions
 
-## 1.2. Raod Map
+## 1.2. Raod Map (In 24 months time, becaome expert level trading platform developer!!!)
 
 [Java Microservice RoadMap](https://github.com/in28minutes/roadmaps/blob/main/README.md#java-microservices-roadmap)
 [Java Fullstack](https://github.com/in28minutes/roadmaps/blob/main/README.md#java-full-stack-roadmap)
+
+**6 Month Plan**
+
+- [ ] Linux bash familarity (45 hrs)
+- [ ] Developing Microservices with Spring Boot (3 hrs)
+- [ ] Microservices with Spring Cloud (40 hrs)
+- [ ] Azure Fundamental (40 hrs)
+- [ ] Develop article refining services (30 hrs)
+- [ ] Deploy ARS as a spring boot to Azure (10 hrs)
+- [ ] Angular.js framework (20 hrs)
+
+188 / 180 = 1.1 hrs a day. 
 
 ## 1.3. JAVA JVM
 
@@ -834,6 +847,9 @@ pros and cons
 #### 10.3.4. Key-Value Store
 
 #### 10.3.5. Distributed Search
+
+### Design of stock Exchange System
+
 
 crawling - indexing - searching
 

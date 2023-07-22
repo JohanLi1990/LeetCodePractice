@@ -5800,3 +5800,139 @@ Reviews Comments:
 - [ ] 3D blogs
 
 This log book is suspended for now. Everything is moving to the phone
+
+
+
+From the parent (applicant)
+- [x] Passport biodata page
+- [ ] PhotoID
+- [ ] Disembarkation/ Embarkation (D/E) number (if applicable).
+- [ ] The applicant recent passport-sized, digital, colour photograph taken within the   last three months. Please click here for photo guidelines.
+
+From the Singapore citizen/ permanent resident child aged above 21 (sponsor)
+
+- [x] Birth certificate
+- [x] Marriage certificate (if applicable)
+- [x] Certificate(s) showing highest level of academic qualification
+- [x] Income Tax Notice of Assessment for the past three years, and Central Provident Fund (CPF) Statement showing monthly CPF contributions for the past 12 month
+- [x] Letter of employment, stating date of commencement, designation and monthly salary.
+- [x] Payslips for the past 6 months (missing one month, reached out to Leona)
+
+From the spouse of Singapore citizen/ permanent resident child (sponsor’s spouse, if applicable)
+	
+
+ - [ ] Income Tax Notice of Assessment for the past three years, and Central Provident Fund (CPF) Statement showing monthly CPF contributions for the past 12 months
+ - [ ] Letter of employment, stating date of commencement, designation and monthly salary (if applicable).
+ - [ ] Payslips for the past 6 months (if applicable).
+
+## 2023-07-03 06:49:17
+
+- [ ] The chatgpt improve literature web application
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammarly.
+- [ ] LeetCode
+- [ ] Exercise
+- [ ] Mom's LTVP applications
+- [ ] Mom's insurance inquiry
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+This log book is suspended for now. Everything is moving to the phone
+
+
+
+From the parent (applicant)
+- [x] Passport biodata page
+- [x] PhotoID
+- [x] Disembarkation/ Embarkation (D/E) number (if applicable).
+- [x] The applicant recent passport-sized, digital, colour photograph taken within the   last three months. Please click here for photo guidelines.
+
+From the Singapore citizen/ permanent resident child aged above 21 (sponsor)
+
+- [x] Birth certificate
+- [x] Marriage certificate (if applicable)
+- [x] Certificate(s) showing highest level of academic qualification
+- [x] Income Tax Notice of Assessment for the past three years, and Central Provident Fund (CPF) Statement showing monthly CPF contributions for the past 12 month
+- [x] Letter of employment, stating date of commencement, designation and monthly salary.
+- [x] Payslips for the past 6 months (missing one month, reached out to Leona)
+
+From the spouse of Singapore citizen/ permanent resident child (sponsor’s spouse, if applicable)
+	
+
+ - [ ] Income Tax Notice of Assessment for the past three years, and Central Provident Fund (CPF) Statement showing monthly CPF contributions for the past 12 months
+ - [ ] Letter of employment, stating date of commencement, designation and monthly salary (if applicable).
+ - [ ] Payslips for the past 6 months (if applicable).
+
+
+## 2023-07-06 18:33:10
+
+- [ ] The chatgpt improve literature web application
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammaar.
+- [ ] Mom's LTVP applications
+- [ ] Mom's insurance inquiry
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+
+
+From the parent (applicant)
+- [x] Passport biodata page
+- [x] PhotoID
+- [x] Disembarkation/ Embarkation (D/E) number (if applicable).
+- [x] The applicant recent passport-sized, digital, colour photograph taken within the   last three months. Please click here for photo guidelines.
+
+From the Singapore citizen/ permanent resident child aged above 21 (sponsor)
+
+- [x] Birth certificate
+- [x] Marriage certificate (if applicable)
+- [x] Certificate(s) showing highest level of academic qualification
+- [x] Income Tax Notice of Assessment for the past three years, and Central Provident Fund (CPF) Statement showing monthly CPF contributions for the past 12 month
+- [x] Letter of employment, stating date of commencement, designation and monthly salary.
+- [x] Payslips for the past 6 months (missing one month, reached out to Leona)
+
+From the spouse of Singapore citizen/ permanent resident child (sponsor’s spouse, if applicable)
+	
+
+ - [ ] Income Tax Notice of Assessment for the past three years, and Central Provident Fund (CPF) Statement showing monthly CPF contributions for the past 12 months
+ - [ ] Letter of employment, stating date of commencement, designation and monthly salary (if applicable).
+ - [ ] Payslips for the past 6 months (if applicable).
+
+## 2023-07-08 09:41:0
+- [ ] The chatgpt improve literature web application
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammaar.
+- [ ] Mom's LTVP applications
+- [ ] Mom's insurance inquiry
+- [ ] Chiro Appointment 20th May 2023
+- [ ] 致18年后的你.
+- [ ] Moomoo tutorial beginner 
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
+
+
+From the parent (applicant)
+- [x] Passport biodata page
+- [x] PhotoID
+- [x] Disembarkation/ Embarkation (D/E) number (if applicable).
+- [x] The applicant recent passport-sized, digital, colour photograph taken within the   last three months. Please click here for photo guidelines.
+
+## 2023-07-16 08:31:27
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammaar.
+- [x] Mom's LTVP applications
+- [ ] Mom's insurance inquiry
+- [ ] 致18年后的你
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
+
+## 2023-07-21 07:21:12
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammaar
+- [ ] Mom's insurance inquiry
+- [ ] 致18年后的你
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
