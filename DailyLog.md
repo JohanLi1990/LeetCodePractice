@@ -5936,3 +5936,20 @@ From the parent (applicant)
 - [ ] Fix the laptop when coming back from China in September 
 - [ ] 3D blogs
 - [ ] take family to Albula Lines to see longest train. 
+
+## 2023-08-12 18:27:37
+- [ ] Checkout equity plus options
+- [ ] Buy the equate plus investment. 
+- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammaar
+- [ ] Mom's insurance inquiry
+- [ ] 致18年后的你
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
+
+- Educative IO Bash Command
+- PLuralSight Kotlin
+- Oreilly Java Well Grounded
+- Oreilly React 
+- Oreilly Angular
+- **Microsoft Azure**
