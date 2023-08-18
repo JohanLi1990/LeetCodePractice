@@ -5940,7 +5940,8 @@ From the parent (applicant)
 ## 2023-08-12 18:27:37
 - [ ] Checkout equity plus options
 - [ ] Buy the equate plus investment. 
-- [ ] Create the PoC with spring boot, the PoC should demo that the text is improved grammaar
+- [x] Create the PoC with spring boot, the PoC should demo that the text is improved grammaar
+- [ ] Buy return ticket China
 - [ ] Mom's insurance inquiry
 - [ ] 致18年后的你
 - [ ] Fix the laptop when coming back from China in September 
