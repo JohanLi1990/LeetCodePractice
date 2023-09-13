@@ -5938,10 +5938,30 @@ From the parent (applicant)
 - [ ] take family to Albula Lines to see longest train. 
 
 ## 2023-08-12 18:27:37
-- [ ] Checkout equity plus options
-- [ ] Buy the equate plus investment. 
+- [x] Checkout equity plus options
+- [x] Buy the equate plus investment. 
 - [x] Create the PoC with spring boot, the PoC should demo that the text is improved grammaar
-- [ ] Buy return ticket China
+- [x] Buy return ticket China
+- [ ] Mom's insurance inquiry
+- [ ] 致18年后的你
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
+
+- Educative IO Bash Command
+- PLuralSight Kotlin
+- Oreilly Java Well Grounded
+- Oreilly React 
+- Oreilly Angular
+- **Microsoft Azure**
+
+## 2023-08-20 15:33:44
+- [ ] Create a front end for the lunwen controller
+  - [ ] Basic Authentications
+  - [ ] Form to submit request
+  - [ ] View to display result
+
+- [ ] Read about Spring reactive programming. 
 - [ ] Mom's insurance inquiry
 - [ ] 致18年后的你
 - [ ] Fix the laptop when coming back from China in September 
