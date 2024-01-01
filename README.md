@@ -5,36 +5,40 @@
 - [3. System Design](#3-system-design)
 - [4. Data Structure \& Alogorithms](#4-data-structure--alogorithms)
   - [4.1. TODOs](#41-todos)
-  - [Set, List, Comparators](#set-list-comparators)
-  - [4.2. 1.Trie](#42-1trie)
-    - [4.2.1. Validation](#421-validation)
-  - [4.3. Greedy Algorithms](#43-greedy-algorithms)
-  - [4.4. Dynamic Programming](#44-dynamic-programming)
-    - [4.4.1. Memoization Pattern](#441-memoization-pattern)
-    - [4.4.2. Shortest Path](#442-shortest-path)
-    - [4.4.3. Merge Interval Patterns](#443-merge-interval-patterns)
-    - [4.4.4. Decision Making Patterns](#444-decision-making-patterns)
-    - [4.4.5. String Manipulations patterns](#445-string-manipulations-patterns)
-    - [4.4.6. Distinct Ways](#446-distinct-ways)
-    - [4.4.7. Kadane's Algorithm](#447-kadanes-algorithm)
-    - [4.4.8. Longest Increasing Subsequence with Binary Search](#448-longest-increasing-subsequence-with-binary-search)
-    - [4.4.9. KMP Algorithms (Pattern search algorithm)](#449-kmp-algorithms-pattern-search-algorithm)
-    - [4.4.10. Knapsack Algorithm](#4410-knapsack-algorithm)
-  - [4.5. Lowest Common Ancestor](#45-lowest-common-ancestor)
-  - [4.6. Breadth First Search \& Depth First Search](#46-breadth-first-search--depth-first-search)
-    - [4.6.1. LeetCoe OpenLock Example](#461-leetcoe-openlock-example)
-    - [4.6.2. Depth First Search](#462-depth-first-search)
-  - [4.7. Dijkstra Algorithm (Shorted distance in a weighted Graph)](#47-dijkstra-algorithm-shorted-distance-in-a-weighted-graph)
-  - [4.8. TopLogical Sort](#48-toplogical-sort)
-  - [4.9. Minimax (Gaming and Artificial Intelligence)](#49-minimax-gaming-and-artificial-intelligence)
-  - [4.10. Bit Manipulation](#410-bit-manipulation)
-  - [4.11. Tortoise and Hare problems](#411-tortoise-and-hare-problems)
-  - [4.12. Union Find - Disjointed Union Set](#412-union-find---disjointed-union-set)
-    - [4.12.1. Find and Union](#4121-find-and-union)
-    - [4.12.2. Template](#4122-template)
-  - [4.13. Graph](#413-graph)
-  - [4.14. Segement Tree, Binary index Trees](#414-segement-tree-binary-index-trees)
-  - [4.15. Math](#415-math)
+  - [4.2. Set, List, Comparators](#42-set-list-comparators)
+  - [4.3. 1.Trie](#43-1trie)
+    - [4.3.1. Validation](#431-validation)
+  - [4.4. Greedy Algorithms](#44-greedy-algorithms)
+  - [4.5. Dynamic Programming](#45-dynamic-programming)
+    - [4.5.1. Memoization Pattern](#451-memoization-pattern)
+    - [4.5.2. Shortest Path](#452-shortest-path)
+    - [4.5.3. Merge Interval Patterns](#453-merge-interval-patterns)
+    - [4.5.4. Decision Making Patterns](#454-decision-making-patterns)
+    - [4.5.5. String Manipulations patterns](#455-string-manipulations-patterns)
+    - [4.5.6. Distinct Ways](#456-distinct-ways)
+    - [4.5.7. Kadane's Algorithm](#457-kadanes-algorithm)
+    - [4.5.8. Longest Increasing Subsequence with Binary Search](#458-longest-increasing-subsequence-with-binary-search)
+    - [4.5.9. KMP Algorithms (Pattern search algorithm)](#459-kmp-algorithms-pattern-search-algorithm)
+    - [4.5.10. Knapsack Algorithm](#4510-knapsack-algorithm)
+  - [4.6. Lowest Common Ancestor](#46-lowest-common-ancestor)
+  - [4.7. Breadth First Search \& Depth First Search](#47-breadth-first-search--depth-first-search)
+    - [4.7.1. LeetCoe OpenLock Example](#471-leetcoe-openlock-example)
+    - [4.7.2. Depth First Search](#472-depth-first-search)
+  - [4.8. Dijkstra Algorithm (Shorted distance in a weighted Graph)](#48-dijkstra-algorithm-shorted-distance-in-a-weighted-graph)
+  - [4.9. TopLogical Sort](#49-toplogical-sort)
+  - [4.10. Minimax (Gaming and Artificial Intelligence)](#410-minimax-gaming-and-artificial-intelligence)
+  - [4.11. Bit Manipulation](#411-bit-manipulation)
+  - [4.12. Tortoise and Hare problems](#412-tortoise-and-hare-problems)
+  - [4.13. Union Find - Disjointed Union Set](#413-union-find---disjointed-union-set)
+    - [4.13.1. Find and Union](#4131-find-and-union)
+    - [4.13.2. Template](#4132-template)
+  - [4.14. Graph](#414-graph)
+    - [4.14.1. *tarjan algorithm*](#4141-tarjan-algorithm)
+    - [4.14.2. *Traverlling Salseman*](#4142-traverlling-salseman)
+    - [4.14.3. *Minimum Spanning Tree* (Kruskal Algorithm)](#4143-minimum-spanning-tree-kruskal-algorithm)
+    - [4.14.4. *Min Cut Max Flow Problem*](#4144-min-cut-max-flow-problem)
+  - [4.15. Segement Tree, Binary index Trees](#415-segement-tree-binary-index-trees)
+  - [4.16. Math](#416-math)
 
 ## 2. EveryDay Practice (Focus on Old Questions first)
 
@@ -237,7 +241,7 @@ Things that I am not very good at
 11. Rolling Hash
 12. OOP
 
-### Set, List, Comparators
+### 4.2. Set, List, Comparators
 
 if object in list can be compared, then Set<List> is going to ignore those list that contain similar object
 e.g.
@@ -249,7 +253,7 @@ set.add(new ArrayList<>(Arrays.asList(1, 2, 3)));
 assertTrue(set.size() == 1);
 ```
 
-### 4.2. 1.Trie
+### 4.3. 1.Trie
 
 ``` java
 class Node{
@@ -258,13 +262,13 @@ class Node{
 }
 ```
 
-#### 4.2.1. Validation
+#### 4.3.1. Validation
 
 > Don't look up each prefix from the root
 > Build on the past calls by returning node reference
 > keeping state witin a tree
 
-### 4.3. Greedy Algorithms
+### 4.4. Greedy Algorithms
 
 [Greedy for Beginners](https://leetcode.com/discuss/general-discussion/669996/Greedy-for-Beginners-Problems-or-Sample-solutions)
 Greedy Algorithms only apply to problems whose global optimal solution relies on its local optimal solutions.
@@ -291,7 +295,7 @@ Sometimes you can do it backward, like consider the largest/ most unlikely choic
 - [Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)
 - [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/)
 
-### 4.4. Dynamic Programming
+### 4.5. Dynamic Programming
 
 _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)_
 *Doing Topological Sort for a group of subproblems dependency DAG*
@@ -304,7 +308,7 @@ _Interesting Summary by **aatalyk** from [LeetCode](https://leetcode.com/discuss
 
 Top-Down approach and bottom up approach.
 
-#### 4.4.1. Memoization Pattern
+#### 4.5.1. Memoization Pattern
 
 It always works if you cache your result.
 
@@ -313,7 +317,7 @@ It always works if you cache your result.
 > O(T) = number of subtimes * time per subproblem
 > Don't count recursion, because only need to count once
 
-#### 4.4.2. Shortest Path
+#### 4.5.2. Shortest Path
 
 _for memoization to work, you need **ACYCLIC GRAPH**_
 *Else you will run into infinite loop*
@@ -326,7 +330,7 @@ To make a Cyclic Graph Acyclic:
 > - search space v * k
 > Need to refer to [bellman-ford algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 
-#### 4.4.3. Merge Interval Patterns
+#### 4.5.3. Merge Interval Patterns
 
 ```java
 for (int win = 1; win < length; win++){
@@ -345,7 +349,7 @@ for (int win = 1; win < length; win++){
 - [LC546 Remove Boxes](https://leetcode.com/problems/remove-boxes/)
 - [LC1130  Minimum Cost Tree](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
-#### 4.4.4. Decision Making Patterns
+#### 4.5.4. Decision Making Patterns
 
 - [LC198 House Robber](https://leetcode.com/problems/house-robber/)
 - [LC188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
@@ -359,7 +363,7 @@ depending on the stages for the subnode, the answer will be obtained at root nod
 - [LC337 House Robber III](https://leetcode.com/problems/house-robber-iii/)
 - ~~[LC979 Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)~~
 
-#### 4.4.5. String Manipulations patterns
+#### 4.5.5. String Manipulations patterns
 
 - [LC1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [LC115 Distinct Subsequence](https://leetcode.com/problems/distinct-subsequences/)
@@ -367,11 +371,11 @@ depending on the stages for the subnode, the answer will be obtained at root nod
 - [LC72 Edit Distance](https://leetcode.com/problems/edit-distance/)
 - [LC712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
-#### 4.4.6. Distinct Ways
+#### 4.5.6. Distinct Ways
 
 + [LC576 Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/submissions/)
 
-#### 4.4.7. Kadane's Algorithm
+#### 4.5.7. Kadane's Algorithm
 
 ```
 // Given an input array of numbers "nums",
@@ -384,7 +388,7 @@ return best
 
 ```
 
-#### 4.4.8. Longest Increasing Subsequence with Binary Search
+#### 4.5.8. Longest Increasing Subsequence with Binary Search
 
 ```java
 
@@ -409,7 +413,7 @@ private int LIS(int[] A) {
 
 ```
 
-#### 4.4.9. KMP Algorithms (Pattern search algorithm)
+#### 4.5.9. KMP Algorithms (Pattern search algorithm)
 
 ```java
 // for pattern array, find size of suffix which is same as prefix
@@ -454,7 +458,7 @@ public boolean KMP(char[] text, char[] pattern) {
 
 ```
 
-#### 4.4.10. Knapsack Algorithm
+#### 4.5.10. Knapsack Algorithm
 
 ```java
 
@@ -482,7 +486,7 @@ private int knapSack(int W, int[] wt, int[] val, int n) {
 
 ```
 
-### 4.5. Lowest Common Ancestor
+### 4.6. Lowest Common Ancestor
 
 **common technique**
 
@@ -537,11 +541,11 @@ A technique to calculate ancestor faster --> binary lifting
 
 ```
 
-### 4.6. Breadth First Search & Depth First Search
+### 4.7. Breadth First Search & Depth First Search
 
 > Take note there are something called the Bi-directional search.
 
-#### 4.6.1. LeetCoe OpenLock Example
+#### 4.7.1. LeetCoe OpenLock Example
 
 ```java
     public int openLock(String[] deadends, String target){
@@ -595,7 +599,7 @@ A technique to calculate ancestor faster --> binary lifting
 
 *idea is that b^(d/2) + b^(d/2) is much less than b^d. b is branch factor, d is depth.*
 
-#### 4.6.2. Depth First Search
+#### 4.7.2. Depth First Search
 
 ``` java
 // Spiral DFS backtracking
@@ -613,7 +617,7 @@ for (int i = 0; i < 4; i++){
 
 *Flood-Fill*
 
-### 4.7. Dijkstra Algorithm (Shorted distance in a weighted Graph)
+### 4.8. Dijkstra Algorithm (Shorted distance in a weighted Graph)
 
 - use PriorityQueue to do bfs
 
@@ -666,7 +670,7 @@ class Solution {
 
 ```
 
-### 4.8. TopLogical Sort
+### 4.9. TopLogical Sort
 
 **For DAG Only**
 **No vertex shall come after the one it is pointing to**
@@ -794,7 +798,7 @@ class Graph {
 
 ```
 
-### 4.9. Minimax (Gaming and Artificial Intelligence)
+### 4.10. Minimax (Gaming and Artificial Intelligence)
 
 Good Place to Start
 - <https://www.hackerearth.com/blog/developers/minimax-algorithm-alpha-beta-pruning/>
@@ -826,7 +830,7 @@ function minimax(node, depth, maximizingPlayer)
 *sometimes DP reminds me of the method of deduction, work backwards, ask your self, what if there are only 2 items*
 *start from the simplest scenario and build from there, and try to come up with a transition function*
 
-### 4.10. Bit Manipulation
+### 4.11. Bit Manipulation
 
 > use ^ for XOR 10 ^ 0 = 10, 10 ^ 10 = 1
 > & bitwise and, ~ bitwise not
@@ -847,7 +851,7 @@ Interesting example questions
 
 - [Shopping offer](https://leetcode.com/problems/shopping-offers) (consider using bit masking to improve speed)
 
-### 4.11. Tortoise and Hare problems
+### 4.12. Tortoise and Hare problems
 
 slow and fast pointer problem
 > beware of the difference between array and linkedlist
@@ -861,9 +865,9 @@ slow and fast pointer problem
     fast = fast.next.next;
 ```
 
-### 4.12. Union Find - Disjointed Union Set
+### 4.13. Union Find - Disjointed Union Set
 
-#### 4.12.1. Find and Union
+#### 4.13.1. Find and Union
 
 Find will return to root.
 Path compression and Union by rank.
@@ -872,7 +876,7 @@ Find: O(a(n)) ~= O(1)
 Union: O(a(n)) ~= O(1)
 Space: O(n)
 
-#### 4.12.2. Template
+#### 4.13.2. Template
 
 [implementation1](https://people.eecs.berkeley.edu/~jrs/61bs02/hw/pj3/set/DisjointSets.java)
 
@@ -995,9 +999,9 @@ class DisjointUnionSets {
 } 
 ```
 
-### 4.13. Graph
+### 4.14. Graph
 
-*tarjan algorithm*
+#### 4.14.1. *tarjan algorithm*
 
 - [Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/solution/)
 you can use rank to detect cycles in a graph
@@ -1020,7 +1024,7 @@ you can use rank to detect cycles in a graph
 
 ```
 
-*Traverlling Salseman*
+#### 4.14.2. *Traverlling Salseman*
 
 one of the toughest question i ever did
 **Time Complexity**:
@@ -1057,7 +1061,7 @@ one of the toughest question i ever did
         }
 ```
 
-*Minimum Spanning Tree* (Kruskal Algorithm)
+#### 4.14.3. *Minimum Spanning Tree* (Kruskal Algorithm)
 
 A minimum spanning tree is a special kind of tree that minimizes the lengths (or “weights”) of the edges of the tree. An example is a cable company wanting to lay line to multiple neighborhoods; by minimizing the amount of cable laid, the cable company will save money.
 
@@ -1086,7 +1090,102 @@ algorithm Kruskal(G) is
 
 ```
 
-### 4.14. Segement Tree, Binary index Trees
+#### 4.14.4. *Min Cut Max Flow Problem*
+
+**what is Min Cut** : a min cut of a graph is the minimum removal of edges (weighted or un-weighted) that separate the graph into two disjointed sets.
+**what is Max Flow** : Given a source, and a target, the max flow is the max flow/current allowed from source to target.
+**What is Min Cut Max Flow Theorem** : the max-flow min-cut theorem states that in a flow network, the maximum amount of flow passing from the source to the sink is equal to the total weight of the edges in a minimum cut, i.e., the smallest total weight of the edges which if removed would disconnect the source from the sink.
+
+```
+*Algorithm 1: Ford Fulkerson*: Used to verify MCMF theorem, can also be used to solve the max flow / min cut of a graph, given s and t
+
+Data: G: a directed $G = (V, E)$ with flow capacity $c$, a source node $s$, and a sink node $t$
+Output: Coompute a flow f froms to t of max value
+1. $f(u, v) := 0$ for all edges (u, v) // initialization
+2. while there is a path $p$ from $s$ to $t$ in $G_f$, such that $c_f(u, v) > 0 for all eges $(u,v) $\in$ $p$
+    1. find $c_f(p) = min\left\{c_f(u, v) : (u, v) \in p \right\}$
+    2. For each $(u, v) \in p$:
+        - $f(u, v) := f(u, v) + c_f(p)$, // send flow along the path
+        - $f(v, u) := f(v, u) - c_f(p)$, // the flow might be returned later
+
+```
+
+*Java Example Ford Fulkerson*
+```java
+package Utils;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+/**
+ * If use BFS then it is called Edmond Karp, otherwise FF
+ */
+public class FordFulkerson {
+    final int V;
+
+    // Using BFS as a searching algorithm
+    public FordFulkerson(int v) {
+        this.V = v;
+    }
+    boolean bfs(int[][] Graph, int s, int t, int[] p) {
+        boolean[] visited = new boolean[V];
+        Queue<Integer> q = new LinkedList<>();
+        q.offer(s);
+        visited[s] = true;
+        p[s] = -1;
+        while(!q.isEmpty()) {
+            int u = q.poll();
+            for (int v = 0; v < V; v++) {
+                if (!visited[v] && Graph[u][v] > 0) {
+                    q.offer(v);
+                    p[v] = u;
+                    visited[v] = true;
+                }
+            }
+        }
+
+        return visited[t];
+    }
+
+    // Applying FordFulkerson Algorithm
+
+    int fordFulkerson(int[][] graph, int s, int t) {
+        int u, v;
+        int[][] rGraph = new int[V][V];
+        for (int i = 0; i < rGraph.length; i++) {
+            System.arraycopy(graph[i], 0, rGraph[i], 0, rGraph[0].length);
+        }
+
+        int[] parent = new int[V];
+        int max_flow = 0;
+
+        // Updating the residual graph
+        while(bfs(rGraph, s, t, parent)) {
+            int pathFlow = Integer.MAX_VALUE;
+            for (v = t; v != s; v = parent[v]) {
+                u = parent[v];
+                pathFlow = Math.min(pathFlow, rGraph[u][v]);
+            }
+
+            for (v = t; v != s; v = parent[v]) {
+                u = parent[v];
+                rGraph[u][v] -= pathFlow;
+                rGraph[v][u] += pathFlow;
+            }
+            max_flow += pathFlow;
+        }
+
+        return max_flow;
+    }
+}
+
+```
+
+
+
+
+
+### 4.15. Segement Tree, Binary index Trees
 
 Leet article:
 [Recursive approach to segment tree](https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/)
@@ -1186,7 +1285,7 @@ class BinaryIndexedTree {
 
 ```
 
-### 4.15. Math
+### 4.16. Math
 
 **To find greatest common divisor of two number**
 

@@ -5974,3 +5974,98 @@ From the parent (applicant)
 - Oreilly React 
 - Oreilly Angular
 - **Microsoft Azure**
+
+
+## 2023-09-23 11:43:25
+- [ ] Create a front end for the lunwen controller
+  - [ ] Basic Authentications
+  - [ ] Form to submit request
+  - [ ] View to display result
+
+- [ ] Azure fundamentals Book Exams
+- [ ] Azure Practices
+- [ ] Kotlin co-routines
+- [ ] Kotlin practices using hackerrank
+- [ ] Read about Spring reactive programming. 
+- [ ] Mom's insurance inquiry
+- [ ] 致18年后的你
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
+
+- Educative IO Bash Command
+- PLuralSight Kotlin
+- Oreilly Java Well Grounded
+- Oreilly React 
+- Oreilly Angular
+- **Microsoft Azure**
+
+## 2023-09-29 21:41:20
+- [ ] Create a front end for the lunwen controller
+  - [ ] Basic Authentications
+  - [ ] Form to submit request
+  - [ ] View to display result
+
+- [x] Azure fundamentals Book Exams
+- [ ] Azure ExamTopic Practices, 60 questions
+- [ ] Kotlin co-routines
+- [ ] Kotlin practices using hackerrank
+- [ ] Read about Spring reactive programming. 
+- [ ] Mom's insurance inquiry
+- [ ] 致18年后的你
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
+
+- Educative IO Bash Command
+- PLuralSight Kotlin
+- Oreilly Java Well Grounded
+- Oreilly React 
+- Oreilly Angular
+- **Microsoft Azure**
+  - 45, 54, 55, 70, 82, 83, 92, 97, 100
+
+## 2023-09-30 11:12:25
+- [ ] Kotlin co-routine completes
+- [x] Azure practices 60 + 50
+- [ ] Create a front end for the lunwen controller
+  - [ ] Basic Authentications
+  - [ ] Form to submit request
+  - [ ] View to display result
+
+- [ ] Kotlin Spring Boot tutorial
+- [ ] Kotlin practices using hackerrank
+- [ ] Read about Spring reactive programming. 
+- [ ] Mom's insurance inquiry
+- [ ] 致18年后的你
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
+
+- Educative IO Bash Command
+- PLuralSight Kotlin
+- Oreilly Java Well Grounded
+- Oreilly React 
+- Oreilly Angular
+
+## 2023-11-07 20:11:10
+- [ ] Kotlin co-routine completes
+- [ ] Create a front end for the lunwen controller using react
+  - [ ] Basic Authentications
+  - [ ] Form to submit request
+  - [ ] View to display result
+
+- [ ] Kotlin Spring Boot tutorial
+- [ ] Kotlin practices using hackerrank
+- [ ] Read about Spring reactive programming. 
+- [ ] Mom's insurance inquiry
+- [ ] 致18年后的你
+- [ ] Fix the laptop when coming back from China in September 
+- [ ] 3D blogs
+- [ ] take family to Albula Lines to see longest train. 
+
+- Educative IO Bash Command
+- PLuralSight Kotlin
+- Oreilly Java Well Grounded
+- Oreilly React 
+- Oreilly Angular
