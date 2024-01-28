@@ -1,7 +1,7 @@
 ## 1. Table of Content
 
 - [1. Table of Content](#1-table-of-content)
-- [2. EveryDay Practice (Focus on Old Questions first)](#2-everyday-practice-focus-on-old-questions-first)
+- [2. EveryDay Practice](#2-everyday-practice)
 - [3. System Design](#3-system-design)
 - [4. Data Structure \& Alogorithms](#4-data-structure--alogorithms)
   - [4.1. TODOs](#41-todos)
@@ -40,8 +40,8 @@
   - [4.15. Segement Tree, Binary index Trees](#415-segement-tree-binary-index-trees)
   - [4.16. Math](#416-math)
 
-## 2. EveryDay Practice (Focus on Old Questions first)
-
+## 2. EveryDay Practice
+- *DoAgain* [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/)
 - *DoAgain* [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)
 - *DoAgain* [1242. Web Crawler Multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)
 - *DoAgain* [1520. Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)
@@ -1096,7 +1096,6 @@ algorithm Kruskal(G) is
 **what is Max Flow** : Given a source, and a target, the max flow is the max flow/current allowed from source to target.
 **What is Min Cut Max Flow Theorem** : the max-flow min-cut theorem states that in a flow network, the maximum amount of flow passing from the source to the sink is equal to the total weight of the edges in a minimum cut, i.e., the smallest total weight of the edges which if removed would disconnect the source from the sink.
 
-```
 *Algorithm 1: Ford Fulkerson*: Used to verify MCMF theorem, can also be used to solve the max flow / min cut of a graph, given s and t
 
 Data: G: a directed $G = (V, E)$ with flow capacity $c$, a source node $s$, and a sink node $t$
@@ -1108,7 +1107,8 @@ Output: Coompute a flow f froms to t of max value
         - $f(u, v) := f(u, v) + c_f(p)$, // send flow along the path
         - $f(v, u) := f(v, u) - c_f(p)$, // the flow might be returned later
 
-```
+*Time Complexity:*
+
 
 *Java Example Ford Fulkerson*
 ```java
