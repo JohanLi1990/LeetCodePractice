@@ -21,7 +21,7 @@
     - [1.7.6. Common threadsafe datastructures](#176-common-threadsafe-datastructures)
     - [1.7.7. Producer Consumer Pattern](#177-producer-consumer-pattern)
     - [1.7.8. CompletableFuture for Asynchronous Event handling](#178-completablefuture-for-asynchronous-event-handling)
-    - [Java Stream Parallel Processing](#java-stream-parallel-processing)
+    - [1.7.9. Java Stream Parallel Processing](#179-java-stream-parallel-processing)
   - [1.8. Java New Features since Java 11](#18-java-new-features-since-java-11)
   - [1.9. Design Patterns](#19-design-patterns)
     - [1.9.1. Common Design Patterns](#191-common-design-patterns)
@@ -38,6 +38,8 @@
     - [1.11.7. How does Spring solve Cycle Dependency between two Beans](#1117-how-does-spring-solve-cycle-dependency-between-two-beans)
     - [1.11.8. Autowire Need for Disambiguation](#1118-autowire-need-for-disambiguation)
     - [1.11.9. Spring Transactions Management](#1119-spring-transactions-management)
+    - [1.11.10. Reactive Programming with Spring Webflux](#11110-reactive-programming-with-spring-webflux)
+    - [1.11.11. Docker with Spring Boot](#11111-docker-with-spring-boot)
   - [1.12. Behaviour Interviews](#112-behaviour-interviews)
     - [1.12.1. Customer Obsession](#1121-customer-obsession)
   - [1.13. OS Interview Questions](#113-os-interview-questions)
@@ -89,7 +91,7 @@
   - [2.1. Another way to improve Grammar via GrammarBot API (Not Feasible)](#21-another-way-to-improve-grammar-via-grammarbot-api-not-feasible)
 - [3. Use old laptop as a proxy server](#3-use-old-laptop-as-a-proxy-server)
 - [4. Java Linux Notes](#4-java-linux-notes)
-- [Azure](#azure)
+- [5. Azure](#5-azure)
 
 Page 23
 
@@ -348,7 +350,7 @@ cf.thenAccept(results::add); // also a great way to handle callback
 
 [Another Example](https://leetcode.com/problems/web-crawler-multithreaded/solutions/2973071/very-fast-java-completablefuture-solution-5ms/)
 
-### Java Stream Parallel Processing 
+### 1.7.9. Java Stream Parallel Processing 
 
 do prallel processing example
 
@@ -603,6 +605,50 @@ Read.Repeatable read, prevents dirty and non-repeateable reads
 Read.serialized, no concurrency atall
 
 **Roll back strategy** : rollback for exceptions
+
+### 1.11.10. Reactive Programming with Spring Webflux
+
+- Kotlin + Spring webflux could total replace Java + Spring Webflux making code much more readable
+- Kotlin + Spring Flux CRUD Important pointers
+  - Spring Reactive Web + R2DBC/MongoDB + Kotlin Coroutine
+  - Flux -> Flow, use map to access the entity returned by Flow
+  - Mono -> {entity}? Access entity directly
+  - Kotlin Syntax Sugar: .let{// non-null scope}, .run{ any scope}
+
+### 1.11.11. Docker with Spring Boot
+
+- Build with gradlew:
+```shell
+
+./gradlew build
+```
+
+- Create Dockerfile.yaml:
+```docker
+FROM openjdk:19
+COPY ./build/libs/webflux-2nd-example-0.0.1-SNAPSHOT.jar app.jar
+ENTRYPOINT ["java", "-jar", "app.jar"]
+```
+
+- Build the docker image
+```
+docker build -t webflux-2-backend . 
+```
+
+- Check that docker image is created
+```
+docker images
+```
+
+- run the docker image in a container
+```
+// use the -e options to override properties in 
+docker run -p 8082:8080 -e DB_HOST=192.168.0.233 webflux-2-backend
+
+```
+
+
+https://hantsy.github.io/spring-reactive-sample/data/data-r2dbc.html 
 
 ## 1.12. Behaviour Interviews
 
@@ -1202,7 +1248,7 @@ It's important to note that using a proxy or VPN server to bypass internet censo
 
 # 4. Java Linux Notes
 
-# Azure
+# 5. Azure
 
 - **Microsoft Azure**
   - 2 (Readonly Geo-Redundant-Storage)

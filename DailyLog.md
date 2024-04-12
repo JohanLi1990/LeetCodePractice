@@ -6060,7 +6060,8 @@ From the parent (applicant)
 - [ ] Read about Spring reactive programming. 
 - [ ] Mom's insurance inquiry
 - [ ] 致18年后的你
-- [ ] Fix the laptop when coming back from China in September 
+- [ ] Fix the laptop when coming back from China in September 12345678901112131415161718190QWERTYUIOP[]\ASDFGHJKL;'
+- [ ] ZXCVBNM,./
 - [ ] 3D blogs
 - [ ] take family to Albula Lines to see longest train. 
 
@@ -6069,3 +6070,82 @@ From the parent (applicant)
 - Oreilly Java Well Grounded
 - Oreilly React 
 - Oreilly Angular
+- 
+## 2024-03-27 07:19:38
+https://hantsy.github.io/spring-reactive-sample/data/data-r2dbc.html 
+
+- [ ] Full stack backend stack: High performance web framework
+  - [x] MangoDB kotlin integration: https://www.mongodb.com/developer/languages/kotlin/mastering-kotlin-creating-api-ktor-mongodb-atlas/
+  - [x] serving static web content kotlin
+  - [x] Exposed + Ktor
+  - [ ] Spring boot + kotlin coroutines + r2dbc >= spring reactive
+    - [X] Howe does traditional spring webflux works ? 
+      - [x] https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/ 
+      - [x] Spring in Action Reactor chaptor.
+      - [x] Persisting data reactively chapter 
+    - [ ] How does Spring Webflux work with Kotlin?
+      - [x] https://spring.io/guides/tutorials/spring-boot-kotlin
+      - [x] https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/
+      - [x] https://www.youtube.com/watch?v=1vuJFo42zko&list=PLvN8k8yxjoesNnd0C0t4s36bgVHUwJkIR&index=2
+      - [x] https://codersee.com/reactive-rest-api-with-spring-kotlin-and-coroutines/
+      - [ ] https://medium.com/@avabhyankar22/crafting-reactive-rest-apis-with-webflux-and-coroutines-a0aed5b63cb0
+      - [ ] https://spring.io/guides/tutorials/spring-webflux-kotlin-rsocket
+      - [ ] https://xebia.com/blog/spring-data-r2dbc-and-kotlin-coroutines/
+      - [x] https://www.youtube.com/watch?v=ahTXElHrV0c
+- [ ] Full Stack Front End stack
+  - [ ] React: practices
+- [ ] Idempotence / Hateoas
+- [ ] Spring Cloud
+- [ ] Docker? Containerization
+- [ ] dockerize your application and deploy to Azure/Aws 
+- [ ] 致18年后的你
+- [ ] take family to Albula Lines to see longest train. 
+
+## 2024-04-08 07:26:40
+https://hantsy.github.io/spring-reactive-sample/data/data-r2dbc.html 
+- [ ] Kafka
+  - [ ] Getting Started with Apache Kafka
+  - [ ] https://medium.com/@abhishekranjandev/a-comprehensive-guide-to-integrating-kafka-in-a-spring-boot-application-a4b912aee62e
+  - [ ] https://www.baeldung.com/spring-kafka
+  
+- [ ] Full stack backend stack: High performance web framework
+
+  - [x] KTOR FrameWork
+    - [x] MangoDB kotlin integration: https://www.mongodb.com/developer/languages/kotlin/mastering-kotlin-creating-api-ktor-mongodb-atlas/
+    - [x] serving static web content kotlin
+    - [x] Exposed + Ktor
+  - [x] Spring boot + kotlin coroutines + r2dbc >= spring reactive
+    - [X] Howe does traditional spring webflux works ? 
+      - [x] https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/ 
+      - [x] Spring in Action Reactor chaptor.
+      - [x] Persisting data reactively chapter 
+  - [ ] Spring Boot Webflux + Kotlin
+    - [x] Introduction to How Kotlin can make Spring webflux easier: https://www.youtube.com/watch?v=ahTXElHrV0c
+    - [ ] Reactive Springboot with Kotlin and Virtual Threads: https://www.youtube.com/watch?v=szl3eWA0VRw
+      
+    - [x] Reactive + WebClient
+      - [x] https://codersee.com/spring-5-webclient-with-spring-boot/
+      - [x] https://codersee.com/spring-webclient-with-kotlin-coroutines/
+  
+    - [x] Reactive + DB
+      - [x] https://spring.io/guides/tutorials/spring-boot-kotlin
+      - [x] https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/
+      - [x] https://www.youtube.com/watch?v=1vuJFo42zko&list=PLvN8k8yxjoesNnd0C0t4s36bgVHUwJkIR&index=2
+      - [x] https://codersee.com/reactive-rest-api-with-spring-kotlin-and-coroutines/
+
+    - [ ] Spring Secruity
+      - [ ] https://codersee.com/spring-boot-3-spring-security-6-with-kotlin-jwt/
+    - [ ] WebSocket with Kotlin and Spring Webflux
+      - [ ] https://spring.io/guides/tutorials/spring-webflux-kotlin-rsocket
+
+
+- [ ] Full Stack Front End stack
+  - [ ] React: practices
+
+
+- [ ] Idempotence / Hateoas
+- [ ] Spring Cloud
+- [ ] Docker? Containerization
+- [ ] dockerize your application and deploy to Azure/Aws 
+- [ ] 致18年后的你
+- [ ] take family to Albula Lines to see longest train. 
